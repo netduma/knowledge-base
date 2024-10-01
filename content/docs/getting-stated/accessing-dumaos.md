@@ -2,13 +2,14 @@
 title: Accessing DumaOS
 weight: 1
 ---
-### Introduction
+
+## Introduction
 
 DumaOS is a powerful router operating system that gives you control of your home network.
 
 DumaOS runs at all times on your Netduma hardware, constantly prioritising your favourite activities, preventing bad game sessions, blocking ads and more.
 
-### Accessing the frontend
+## Accessing the frontend
 
 DumaOS can be controlled using our intuitive frontend. This frontend is usable from any computer with a browser, or from our free mobile app.
 
@@ -20,6 +21,6 @@ DumaOS can be controlled using our intuitive frontend. This frontend is usable f
 
 From any browser, simply type `dumaos/` into the address bar to reach DumaOS.
 
-### Setup Wizard
+## Setup Wizard
 
 If this is the first time you're connecting to your Netduma router, you'll need to run through the Setup Wizard.
