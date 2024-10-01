@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 5
 title: Dashboard, Network Monitor and Device Manager
 ---
 
