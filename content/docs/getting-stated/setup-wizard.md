@@ -3,7 +3,7 @@ title: Setup Wizard
 weight: 5
 ---
 
-### Detecting Internet Connection
+## Detecting Internet Connection
 
 Once your Netduma router is connected via an Ethernet cable to your modem or upstream router, the internet connection can be detected automatically in most cases. If this step fails, see Advanced WAN Settings below, otherwise move straight to WiFi Details.
 
@@ -11,7 +11,7 @@ Once your Netduma router is connected via an Ethernet cable to your modem or ups
 
 ---
 
-### Advanced WAN Settings
+## Advanced WAN Settings
 
 In some cases, you may need to configure Advanced WAN Settings. This may be necessary in the following scenarios:
 
@@ -27,7 +27,7 @@ Reach out directly to your internet service provider if you require these detail
 
 ---
 
-### WiFi Details
+## WiFi Details
 
 On the next page, you'll decide on your WiFi details. These will be pre-set to the default WiFi credentials, which are written on the sticker on the bottom of your Netduma router. R3 users can also look at the WiFi Details card which came packaged with their router.
 
@@ -37,7 +37,7 @@ If you are setting up your router via WiFi, you will have to connect to the new 
 
 ---
 
-### Login Details
+## Login Details
 
 Create login details for your Netduma router. These details will be required every time you want to access the frontend. These are different from your WiFi Credentials. If you later forget these details, you will have to factory reset your unit to regain access. This can be done by holding the recessed Reset button on the back.
 
@@ -45,7 +45,7 @@ Create login details for your Netduma router. These details will be required eve
 
 ---
 
-### Speed Test
+## Speed Test
 
 In order to allocate your bandwidth to the activities you care about, DumaOS needs to know your maximum bandwidth speed. We can perform a speed test to figure it out automatically, or you can enter it manually if you already know.
 
@@ -55,7 +55,7 @@ It is important that this is set accurately for Ping Optimiser to function corre
 
 ---
 
-### Choosing Your Priorities
+## Choosing Your Priorities
 
 In this step, you choose the network activities which are important to you. When these activities are detected, they will be prioritised above other traffic.
 
@@ -67,7 +67,7 @@ Our suggested selection is Gaming, Video & Streaming and Work From Home.
 
 ---
 
-### Ping Optimiser
+## Ping Optimiser
 
 Ping Optimiser tests your network under load, and finds the settings that will reduce your ping by the greatest amount. The test will take a couple of minutes, and your results will show the reduction in ping that was achieved by DumaOS.
 
@@ -79,7 +79,7 @@ The "Old Ping" represents the in-game ping you would have had without DumaOS dur
 
 ---
 
-### RGB Setup (R3 Only)
+## RGB Setup (R3 Only)
 
 On the Netduma R3, you can customise the RGB lights on the top of the router. You can select from various patterns and colours. Experiment to find one you like!
 
@@ -89,7 +89,7 @@ Also, you can choose "Reactive Lighting". This will display a unique colour patt
 
 ---
 
-### Your Preferences
+## Your Preferences
 
 These are some additional settings you may wish to change before finalising your setup.
 
