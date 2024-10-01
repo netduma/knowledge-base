@@ -21,7 +21,7 @@ From any browser, simply type `dumaos/` into the address bar to reach DumaOS.
 
 ### Setup Wizard
 
-If this is the first time you're connecting to your Netduma router, you'll need to run through the Setup Wizard. 
+If this is the first time you're connecting to your Netduma router, you'll need to run through the Setup Wizard.
 
 Check out the following page for more details:
 
