@@ -35,6 +35,9 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
+    - name: Firmwares
+      pageRef: /firmwares
+      weight: 1
     # - name: About
     #   pageRef: /about
     #   weight: 2
