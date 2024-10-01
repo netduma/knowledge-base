@@ -3,8 +3,6 @@ title: SmartBOOST
 weight: 7
 ---
 
-## Introduction
-
 SmartBOOST dynamically adjusts to give your favourite applications the exact bandwidth they need to perform at their best. By deeply understanding and catering for the requirements of almost all popular apps, SmartBOOST is the next generation of router QoS.
 
 Add some priorities to get started. You can prioritise devices, applications, or whole categories of applications.

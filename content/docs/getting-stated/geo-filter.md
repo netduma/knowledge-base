@@ -3,8 +3,6 @@ title: Geo-Filter
 weight: 10
 ---
 
-## Introduction
-
 The Geo-Filter guarantees that the game servers you play on are always close home, giving you the best possible connection. The lower the ping, the better your game will feel overall.
 
 Press Add Device to get started. If you add a PC, you’ll need to choose a game as well to ensure that any other activity on the device doesn’t get filtered.

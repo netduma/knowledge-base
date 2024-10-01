@@ -3,8 +3,6 @@ title: Accessing DumaOS
 weight: 1
 ---
 
-## Introduction
-
 DumaOS is a powerful router operating system that gives you control of your home network.
 
 DumaOS runs at all times on your Netduma hardware, constantly prioritising your favourite activities, preventing bad game sessions, blocking ads and more.

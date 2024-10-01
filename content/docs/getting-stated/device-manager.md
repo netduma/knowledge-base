@@ -3,8 +3,6 @@ title: Device Manager
 weight: 6
 ---
 
-## Introduction
-
 Device Manager lets you easily identify connected devices and manage their network access and interaction.
 
 ![](device-manager/2024-10-01-16-43-34-image.png)
