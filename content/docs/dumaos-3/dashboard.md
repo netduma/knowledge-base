@@ -1,9 +1,9 @@
 ---
-weight: 5
-title: Dashboard, Network Monitor and Device Manager
+weight: 8
+title: Dashboard and Network Monitor
 ---
 
-There are many unique features in DumaOS designed to help you to understand your network in an intuitive way. In this guide we will cover the Dashboard, Device Manager and the Network Monitor.
+There are many unique features in DumaOS designed to help you to understand your network in an intuitive way. In this guide we will cover the Dashboard and the Network Monitor.
 
 ## Dashboard
 
@@ -20,20 +20,6 @@ After pinning whichever features you would like to use on your Dashboard, now it
 Using these tools you can easily create your own unique DumaOS Dashboard and build a space you love to use. Get creative!
 
 ![glaD74rVYdMPKzN0er_NaGulNx8cssQCjw.png](dashboard/bc3ebe5759d8170dba4883546353e2b361926230.png)
-
-## Device Manager
-
-The DumaOS Device Manager is designed to give you insight into how your network is set up. Whenever a new device connects you will see it appear on the Network Map panel under either the LAN or WiFi branch, and when it is disconnected the device will move to the 'Offline' branch. If you are using a router with dual-band WiFi, you will see your wireless devices appear under either the 2.4Ghz or 5Ghz branch.
-
-![StOXa407Tm0hKNi3rjbFY_H6dsG6Qqhyyw.png](dashboard/68679afd166265cb8a345aa3cf7dc990aefa9363.png)
-
-To customise a device, first click on its icon to open the Device Settings panel.
-
-![cTjtV_eJYd8TxcnjWLuAFYlaovAiwF6S2A.png](dashboard/004acbadf78d8f2b680b1c35fc3bf8f4c570816e.png)
-
-In the Device Settings panel you can change the name of your device. You can also change its type should it have been misidentified. Ensure you click 'Save' after making any changes.
-
-You can also 'Block' a device that you don't want connected to your network, or 'Delete' any devices that are offline and out of use for full control of your network set-up.
 
 ## Network Monitor
 
