@@ -7,7 +7,7 @@ weight: 5
 
 Once your Netduma router is connected via an Ethernet cable to your modem or upstream router, the internet connection can be detected automatically in most cases. If this step fails, see Advanced WAN Settings below, otherwise move straight to WiFi Details.
 
-![](2024-09-30-14-41-18-image.png)
+![](setup-wizard/2024-09-30-14-41-18-image.png)
 
 ---
 
@@ -23,7 +23,7 @@ In some cases, you may need to configure Advanced WAN Settings. This may be nece
 
 Reach out directly to your internet service provider if you require these details.
 
-![](2024-09-30-14-43-19-image.png)
+![](setup-wizard/2024-09-30-14-43-19-image.png)
 
 ---
 
@@ -33,7 +33,7 @@ On the next page, you'll decide on your WiFi details. These will be pre-set to t
 
 If you are setting up your router via WiFi, you will have to connect to the new credentials after this step is complete. If you ever forget your WiFi credentials, you will be able to check and update them via a wired connection later.
 
-![](2024-09-30-14-47-01-image.png)
+![](setup-wizard/2024-09-30-14-47-01-image.png)
 
 ---
 
@@ -41,7 +41,7 @@ If you are setting up your router via WiFi, you will have to connect to the new 
 
 Create login details for your Netduma router. These details will be required every time you want to access the frontend. These are different from your WiFi Credentials. If you later forget these details, you will have to factory reset your unit to regain access. This can be done by holding the recessed Reset button on the back.
 
-![](2024-09-30-14-49-02-image.png)
+![](setup-wizard/2024-09-30-14-49-02-image.png)
 
 ---
 
@@ -51,7 +51,7 @@ In order to allocate your bandwidth to the activities you care about, DumaOS nee
 
 It is important that this is set accurately for Ping Optimiser to function correctly.
 
-![](2024-09-30-14-58-53-image.png)
+![](setup-wizard/2024-09-30-14-58-53-image.png)
 
 ---
 
@@ -63,7 +63,7 @@ Our suggested selection is Gaming, Video & Streaming and Work From Home.
 
 **Please note:** If you select too many Priorities, this will reduce DumaOS's effectiveness. We suggest that you do not select bandwidth-heavy activities such as File Sharing, as this will damage the experience for other categories.
 
-![](2024-09-30-14-59-58-image.png)
+![](setup-wizard/2024-09-30-14-59-58-image.png)
 
 ---
 
@@ -75,7 +75,7 @@ The "Old Ping" represents the in-game ping you would have had without DumaOS dur
 
 **Please note:** The ping reduction will apply to all prioritised activities, but will be most perceptible in gaming.
 
-![](2024-09-30-15-14-40-image.png)
+![](setup-wizard/2024-09-30-15-14-40-image.png)
 
 ---
 
@@ -85,7 +85,7 @@ On the Netduma R3, you can customise the RGB lights on the top of the router. Yo
 
 Also, you can choose "Reactive Lighting". This will display a unique colour pattern on your router when Gaming traffic is detected.
 
-![](2024-09-30-15-15-13-image.png)
+![](setup-wizard/2024-09-30-15-15-13-image.png)
 
 ---
 
@@ -103,7 +103,7 @@ These are some additional settings you may wish to change before finalising your
 
 - **Home Location** - Used by Geo-Filter to help you find game servers close to your home. Can be set later.
 
-![](2024-09-30-15-15-39-image.png)
+![](setup-wizard/2024-09-30-15-15-39-image.png)
 
 ---
 
