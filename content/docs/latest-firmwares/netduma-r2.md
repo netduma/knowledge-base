@@ -1,4 +1,6 @@
-**Netduma R2**
+---
+title: NETDUMA R2
+---
 
 Current Firmware  
 [v.3.3.280](https://forum.netduma.com/topic/50710-new-r2-firmware-33280/)

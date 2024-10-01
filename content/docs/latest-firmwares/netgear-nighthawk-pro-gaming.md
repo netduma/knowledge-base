@@ -1,4 +1,6 @@
-**Netgear Nighthawk Pro Gaming**
+---
+title: NETGEAR Nighthawk Pro Gaming
+---
 
 Please follow the links to your Netgear Nighthawk Pro Gaming's Software and Downloads page
 

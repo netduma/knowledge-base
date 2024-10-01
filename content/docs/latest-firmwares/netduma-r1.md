@@ -1,4 +1,6 @@
-**Netduma R1**
+---
+title: NETDUMA R1
+---
 
 Current Firmware
 
