@@ -1,13 +1,13 @@
 # Configuration
 baseURL: "http://localhost:1313"
-title: "Netduma Wiki"
+title: "NETDUMA Wiki"
 defaultContentLanguage: en
 
 languages:
   en:
     languageName: English
     weight: 1
-    title: Netduma Wiki
+    title: NETDUMA Wiki
 
 module:
   hugoVersion:
@@ -49,11 +49,17 @@ menu:
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: assets/images/logo.svg
+      dark: assets/images/logo.svg
+      link: /
+      # width: 40
+      # height: 20
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
     enable: true
@@ -120,10 +126,10 @@ params:
 #     # full (100%), wide (90rem), normal (1280px)
 #     width: normal
 
-#   theme:
-#     # light | dark | system
-#     default: system
-#     displayToggle: true
+  theme:
+    # light | dark | system
+    default: dark
+    displayToggle: false
 
 #   footer:
 #     enable: true

@@ -1,3 +1,7 @@
+---
+title: Setup Wizard
+---
+
 ### Detecting Internet Connection
 
 Once your Netduma router is connected via an Ethernet cable to your modem or upstream router, the internet connection can be detected automatically in most cases. If this step fails, see Advanced WAN Settings below, otherwise move straight to WiFi Details.

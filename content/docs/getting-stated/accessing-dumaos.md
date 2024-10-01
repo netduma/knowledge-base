@@ -1,3 +1,6 @@
+---
+title: Accessing DumaOS
+---
 ### Introduction
 
 DumaOS is a powerful router operating system that gives you control of your home network.
