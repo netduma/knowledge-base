@@ -1,5 +1,6 @@
 ---
 title: Setup Wizard
+weight: 5
 ---
 
 ### Detecting Internet Connection

@@ -1,5 +1,6 @@
 ---
 title: Accessing DumaOS
+weight: 1
 ---
 ### Introduction
 
