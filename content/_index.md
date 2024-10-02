@@ -19,7 +19,7 @@ layout: hextra-home
 {{< hextra/hero-button text="View Docs" link="docs" >}}
 </div>
 
-{{< hextra/feature-grid >}}
+{{< hextra/feature-grid class="mb-8">}}
   {{< netduma/feature-card
     link="/"
     title="DumaOS 4"
@@ -42,6 +42,10 @@ layout: hextra-home
     image="/images/telstra_logo.png"
     imageClass="max-w-full"
   >}}
+{{< /hextra/feature-grid >}}
+
+<div class="hx-mt-4">
+{{< hextra/feature-grid cols="4">}}
   {{< hextra/feature-card
     title="FAQs"
     subtitle="Frequently asked questions about Netduma and DumaOS."
@@ -59,3 +63,4 @@ layout: hextra-home
     subtitle="Info and guides for Netgear's Nighthawk Pro Gaming routers with DumaOS."
   >}}
 {{< /hextra/feature-grid >}}
+</div>
