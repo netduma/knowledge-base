@@ -1,13 +1,13 @@
 # Configuration
 baseURL: "http://localhost:1313"
-title: "Wiki"
+title: "Knowledge Base"
 defaultContentLanguage: en
 
 languages:
   en:
     languageName: English
     weight: 1
-    title: Wiki
+    title: Knowledge Base
 
 module:
   hugoVersion:
@@ -49,7 +49,30 @@ menu:
       params:
         type: search
 
+  # sidebar:
+  #   - identifier: more
+  #     name: More
+  #     params:
+  #       type: separator
+  #     weight: 1
+  #   - identifier: about
+  #     name: "About"
+  #     pageRef: "/about"
+  #     weight: 2
+  #   - identifier: hugoDocs
+  #     name: "Hugo Docs ↗"
+  #     url: "https://gohugo.io/documentation/"
+  #     weight: 3
+
 params:
+  description: NETDUMA Knowledge base for users
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: wide
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
   navbar:
     displayTitle: true
     displayLogo: true
@@ -61,131 +84,62 @@ params:
       height: 40
 
   footer:
+    enable: true
     displayCopyright: false
     displayPoweredBy: false
+    width: normal
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
-
-# menu:
-#   main:
-#     - identifier: documentation
-#       name: Documentation
-#       pageRef: /docs
-#       weight: 1
-#     # - identifier: showcase
-#     #   name: Showcase
-#     #   pageRef: /showcase
-#     #   weight: 2
-#     # - identifier: blog
-#     #   name: Blog
-#     #   pageRef: /blog
-#     #   weight: 3
-#     # - identifier: about
-#     #   name: About
-#     #   pageRef: /about
-#     #   weight: 4
-#     - name: Search
-#       weight: 5
-#       params:
-#         type: search
-#     # - name: GitHub
-#     #   weight: 6
-#     #   url: "https://github.com/imfing/hextra"
-#     #   params:
-#     #     icon: github
-
-#   # sidebar:
-#   #   - identifier: more
-#   #     name: More
-#   #     params:
-#   #       type: separator
-#   #     weight: 1
-#   #   - identifier: about
-#   #     name: "About"
-#   #     pageRef: "/about"
-#   #     weight: 2
-#   #   - identifier: hugoDocs
-#   #     name: "Hugo Docs ↗"
-#   #     url: "https://gohugo.io/documentation/"
-#   #     weight: 3
-
-# params:
-#   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
-
-#   navbar:
-#     displayTitle: true
-#     displayLogo: true
-#     logo:
-#       path: images/logo.svg
-#       dark: images/logo-dark.svg
-#       # width: 40
-#       # height: 20
-#       # link: /
-#     width: wide
-
-#   page:
-#     # full (100%), wide (90rem), normal (1280px)
-#     width: normal
+    base: "https://github.com/imfing/hextra-starter-template/edit/main/content" 
 
   theme:
     # light | dark | system
     default: dark
     displayToggle: false
 
-#   footer:
-#     enable: true
-#     displayCopyright: true
-#     displayPoweredBy: true
-#     width: normal
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
 
-#   displayUpdatedDate: true
-#   dateFormat: "January 2, 2006"
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
 
-#   # Search
-#   # flexsearch is enabled by default
-#   search:
-#     enable: true
-#     type: flexsearch
+  editURL:
+    enable: false
 
-#     flexsearch:
-#       # index page by: content | summary | heading | title
-#       index: content
-#       # full | forward | reverse | strict
-#       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
-#       tokenize: forward
+  # blog:
+  #   list:
+  #     displayTags: true
+  #     # date | lastmod | publishDate | title | weight
+  #     sortBy: date
+  #     sortOrder: desc # or "asc"
 
-#   # editURL:
-#   #   enable: true
-#   #   base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
 
-#   # blog:
-#   #   list:
-#   #     displayTags: true
-#   #     # date | lastmod | publishDate | title | weight
-#   #     sortBy: date
-#   #     sortOrder: desc # or "asc"
+  # comments:
+  #   enable: false
+  #   type: giscus
 
-#   highlight:
-#     copy:
-#       enable: true
-#       # hover | always
-#       display: hover
-
-#   # comments:
-#   #   enable: false
-#   #   type: giscus
-
-#   #   # https://giscus.app/
-#   #   giscus:
-#   #     repo: imfing/hextra
-#   #     repoId: R_kgDOJ9fJag
-#   #     category: General
-#   #     categoryId: DIC_kwDOJ9fJas4CY7gW
-#   #     # mapping: pathname
-#   #     # strict: 0
-#   #     # reactionsEnabled: 1
-#   #     # emitMetadata: 0
-#   #     # inputPosition: top
-#   #     # lang: en
+  #   # https://giscus.app/
+  #   giscus:
+  #     repo: imfing/hextra
+  #     repoId: R_kgDOJ9fJag
+  #     category: General
+  #     categoryId: DIC_kwDOJ9fJas4CY7gW
+  #     # mapping: pathname
+  #     # strict: 0
+  #     # reactionsEnabled: 1
+  #     # emitMetadata: 0
+  #     # inputPosition: top
+  #     # lang: en

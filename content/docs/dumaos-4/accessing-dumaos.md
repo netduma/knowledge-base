@@ -15,7 +15,7 @@ DumaOS can be controlled using our intuitive frontend. This frontend is usable f
 
 (Must be connected to your Netduma hardware)
 
-[Click here to download the Netduma mobile app]([https://mobile.dumaos.com/](https://mobile.dumaos.com/))
+[Click here to download the Netduma mobile app](https://mobile.dumaos.com/)
 
 From any browser, simply type `dumaos/` into the address bar to reach DumaOS.
 
