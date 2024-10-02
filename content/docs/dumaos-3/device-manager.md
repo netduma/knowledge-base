@@ -3,8 +3,6 @@ title: Device Manager
 weight: 2
 ---
 
-## Device Manager
-
 The DumaOS Device Manager is designed to give you insight into how your network is set up. Whenever a new device connects you will see it appear on the Network Map panel under either the LAN or WiFi branch, and when it is disconnected the device will move to the 'Offline' branch. If you are using a router with dual-band WiFi, you will see your wireless devices appear under either the 2.4Ghz or 5Ghz branch.
 
 ![StOXa407Tm0hKNi3rjbFY_H6dsG6Qqhyyw.png](device-manager/68679afd166265cb8a345aa3cf7dc990aefa9363.png)
