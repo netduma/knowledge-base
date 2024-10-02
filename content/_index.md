@@ -29,6 +29,7 @@ layout: hextra-home
     imageClass="max-w-full"
   >}}
   {{< netduma/feature-card
+    link="/"
     title="DumaOS 3.0"
     subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
@@ -36,6 +37,7 @@ layout: hextra-home
     imageClass="max-w-full"
   >}}
   {{< netduma/feature-card
+    link="/"
     title="Telstra"
     subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
@@ -47,18 +49,22 @@ layout: hextra-home
 <div class="hx-mt-4">
 {{< hextra/feature-grid cols="4">}}
   {{< hextra/feature-card
+    link="/"
     title="FAQs"
     subtitle="Frequently asked questions about Netduma and DumaOS."
   >}}
   {{< hextra/feature-card
+    link="/"
     title="Firmwares"
     subtitle="Download the latest updates for DumaOS."
   >}}
   {{< hextra/feature-card
+    link="/"
     title="User Manuals"
     subtitle="User manuals that are provided with DumaOS compatible hardware."
   >}}
   {{< hextra/feature-card
+    link="/"
     title="Nighthawk Pro Gaming"
     subtitle="Info and guides for Netgear's Nighthawk Pro Gaming routers with DumaOS."
   >}}
