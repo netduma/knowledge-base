@@ -25,7 +25,7 @@ layout: hextra-home
     link="/"
     title="DumaOS 4"
     subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
+    class="hx-aspect-auto md:hx-aspect-[1.1/1]"
     image="/images/dumaos_4_logo.png"
     imageClass="max-w-full"
   >}}
@@ -33,7 +33,7 @@ layout: hextra-home
     link="/"
     title="DumaOS 3.0"
     subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
+    class="hx-aspect-auto md:hx-aspect-[1.1/1]"
     image="/images/dumaos_3_logo.png"
     imageClass="max-w-full"
   >}}
@@ -41,7 +41,7 @@ layout: hextra-home
     link="/"
     title="Telstra"
     subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
+    class="hx-aspect-auto md:hx-aspect-[1.1/1]"
     image="/images/telstra_logo.png"
     imageClass="max-w-full"
   >}}
