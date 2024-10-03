@@ -16,7 +16,7 @@ layout: hextra-home
 </div>
 
 <div class="hx-mb-6">
-{{< hextra/hero-button text="View Docs" link="docs" >}}
+{{< netduma/hero-button text="View Docs" link="docs" >}}
 </div>
 
 {{< hextra/feature-grid class="mb-8">}}
