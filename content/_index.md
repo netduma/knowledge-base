@@ -9,7 +9,7 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx-mb-12">
+<div class="hx-mb-8">
 {{< hextra/hero-subtitle >}}
   Something something&nbsp;<br class="sm:hx-block hx-hidden" />on a new line
 {{< /hextra/hero-subtitle >}}
@@ -19,7 +19,8 @@ layout: hextra-home
 {{< netduma/hero-button text="View Docs" link="docs" >}}
 </div>
 
-{{< hextra/feature-grid class="mb-8">}}
+<div class="hx-mt-6">
+{{< hextra/feature-grid class="hx-mt-8">}}
   {{< netduma/feature-card
     link="/"
     title="DumaOS 4"
@@ -45,6 +46,7 @@ layout: hextra-home
     imageClass="max-w-full"
   >}}
 {{< /hextra/feature-grid >}}
+</div>
 
 <div class="hx-mt-4">
 {{< hextra/feature-grid cols="4">}}
