@@ -54,21 +54,25 @@ layout: hextra-home
     link="/"
     title="FAQs"
     subtitle="Frequently asked questions about Netduma and DumaOS."
+    class="dark:hx-bg-neutral-900"
   >}}
   {{< hextra/feature-card
     link="/"
     title="Firmwares"
     subtitle="Download the latest updates for DumaOS."
+    class="dark:hx-bg-neutral-900"
   >}}
   {{< hextra/feature-card
     link="/"
     title="User Manuals"
     subtitle="User manuals that are provided with DumaOS compatible hardware."
+    class="dark:hx-bg-neutral-900"
   >}}
   {{< hextra/feature-card
     link="/"
     title="Nighthawk Pro Gaming"
     subtitle="Info and guides for Netgear's Nighthawk Pro Gaming routers with DumaOS."
+    class="dark:hx-bg-neutral-900"
   >}}
 {{< /hextra/feature-grid >}}
 </div>
