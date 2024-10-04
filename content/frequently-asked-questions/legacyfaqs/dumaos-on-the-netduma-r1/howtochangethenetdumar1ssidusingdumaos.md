@@ -8,9 +8,6 @@ To change this, first navigate to Network Settings before clicking on the WiFi t
 
 ![o4jBGQbMuelam3fw4k8OwazHWVybdnkFFg.png](howtochangethenetdumar1ssidusingdumaos\o4jBGQbMuelam3fw4k8OwazHWVybdnkFFg.png)
 
-Next,
- simply type a memorable name into the 'Network Name' field. You may 
-select the 'Don't Broadcast Network Name' option below to prevent others
- from being able to see your network name.
+Next, simply type a memorable name into the 'Network Name' field. You may select the 'Don't Broadcast Network Name' option below to prevent others from being able to see your network name.
 
 Finally, click 'Save Wireless' to save your changes.

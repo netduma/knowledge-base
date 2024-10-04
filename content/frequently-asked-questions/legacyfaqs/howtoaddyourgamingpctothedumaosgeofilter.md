@@ -1,5 +1,5 @@
 ---
-title: How to add your Gaming PC to the DumaOS Geo-filter
+title: DumaOS 3 - How to add your Gaming PC to the DumaOS Geo-filter
 ---
 
 This is a specific guide on how to add your Gaming PC to 

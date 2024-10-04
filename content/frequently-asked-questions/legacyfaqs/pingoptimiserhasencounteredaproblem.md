@@ -1,5 +1,5 @@
 ---
-title: "Ping Optimiser has encountered a problem"
+title: DumaOS 3 - "Ping Optimiser has encountered a problem"
 ---
 
 ## Why am I seeing this?

@@ -18,15 +18,9 @@ Browse for your firmware file and upload it to the R2.
 
 Allow the R2 some time to update, this can take up to two minutes.
 
-Once
- complete, we would always suggest factory resetting the R2 afterwards. 
-You can do this by going to the same three-dot menu -> Advanced ->
- Factory Reset.
-
-
+Once complete, we would always suggest factory resetting the R2 afterwards. 
+You can do this by going to the same three-dot menu -> Advanced -> Factory Reset.
 
 ![nR3rjNczZzDo7pyJA5Q4PMcFeoXixHRBJQ.png](howtoupgradefirmwareonthenetdumar2\nR3rjNczZzDo7pyJA5Q4PMcFeoXixHRBJQ.png)
 
-Please
- remember that after factory resetting the R2, you will then need to 
-access the DumaOS interface again and complete the setup wizard.
+Please remember that after factory resetting the R2, you will then need to access the DumaOS interface again and complete the setup wizard.

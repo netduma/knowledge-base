@@ -1,18 +1,12 @@
 ---
-title: How do I use WireGuard config files with Hybrid VPN?
+title: DumaOS 3 - How do I use WireGuard config files with Hybrid VPN?
 ---
 
-This article will explain how to use a WireGuard 
-config file with Hybrid VPN. Please be aware that not all VPN providers 
-offer WireGuard config files, so check with your provider first.
+This article will explain how to use a WireGuard config file with Hybrid VPN. Please be aware that not all VPN providers offer WireGuard config files, so check with your provider first.
 
-This
- article assumes that you have already used Hybrid VPN before and are 
-familiar with adding your devices to route them through the VPN.
+This article assumes that you have already used Hybrid VPN before and are familiar with adding your devices to route them through the VPN.
 
-The
- first thing to do is go to your VPN providers website and login to your
- account. Download the WireGuard configuration file you'd like to use.
+The first thing to do is go to your VPN provider's website and login to your account. Download the WireGuard configuration file you'd like to use.
 
 Then:
 
@@ -25,9 +19,6 @@ Then:
 
 If you believe your traffic is not being routed through the VPN, use [https://iplocation.com/](https://iplocation.com/) to check where your apparent location is.
 
-If
- it shows that your IP hasn't changed and that your location remains the
- same, you may be experiencing a DNS leak. Please check this article to 
-see how you can resolve that.
+If it shows that your IP hasn't changed and that your location remains the same, you may be experiencing a DNS leak. Please check this article to see how you can resolve that.
 
 [Why should I set DNS entries for Hybrid VPN? : NETDUMA](http://support.netduma.com/support/solutions/articles/16000122401-why-should-i-set-dns-entries-for-hybrid-vpn-)

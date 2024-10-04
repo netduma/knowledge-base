@@ -2,16 +2,11 @@
 title: I've received my new Netduma R2 but the WiFi password doesn't work
 ---
 
-You've received your new
- Netduma R2 router but when you try to connect a device to the WiFi it 
-says the password is incorrect, fear not, we've got you covered. *Please note we are looking into the issue so that this can be fixed.*
+You've received your new Netduma R2 router but when you try to connect a device to the WiFi it says the password is incorrect, fear not, we've got you covered. *Please note we are looking into the issue so that this can be fixed.*
 
 **<u>Ethernet Cable Method (Easiest)</u>**
 
-If
- you have a PC/laptop that has an ethernet port then you can simply 
-connect an ethernet cable from your PC/laptop to one of the LAN ports on
- the R2.  
+If you have a PC/laptop that has an ethernet port then you can simply connect an ethernet cable from your PC/laptop to one of the LAN ports on the R2.  
 
 **<u>Password Conversion Method (Easy)</u>**
 
@@ -33,11 +28,7 @@ Then take the spaces out and you are left with the correct password for WiFi: 
 
 **<u><span>Connecting the R2 Upstream of your ISP router (Medium)</span></u>**
 
-If
- you do not have an ethernet cable and the password conversion isn't 
-working then we can cleverly wire the R2 in a certain way so that you 
-can access the interface through your ISP router WiFi. You may not have 
-internet while you complete this method. *Please note if you have a pure modem (no WiFi) or a router without a WAN port then you cannot use this method.*
+If you do not have an ethernet cable and the password conversion isn't working then we can cleverly wire the R2 in a certain way so that you can access the interface through your ISP router WiFi. You may not have internet while you complete this method. *Please note if you have a pure modem (no WiFi) or a router without a WAN port then you cannot use this method.*
 
 1. Disconnect the R2 from your ISP router
 2. Connect the R2 LAN port to your ISP router WAN/internet port
@@ -48,18 +39,11 @@ internet while you complete this method. *Please note if you have a pure modem (
 
 **<u>Connected?</u>**
 
-In
- case you need a reminder, once you have successfully connected to the 
-router either via WiFi or ethernet then you can access the R2 interface 
-by entering 192.168.77.1 in the URL bar of your web browser. Once there 
-you may be asked for login details which are by default:  
+In case you need a reminder, once you have successfully connected to the router either via WiFi or ethernet then you can access the R2 interface by entering 192.168.77.1 in the URL bar of your web browser. Once there you may be asked for login details which are by default:  
 
 Username: admin  
 Password: password  
 
-Once
- you've logged in you will see the Setup Wizard, complete this and you 
-should have access to the full interface where you can truly start to 
-enjoy your new router!
+Once you've logged in you will see the Setup Wizard, complete this and you should have access to the full interface where you can truly start to enjoy your new router!
 
 If you have any issues with the subject matter explained here or with anything else we're always happy to help on [forum.netduma.com](https://forum.netduma.com)

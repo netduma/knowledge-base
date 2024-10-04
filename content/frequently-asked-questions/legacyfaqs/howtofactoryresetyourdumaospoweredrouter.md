@@ -1,17 +1,12 @@
 ---
-title: How to factory reset your DumaOS powered router
+title: DumaOS 3 - How to factory reset your DumaOS powered router
 ---
 
 This guide will talk you through the two different ways that you can factory reset your DumaOS powered router
 
 ## Soft reset
 
-To
- soft reset your router, you'll first need to access the interface in 
-your web browser. Make sure you're connected to your router via either 
-an ethernet cable or via it's Wi-Fi network, then go to your default 
-gateway in your web browser. To find what this is for your router, refer
- to the below table.
+To soft reset your router, you'll first need to access the interface in your web browser. Make sure you're connected to your router via either an ethernet cable or via it's Wi-Fi network, then go to your default gateway in your web browser. To find what this is for your router, refer to the below table.
 
 | Model                        | IP           | URL                              |
 | ---------------------------- | ------------ | -------------------------------- |

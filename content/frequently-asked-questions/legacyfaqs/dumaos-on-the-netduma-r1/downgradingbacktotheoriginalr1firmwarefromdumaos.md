@@ -3,7 +3,7 @@ title: Downgrading back to the Original R1 Firmware from DumaOS
 ---
 
 1. Download the latest Original R1 Firmware [**here**](https://www.dropbox.com/s/701ezvt4qmezdgu/R1-v-1-03-6j.sig?dl=0)
-2. In the top right hand corner of the DumaOS interface click the Upgrade button (![upgradebutton.png](C:\Git\public-wiki\content\docs\dumaos-3\dumaos-on-the-netduma-r1\downgradingbacktotheoriginalr1firmwarefromdumaos\upgradebutton.png))
+2. In the top right hand corner of the DumaOS interface click the Upgrade button (![upgradebutton.png](downgradingbacktotheoriginalr1firmwarefromdumaos\upgradebutton.png))
 3. Click ‘Select Upgrade File’ & navigate to where you downloaded the upgrade file and click open.
 4. Click ‘Upgrade’ and wait a few minutes 
 5. Then try to access the R1 interface by typing in [192.168.88.1](http://192.168.88.1) or [http://R1](http://R1.%C2%A0) 
