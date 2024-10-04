@@ -4,17 +4,17 @@ layout: index
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  Get started&nbsp;<br class="sm:hx-block hx-hidden" />with Netduma Wiki
+  Netduma Support
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx-mb-8">
 {{< hextra/hero-subtitle >}}
-  Something something&nbsp;<br class="sm:hx-block hx-hidden" />on a new line
+  Welcome to the Netduma support site.&nbsp;<br class="sm:hx-block hx-hidden" />Here you'll find guides for all of our features, along with frequently asked questions and useful links.
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx-mb-6">
+<div class="hx-mb-12">
 {{< netduma/hero-button text="View Docs" link="docs" >}}
 </div>
 
@@ -23,7 +23,7 @@ layout: index
   {{< netduma/feature-card
     link="/"
     title="DumaOS 4"
-    subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
+    subtitle="The latest version of DumaOS, featuring groundbreaking new features like SmartBOOST and Geo-Filter 2.0."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] dark:hover:hx-bg-neutral-900"
     image="/images/dumaos_4_logo.png"
     imageClass="max-w-full"
@@ -32,7 +32,7 @@ layout: index
   {{< netduma/feature-card
     link="/"
     title="DumaOS 3.0"
-    subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
+    subtitle="The version of DumaOS which shipped with the Netduma R2 and Nighthawk Pro Gaming routers."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] dark:hover:hx-bg-neutral-900"
     image="/images/dumaos_3_logo.png"
     imageClass="max-w-full"
@@ -41,7 +41,7 @@ layout: index
   {{< netduma/feature-card
     link="/"
     title="Telstra"
-    subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
+    subtitle="Telstra Internet Optimiser brings the power of DumaOS to your Telstra Smart Modem."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] dark:hover:hx-bg-neutral-900"
     image="/images/telstra_logo.png"
     imageClass="max-w-full"
@@ -82,4 +82,4 @@ layout: index
 </div>
 
 ## Further Support
-Bacon ipsum dolor amet chuck kevin jowl chislic meatloaf hamburger prosciutto pork loin pork belly. Landjaeger flank ham hock pancetta venison, frankfurter buffalo leberkas. Drumstick ball tip filet mignon porchetta venison. Chislic meatloaf shank cupim. Ribeye bresaola turkey prosciutto hamburger pork belly ham shoulder flank buffalo alcatra. Ground round pork chop ham hock cow.
+We are always available via email and via our support forums. Our friendly support team will answer any questions you have about Netduma, DumaOS or networking in general.
