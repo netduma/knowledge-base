@@ -1,6 +1,5 @@
 ---
-title: Netduma Wiki
-layout: hextra-home
+layout: index
 ---
 
 <div class="hx-mt-6 hx-mb-6">
@@ -78,3 +77,6 @@ layout: hextra-home
   >}}
 {{< /hextra/feature-grid >}}
 </div>
+
+## Further Support
+Bacon ipsum dolor amet chuck kevin jowl chislic meatloaf hamburger prosciutto pork loin pork belly. Landjaeger flank ham hock pancetta venison, frankfurter buffalo leberkas. Drumstick ball tip filet mignon porchetta venison. Chislic meatloaf shank cupim. Ribeye bresaola turkey prosciutto hamburger pork belly ham shoulder flank buffalo alcatra. Ground round pork chop ham hock cow.
