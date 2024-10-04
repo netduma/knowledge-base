@@ -38,6 +38,9 @@ menu:
     - name: Firmwares
       pageRef: /firmwares
       weight: 1
+    - name: FAQ
+      pageRef: /frequently-asked-questions
+      weight: 2
     # - name: About
     #   pageRef: /about
     #   weight: 2
