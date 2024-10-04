@@ -9,38 +9,72 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx-mb-12">
+<div class="hx-mb-8">
 {{< hextra/hero-subtitle >}}
   Something something&nbsp;<br class="sm:hx-block hx-hidden" />on a new line
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="hx-mb-6">
-{{< hextra/hero-button text="View Docs" link="docs" >}}
+{{< netduma/hero-button text="View Docs" link="docs" >}}
 </div>
 
-{{< hextra/feature-grid >}}
-  {{< hextra/feature-card
+<div class="hx-mt-6">
+{{< hextra/feature-grid class="hx-mt-8">}}
+  {{< netduma/feature-card
+    link="/"
     title="DumaOS 4"
     subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="images/hextra-doc.webp"
-    imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="DumaOS 3.0"
-    subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
-    class="hx-aspect-auto md:hx-aspect-[1/1] max-lg:hx-min-h-[250px]"
-    image="/images/netduma-r3-logo.png"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="Firmwares"
-    subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="images/hextra-search.webp"
-    imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] dark:hover:hx-bg-neutral-900"
+    image="/images/dumaos_4_logo.png"
+    imageClass="max-w-full"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
+  {{< netduma/feature-card
+    link="/"
+    title="DumaOS 3.0"
+    subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] dark:hover:hx-bg-neutral-900"
+    image="/images/dumaos_3_logo.png"
+    imageClass="max-w-full"
+  >}}
+  {{< netduma/feature-card
+    link="/"
+    title="Telstra"
+    subtitle="Bacon ipsum dolor amet chislic turducken landjaeger boudin."
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] dark:hover:hx-bg-neutral-900"
+    image="/images/telstra_logo.png"
+    imageClass="max-w-full"
+  >}}
 {{< /hextra/feature-grid >}}
+</div>
+
+<div class="hx-mt-4">
+{{< hextra/feature-grid cols="4">}}
+  {{< netduma/feature-card
+    link="/"
+    title="FAQs"
+    subtitle="Frequently asked questions about Netduma and DumaOS."
+    class="dark:hx-bg-neutral-900 dark:hover:hx-bg-neutral-800"
+  >}}
+  {{< netduma/feature-card
+    link="/"
+    title="Firmwares"
+    subtitle="Download the latest updates for DumaOS."
+    class="dark:hx-bg-neutral-900 dark:hover:hx-bg-neutral-800"
+  >}}
+  {{< netduma/feature-card
+    link="/"
+    title="User Manuals"
+    subtitle="User manuals that are provided with DumaOS compatible hardware."
+    class="dark:hx-bg-neutral-900 dark:hover:hx-bg-neutral-800"
+  >}}
+  {{< netduma/feature-card
+    link="/"
+    title="Nighthawk Pro Gaming"
+    icon="sparkles"
+    subtitle="Info and guides for Netgear's Nighthawk Pro Gaming routers with DumaOS."
+    class="dark:hx-bg-neutral-900 dark:hover:hx-bg-neutral-800"
+  >}}
+{{< /hextra/feature-grid >}}
+</div>
