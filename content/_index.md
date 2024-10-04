@@ -27,7 +27,7 @@ layout: index
     class="hx-aspect-auto md:hx-aspect-[1.1/1] dark:hover:hx-bg-neutral-900"
     image="/images/dumaos_4_logo.png"
     imageClass="max-w-full"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(255,70,78,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< netduma/feature-card
     link="/"
@@ -36,6 +36,7 @@ layout: index
     class="hx-aspect-auto md:hx-aspect-[1.1/1] dark:hover:hx-bg-neutral-900"
     image="/images/dumaos_3_logo.png"
     imageClass="max-w-full"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(255,70,78,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< netduma/feature-card
     link="/"
@@ -44,6 +45,8 @@ layout: index
     class="hx-aspect-auto md:hx-aspect-[1.1/1] dark:hover:hx-bg-neutral-900"
     image="/images/telstra_logo.png"
     imageClass="max-w-full"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(89,112,255,0.15),hsla(0,0%,100%,0));"
+    
   >}}
 {{< /hextra/feature-grid >}}
 </div>
