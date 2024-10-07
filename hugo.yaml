@@ -93,8 +93,8 @@ params:
     width: normal
 
   editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content" 
+    enable: false
+    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
 
   theme:
     # light | dark | system
@@ -113,9 +113,6 @@ params:
       # full | forward | reverse | strict
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
       tokenize: forward
-
-  editURL:
-    enable: false
 
   # blog:
   #   list:
