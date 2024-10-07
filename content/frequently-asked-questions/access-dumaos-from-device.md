@@ -1,5 +1,6 @@
 ---
 title: Can I access DumaOS from a portable device?
+weight: 8
 ---
 
 Yes, the interface is browser based so it will work on any device with a browser. 

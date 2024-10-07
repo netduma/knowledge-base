@@ -1,5 +1,6 @@
 ---
 title: How can you get your game supported in DumaOS quicker?
+weight: 12
 ---
 
 If you’ve got a game or service you really want supported in DumaOS, you may have already reached out to us via social media or our support forum. Unfortunately, it’s a very time-consuming process to capture data and classify it for DumaOS.

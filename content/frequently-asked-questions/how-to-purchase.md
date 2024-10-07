@@ -1,5 +1,6 @@
 ---
 title: How to purchase
+weight: 1
 ---
 
 You can purchase a Netduma R3 with DumaOS 4 directly from our website: netduma.com

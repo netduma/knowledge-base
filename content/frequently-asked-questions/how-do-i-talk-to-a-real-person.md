@@ -1,5 +1,6 @@
 ---
 title: How do I talk to a real person?
+weight: 3
 ---
 
 There are lots of real people on the Netduma forums, including our support team.

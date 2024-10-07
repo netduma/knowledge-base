@@ -1,5 +1,6 @@
 ---
 title: Contacting Netduma
+weight: 4
 ---
 
 Get the quickest response on our forums: forum.netduma.com

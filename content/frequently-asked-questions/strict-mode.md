@@ -1,5 +1,6 @@
 ---
 title: What is Strict Mode?
+weight: 9
 ---
 
 Strict Mode guarantees that dedicated servers outside of your filter range will always be blocked. This should be ticked when searching in most games. Previously, it was necessary to have this disabled in Destiny, but since Bungie’s upgrade to server-based matchmaking you can now leave this enabled.

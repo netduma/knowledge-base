@@ -1,5 +1,6 @@
 ---
 title: WiFi Vs Ethernet
+weight: 10
 ---
 
 For gaming, Netduma recommends using ethernet instead of WiFi wherever 

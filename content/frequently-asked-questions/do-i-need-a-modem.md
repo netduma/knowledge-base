@@ -1,5 +1,6 @@
 ---
 title: Do I need a modem?
+weight: 6
 ---
 
 > If you have Telstra Internet Optimiser or EE WiFi Enhancer, DumaOS runs on your existing router and will not require any additional hardware.
