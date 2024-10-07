@@ -21,7 +21,7 @@ layout: index
 <div class="hx-mt-6">
 {{< hextra/feature-grid class="hx-mt-8">}}
   {{< netduma/feature-card
-    link="/"
+    link="/docs/dumaos-4/"
     title="DumaOS 4"
     subtitle="The latest version of DumaOS, featuring groundbreaking new features like SmartBOOST and Geo-Filter 2.0."
     class="dark:hover:hx-bg-neutral-900"
@@ -30,7 +30,7 @@ layout: index
     style="background: radial-gradient(ellipse at 50% 80%,rgba(255,70,78,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< netduma/feature-card
-    link="/"
+    link="/docs/dumaos-3/"
     title="DumaOS 3.0"
     subtitle="The version of DumaOS which shipped with the Netduma R2 and Nighthawk Pro Gaming routers."
     class="dark:hover:hx-bg-neutral-900"
@@ -39,7 +39,7 @@ layout: index
     style="background: radial-gradient(ellipse at 50% 80%,rgba(255,70,78,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< netduma/feature-card
-    link="/"
+    link="/docs/telstra-game-optimiser/"
     title="Telstra"
     subtitle="Telstra Internet Optimiser brings the power of DumaOS to your Telstra Smart Modem."
     class="dark:hover:hx-bg-neutral-900"
@@ -60,13 +60,13 @@ layout: index
     class="dark:hx-bg-neutral-900 dark:hover:hx-bg-neutral-800"
   >}}
   {{< netduma/feature-card
-    link="/"
+    link="/docs/latest-firmwares/"
     title="Firmwares"
     subtitle="Download the latest updates for DumaOS."
     class="dark:hx-bg-neutral-900 dark:hover:hx-bg-neutral-800"
   >}}
   {{< netduma/feature-card
-    link="/"
+    link="/docs/user-manuals/"
     title="User Manuals"
     subtitle="User manuals that are provided with DumaOS compatible hardware."
     class="dark:hx-bg-neutral-900 dark:hover:hx-bg-neutral-800"
