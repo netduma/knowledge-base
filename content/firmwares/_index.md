@@ -1,7 +1,8 @@
 ---
 title: Firmwares
 weight: 2
-
+cascade:
+  type: docs
 ---
 
 This section contains links to all of the latest firmwares available for DumaOS.
