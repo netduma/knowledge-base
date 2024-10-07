@@ -10,7 +10,7 @@ layout: index
 
 <div class="hx-mb-8">
 {{< hextra/hero-subtitle >}}
-  Welcome to the Netduma support site.&nbsp;<br class="sm:hx-block hx-hidden" />Here you'll find guides for all of our features, along with frequently asked questions and useful links.
+  Welcome to the Netduma support site.&nbsp;<br class="sm:hx-block hx-hidden" />Here you'll find guides for all of our features,&nbsp;<br class="sm:hx-block hx-hidden" /> along with frequently asked questions and useful links.
 {{< /hextra/hero-subtitle >}}
 </div>
 
