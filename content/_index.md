@@ -74,7 +74,6 @@ layout: index
   {{< netduma/feature-card
     link="/"
     title="Nighthawk Pro Gaming"
-    icon="sparkles"
     subtitle="Info and guides for Netgear's Nighthawk Pro Gaming routers with DumaOS."
     class="dark:hx-bg-neutral-900 dark:hover:hx-bg-neutral-800"
   >}}
