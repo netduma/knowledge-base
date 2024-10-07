@@ -1,5 +1,5 @@
 ---
-title: QoS
+title: QoS on Telstra Game Optimiser
 ---
 
 When devices in your home are using all the bandwidth, it creates congestion. This causes lag, especially for online games.
@@ -22,8 +22,8 @@ A) To add a service that has not automatically been detected, click Add Device.
 B) Select a device from the Device Selector.
 C) Select a Service or Ports to prioritise.
 
-Once Traffic Prioritization is set up, we can move on to setting up 
-Congestion Control. We must set up both of these features for QoS to be 
+Once Traffic Prioritization is set up, we can move on to setting up
+Congestion Control. We must set up both of these features for QoS to be
 effective.
 
 ![bd6e8662f02250f3bb57c82932f19c4c43d1bb72.png](qos\bd6e8662f02250f3bb57c82932f19c4c43d1bb72.png)

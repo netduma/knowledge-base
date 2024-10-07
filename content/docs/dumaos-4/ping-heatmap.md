@@ -1,5 +1,6 @@
 ---
 weight: 11
+title: Ping Heatmap on DumaOS 4
 ---
 
 # Ping Heatmap

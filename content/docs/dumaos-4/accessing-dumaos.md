@@ -1,5 +1,5 @@
 ---
-title: Accessing DumaOS
+title: Accessing DumaOS 4
 weight: 1
 ---
 

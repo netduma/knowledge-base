@@ -1,5 +1,6 @@
 ---
 weight: 6
+title: Ping Assist on DumaOS 3
 ---
 
 
@@ -30,7 +31,7 @@ To use Ping Assist as a Ping Filter, follow this guide: [DumaOS Optimal Settings
 
 ## Troubleshooting
 
-On rare occasions, Ping Assist may block connections below the threshold. 
+On rare occasions, Ping Assist may block connections below the threshold.
 This is usually due to the netcode of the game. If this happens, restart
 your game and it should work great the next time
 

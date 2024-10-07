@@ -1,6 +1,6 @@
 ---
 weight: 8
-title: Dashboard and Network Monitor
+title: Dashboard and Network Monitor on DumaOS 3
 ---
 
 There are many unique features in DumaOS designed to help you to understand your network in an intuitive way. In this guide we will cover the Dashboard and the Network Monitor.
@@ -23,7 +23,7 @@ Using these tools you can easily create your own unique DumaOS Dashboard and bui
 
 ## Network Monitor
 
-With the Network Monitor, you can see the data usage of every device in your home, allowing you to understand the cause of congestion on your network.  
+With the Network Monitor, you can see the data usage of every device in your home, allowing you to understand the cause of congestion on your network.
 
 Using Deep Packet Inspection worthy of enterprise routing, you can then see which applications are using bandwidth via in-depth breakdowns. This helps you to identify which applications are draining your Internet, such as viruses or programmes running in the background without your knowledge.
 

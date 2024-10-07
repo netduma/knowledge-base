@@ -1,5 +1,5 @@
 ---
-title: Prioritising Traffic
+title: Prioritising Traffic on DumaOS 3
 weight: 4
 ---
 

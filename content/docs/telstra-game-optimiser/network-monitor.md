@@ -1,4 +1,4 @@
-# Network Monitor
+# Network Monitor on Telstra Game Optimiser
 
 ## Analyse Network Usage
 

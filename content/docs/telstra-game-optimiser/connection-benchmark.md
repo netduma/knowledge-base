@@ -2,7 +2,7 @@
 weight: 3
 ---
 
-# Connection Benchmark
+# Connection Benchmark on Telstra Game Optimiser
 
 ## Test Network Performance
 

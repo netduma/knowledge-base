@@ -1,8 +1,7 @@
 ---
 weight: 1
+title: Accessing DumaOS 3
 ---
-
-# Accessing DumaOS
 
 DumaOS is a powerful router operating system that gives you control of your home network.
 
@@ -39,6 +38,6 @@ Make sure to type these in lower case and in English
 
 **Netduma R2 Users: If this is the first time the R2s been installed, you'll be greeted with the initial setup page.** You are now at the R2s interface, here you can configure and optimise DumaOS for all your home networking and gaming needs, we'd suggest following our **[Optimal Settings Guides](http://support.netduma.com/support/solutions/folders/16000090646).** If you haven't already, you'll be greeted with the initial setup guide.
 
-**Nighthawk Users:** A welcome tour and setup wizard should now introduce you to DumaOS. Follow this tour to get started and we recommend you follow these [Optimal Settings Guides](http://support.netduma.com/support/solutions/folders/16000090646) once the tour has completed.  
+**Nighthawk Users:** A welcome tour and setup wizard should now introduce you to DumaOS. Follow this tour to get started and we recommend you follow these [Optimal Settings Guides](http://support.netduma.com/support/solutions/folders/16000090646) once the tour has completed.
 
 We hope you enjoy using DumaOS.

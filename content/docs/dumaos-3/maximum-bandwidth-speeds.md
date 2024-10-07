@@ -1,5 +1,5 @@
 ---
-title: Maximum Bandwidth Speeds
+title: Maximum Bandwidth Speeds on DumaOS 3
 weight: 2
 ---
 

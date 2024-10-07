@@ -1,5 +1,5 @@
 ---
-title: Hybrid VPN
+title: Hybrid VPN on DumaOS 3
 ---
 
 This guide will help you setup Hybrid VPN on your DumaOS powered router. 
