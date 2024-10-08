@@ -12,4 +12,5 @@ jobs:
         config: .markdownlint.json
         globs: |
           *.md
+          **/*.md
           !test/*.md
