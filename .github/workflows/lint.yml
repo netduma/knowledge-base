@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v4
     - uses: DavidAnson/markdownlint-cli2-action@v17
       with:
-        config: .markdown-lint.jsonc
+        config: .markdownlint.json
         globs: |
           *.md
           !test/*.md

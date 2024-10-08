@@ -1,6 +1,5 @@
 {
     "default": true,
     "extends": null,
-    // line-length
     "MD013": false
 }
