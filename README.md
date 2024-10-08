@@ -1,6 +1,6 @@
-# Netduma WIKI
+# Netduma Knowledge Base
 
-Static site generated with hugo
+A static site generated with Hugo and Hextra.
 
 ## Requirements
 
