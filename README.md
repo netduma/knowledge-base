@@ -8,13 +8,13 @@ A static site generated with Hugo and Hextra.
 
 ## Development
 
-### On Linux:
+### On Linux
 
 ```bash
 hugo server --logLevel debug --disableFastRender -p 1313
 ```
 
-### On Windows:
+### On Windows
 
 ```batch
 rmdir /s public && hugo server --logLevel debug --disableFastRender -p 1313
