@@ -5,7 +5,7 @@ title: Accessing DumaOS 3
 
 DumaOS is a powerful router operating system that gives you control of your home network.
 
-It is pre-installed on the NETGEAR Nighthawk XR500, XR450 and XR700. 
+It is pre-installed on the NETGEAR Nighthawk XR500, XR450 and XR700.
 
 ## Setting up your Router
 
@@ -13,9 +13,9 @@ The first step in accessing DumaOS on your router is to connect a PC or laptop t
 
 If using WiFi, search for your router’s Wi-Fi name (SSID) and enter the password.
 
-- On the Netduma R1, the default name is 'Netduma R1' and the password is the serial number taken from the label on the bottom of the router (do not enter the '/' and the final three characters after it. 
+- On the Netduma R1, the default name is 'Netduma R1' and the password is the serial number taken from the label on the bottom of the router (do not enter the '/' and the final three characters after it.
 - On the R2, the SSID will be NetdumaR2 and the password is printed on the underside of the router.
-- On the Nighthawk routers, the default name and password are on a label on your router 
+- On the Nighthawk routers, the default name and password are on a label on your router
 
 ## Accessing the UI
 
@@ -25,7 +25,7 @@ In your browser, type the following into your address bar:
 
 - **Netduma R1 users should type:** 192.168.88.1
 - **Netduma R2 users should type:** 192.168.77.1 OR simply use [http://dumaos/](http://dumaos/)
-- **Nighthawk users should type:** routerlogin.net or the router’s LAN IP address (which by default is 192.168.1.1) into the address bar 
+- **Nighthawk users should type:** routerlogin.net or the router’s LAN IP address (which by default is 192.168.1.1) into the address bar
 
 You will then be asked to sign into your router. The default details are:
 

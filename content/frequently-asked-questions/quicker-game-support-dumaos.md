@@ -21,7 +21,7 @@ Now, complete the below steps in order:
 
 1. Open Wireshark
 2. Select either Wi-Fi or Ethernet, whichever connection type you’re using
-3. Click ‘Start capturing packets’ 
+3. Click ‘Start capturing packets’
 4. Launch the game/service of choice quickly after
 5. Play the game or use the service for a **few minutes**
 6. Go back to Wireshark and click ‘Stop capturing packets’
@@ -29,7 +29,7 @@ Now, complete the below steps in order:
 
 **To give us the best possible chance at identifying unique game traffic,please repeat the capture a few times. If you can provide between 2-5 captures of the same traffic, that would be ideal.**
 
-Once done, please email your packet captures to [netduma@netduma.com](mailto:netduma@netduma.com) with context as to what game it is. 
+Once done, please email your packet captures to [netduma@netduma.com](mailto:netduma@netduma.com) with context as to what game it is.
 
 If the capture is too large or you'd rather send via a different medium (Google Drive, DropBox, WeTransfer, etc), just send an email with a link to the capture.
 
