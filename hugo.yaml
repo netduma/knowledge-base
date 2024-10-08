@@ -50,14 +50,14 @@ menu:
     - name: FAQ
       pageRef: /frequently-asked-questions
       weight: 3
-    # - name: About
-    #   pageRef: /about
-    #   weight: 2
-    # - name: Contact ↗
-    #   url: "https://github.com/imfing"
-    #   weight: 3
-    - name: Search
+    - name: Contact
+      pageRef: /contact
       weight: 4
+    - name: Forum ↗
+      url: "https://forum.netduma.com"
+      weight: 5
+    - name: Search
+      weight: 6
       params:
         type: search
 
