@@ -4,8 +4,7 @@ A static site generated with Hugo and Hextra.
 
 ## Requirements
 
-* Hugo installed https://github.com/gohugoio/hugo/releases/tag/v0.135.0
-* Go installed
+* Hugo >=0.135.0
 
 ## Development
 
