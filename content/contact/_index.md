@@ -1,3 +1,8 @@
+---
+cascade:
+  type: blog
+---
+
 # Contact
 
 Get the quickest response on our [Forum](forum.netduma.com)
