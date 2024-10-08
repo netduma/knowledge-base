@@ -86,7 +86,8 @@ params:
     width: normal
 
   editURL:
-    enable: true
+    # TODO: Enable and edit this when the repository was transferred
+    enable: false
     base: "https://github.com/Gr3q/knowledge-base/edit/main/content"
 
   theme:
