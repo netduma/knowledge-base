@@ -40,6 +40,7 @@ C) Click the Delete icon to remove shapes.
 
 ![cb2c429583531325112c993dee78562d60e0b487.png](geo-filter/cb2c429583531325112c993dee78562d60e0b487.png)
 
+<!-- markdownlint-disable-next-line MD036 -->
 *Start Gaming*
 
 Blocked connections outside of your radius will appear as warning triangles. Take a look at the Geo-Filter legend in the top right hand corner of the Geo-Filter to confirm what icons mean.
@@ -58,7 +59,7 @@ A ping of <50ms is considered to be good for gaming online.
 
 ## Allow and Deny
 
-*How to Deny a bad connection*
+### How to Deny a bad connection*
 
 If you have Auto Ping Host enabled, then the host of the game will be automatically pinged.
 
@@ -70,7 +71,7 @@ The connection will now be blocked whenever you next try to connect to it
 
 ![4643af2b38201519493f4278bad8cb12f1e534e2.png](geo-filter/4643af2b38201519493f4278bad8cb12f1e534e2.png)
 
-*How to Allow a good connection / friend* 
+### How to Allow a good connection / friend
 
 To whitelist a friend or any other connection outside of your usual filter range, set your Filter to Spectating Mode in the top Device panel
 
@@ -81,8 +82,6 @@ The connection should then appear on your Geo-Filter Map. Click on the icon to l
 In the Ping Panel below the Geo-Filter Map, name the connection and click on Allow. The connection will then be added to your Allow and Deny panel as Allowed
 
 ![d20f77eb74ef26918a5e28b2565b78aa870f4327.png](geo-filter/d20f77eb74ef26918a5e28b2565b78aa870f4327.png)
-
-
 
 Set your Filter back to Filtering Mode in the top Device Panel
 

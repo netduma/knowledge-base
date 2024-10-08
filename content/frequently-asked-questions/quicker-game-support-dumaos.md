@@ -21,7 +21,7 @@ Now, complete the below steps in order:
 
 1. Open Wireshark
 2. Select either Wi-Fi or Ethernet, whichever connection type you’re using
-3. Click ‘Start capturing packets’ 
+3. Click ‘Start capturing packets’
 4. Launch the game/service of choice quickly after
 5. Play the game or use the service for a **few minutes**
 6. Go back to Wireshark and click ‘Stop capturing packets’
@@ -29,7 +29,7 @@ Now, complete the below steps in order:
 
 **To give us the best possible chance at identifying unique game traffic,please repeat the capture a few times. If you can provide between 2-5 captures of the same traffic, that would be ideal.**
 
-Once done, please email your packet captures to [netduma@netduma.com](mailto:netduma@netduma.com) with context as to what game it is. 
+Once done, please email your packet captures to [netduma@netduma.com](mailto:netduma@netduma.com) with context as to what game it is.
 
 If the capture is too large or you'd rather send via a different medium (Google Drive, DropBox, WeTransfer, etc), just send an email with a link to the capture.
 
@@ -41,7 +41,7 @@ Wireshark is not available on mobile, so you need to connect your mobile phone t
 
 Using a Windows PC to Wireshark a Mobile Device:
 
-1. Click on the start button and then type  
+1. Click on the start button and then type
 
 ```text
 cmd
@@ -51,7 +51,7 @@ cmd
 
 - If prompted by User Account Control, click yes or allow.
 
-- In the Command Prompt window that appears type:  
+- In the Command Prompt window that appears type:
 
 ```text
 netsh wlan show drivers
@@ -59,13 +59,13 @@ netsh wlan show drivers
 
 - Press enter and look for “Hosted network supported”  if it says no then you do not have an up to date network adapter and will need to find a PC that does or use a MAC PC if possible. If is says yes then continue the guide
 
-- Type:  
+- Type:
 
 ```text
 netsh wlan set hostednetwork mode=allow ssid= key=
 ```
 
-- After ssid= type a unique name that will be your WiFi SSiD through your PC. After key= give a password you want to use for the wifi. It should be 8 characters or more. It should look something like this:  
+- After ssid= type a unique name that will be your WiFi SSiD through your PC. After key= give a password you want to use for the wifi. It should be 8 characters or more. It should look something like this:
 
 ```text
 netsh wlan set hostednetwork mode=allow ssid=WiFiTest key=hello123
@@ -73,7 +73,7 @@ netsh wlan set hostednetwork mode=allow ssid=WiFiTest key=hello123
 
 - Press enter.
 
-- After that type:  
+- After that type:
 
 ```text
 netsh wlan start hostednetwork

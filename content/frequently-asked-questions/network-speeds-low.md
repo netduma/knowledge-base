@@ -9,7 +9,7 @@ This article details a few reasons why you might not be seeing your full ISP net
 
 ## Check wired devices
 
-If you're seeing lower speeds on Wi-Fi devices, run a third-party speed test (speedtest.net). Make sure this is on a device that's connected to the DumaOS router via ethernet (wired). 
+If you're seeing lower speeds on Wi-Fi devices, run a third-party speed test (speedtest.net). Make sure this is on a device that's connected to the DumaOS router via ethernet (wired).
 
 If you're seeing full speeds on wired devices, the problem may just be that you're too far from the router or there are too many obstructions between you and the router (Walls, Floors, Ceilings, etc).
 
@@ -29,7 +29,7 @@ The first thing to check is QoS. If disabling QoS fixes the problem, that tells 
 
 To Disable QoS, first login to your DumaOS interface:
 
-1. For NETGEAR, go to **192.168.1.1** OR [**routerlogin.net**](https://routerlogin.net) in your browser. For an R1 or an R2, go to **192.168.88.1** (R1) or **192.168.77.1** (R2) in your browser. 
+1. For NETGEAR, go to **192.168.1.1** OR [**routerlogin.net**](https://routerlogin.net) in your browser. For an R1 or an R2, go to **192.168.88.1** (R1) or **192.168.77.1** (R2) in your browser.
 2. Login with your credentials
 3. Go to **QoS**
 4. Click the three-line menu in top left corner of **Congestion Control (Anti-Bufferbloat for older versions)**
@@ -40,11 +40,11 @@ If the speed-test results are back to full ISP speeds, we know the drop in speed
 
 ## Check Connection Benchmark (DumaOS 3.0 only)
 
-To do this, log in to your DumaOS interface. 
+To do this, log in to your DumaOS interface.
 
-1. For NETGEAR, go to **192.168.1.1** OR [**routerlogin.net**](https://routerlogin.net) in your browser. For an R1 or an R2, go to **192.168.88.1** (R1) or **192.168.77.1** (R2) in your browser. 
+1. For NETGEAR, go to **192.168.1.1** OR [**routerlogin.net**](https://routerlogin.net) in your browser. For an R1 or an R2, go to **192.168.88.1** (R1) or **192.168.77.1** (R2) in your browser.
 2. Login with your credentials
-3. Go to **Connection Benchmark.** 
+3. Go to **Connection Benchmark.**
 4. Run a test and wait for it to complete.
 5. Check the Speed test to see if you're getting the full speeds you'd expect from your ISP.
 

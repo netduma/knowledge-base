@@ -14,11 +14,11 @@ Making Rules lets you manage every aspect of your home network, from freezing yo
 
 ![b293d2dc25701b692e5cae7ef31ae13d40bb4956.png](traffic-controller/b293d2dc25701b692e5cae7ef31ae13d40bb4956.png)
 
-*Create Rule*
+### Create Rule
 
-A) Click Add Rule to get started. Select the type of rule you are creating and the target(s) for it.
+1. Click Add Rule to get started. Select the type of rule you are creating and the target(s) for it.
 
-B) Select the hours and days you want the rule to apply for, and click Done.
+2. Select the hours and days you want the rule to apply for, and click Done.
 
 ## Rule Table
 

@@ -1,12 +1,12 @@
 ---
 title: Upgrading your Netduma R1 to DumaOS from the original R1 firmware
 ---
-
+<!-- markdownlint-disable-next-line MD036 -->
 **PLEASE  READ THESE INSTRUCTIONS - FAILURE TO DO SO MAY CAUSE YOUR ROUTER TO PERMANENTLY BREAK**
 
 1. Check the current version of the R1 firmware you are on by scrolling to the    bottom of your Netduma R1 interface. If you do not know how to do this,    please read **[this guide](http://support.netduma.com/support/solutions/articles/16000085788-how-do-i-check-my-r1-firmware-version-number-)**.
 2. If you are on version 1.03.6 (e.g. 1.03.6j etc), proceed to the next step. **IF   YOU ARE ON A LOWER VERSION E.G. 1.03.3, THEN A FIX MUST BE MANUALLY PUT   ON YOUR ROUTER TO PREVENT IT FROM PERMANENTLY BREAKING. PLEASE READ [THIS GUIDE](http://support.netduma.com/support/solutions/articles/16000085789-how-to-upgrade-your-r1-from-version-1-03-5m-or-lower) TO ENABLE THE FIX**
-3. Assuming you are on v1.03.6, download the DumaOS firmware from here: [](https://www.dropbox.com/s/bzep9jc2b8wzgrh/dumaos-2.1.3.29.sig?dl=0)https://www.dropbox.com/s/8z4kcynmo3glplp/DumaOS-R1-3.0.207.sig?dl=0
+3. Assuming you are on v1.03.6, download the DumaOS firmware from here: [https://www.dropbox.com/s/8z4kcynmo3glplp/DumaOS-R1-3.0.207.sig?dl=0](https://www.dropbox.com/s/8z4kcynmo3glplp/DumaOS-R1-3.0.207.sig?dl=0)
 4. On your Netduma R1 interface, click Upgrade on the bottom corner of the left hand menu
 5. Ensure ‘Preserve Settings’ & ‘Check Version’ are checked
 6. Click ‘'Choose File’ & navigate to where you downloaded the upgrade file and click open.
@@ -17,7 +17,7 @@ title: Upgrading your Netduma R1 to DumaOS from the original R1 firmware
 
 If needed the default login credentials are:
 
-Username: admin  
+Username: admin
 Password: password
 
 After installation has completed you are ready to setup DumaOS! Please use the following links to help you get started:

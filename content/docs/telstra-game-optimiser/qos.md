@@ -14,7 +14,7 @@ Network congestion creates a queue, which forces games and other time-sensitive 
 
 Traffic Prioritisation guarantees that these time-sensitive applications will always be placed at the front of the queue, reducing lag.
 
-*Set up Traffic Prioritisation*
+#### Set up Traffic Prioritisation*
 
 By default, all console games and most PC games are detected and prioritised. The circles indicate when this is taking effect. You can monitor how much data is being prioritised in Traffic Overview.
 
@@ -26,11 +26,11 @@ Once Traffic Prioritization is set up, we can move on to setting up
 Congestion Control. We must set up both of these features for QoS to be
 effective.
 
-![bd6e8662f02250f3bb57c82932f19c4c43d1bb72.png](qos\bd6e8662f02250f3bb57c82932f19c4c43d1bb72.png)
+![bd6e8662f02250f3bb57c82932f19c4c43d1bb72.png](qos/bd6e8662f02250f3bb57c82932f19c4c43d1bb72.png)
 
-![78076ba5837544dc1af40b7c0a50e77dbef2f869.png](qos\78076ba5837544dc1af40b7c0a50e77dbef2f869.png)
+![78076ba5837544dc1af40b7c0a50e77dbef2f869.png](qos/78076ba5837544dc1af40b7c0a50e77dbef2f869.png)
 
-![420506059acb07fd185df191e2a743eec986e7b3.png](qos\420506059acb07fd185df191e2a743eec986e7b3.png)
+![420506059acb07fd185df191e2a743eec986e7b3.png](qos/420506059acb07fd185df191e2a743eec986e7b3.png)
 
 ### Congestion Control
 
@@ -44,20 +44,18 @@ Set your Download slider to 70%. This is an ideal starting point, but if you exp
 
 From now on, when games are detected on your network, the gaming traffic will be moved to the front of the queue, eliminating lag even in tough network conditions.
 
-![139ccebbf5d420a46ce722f7000e982b23054416.png](qos\139ccebbf5d420a46ce722f7000e982b23054416.png)
-
-
+![139ccebbf5d420a46ce722f7000e982b23054416.png](qos/139ccebbf5d420a46ce722f7000e982b23054416.png)
 
 ### Bandwidth Allocation
 
 Some devices need more bandwidth than others, such as a PC watching Netflix. With Bandwidth Allocation, you can control how your bandwidth is shared across all of your applications or devices.
 
-*Set your Allocation*
+#### Set your Allocation
 
-A) In the Bandwidth Allocation submenu, you can choose either Devices or Applications to allocate bandwidth to.
+1. In the Bandwidth Allocation submenu, you can choose either Devices or Applications to allocate bandwidth to.
 
-B) Drag the percentage node next to a device to give it access to more or less bandwidth
+2. Drag the percentage node next to a device to give it access to more or less bandwidth
 
-C) Click Update Distribution to save your changes to Bandwidth Allocation.
+3. Click Update Distribution to save your changes to Bandwidth Allocation.
 
-D) Use the Download / Upload radio button to set your bandwidth allocation for Upload. Click Reset Distribution if you want to reset your Bandwidth Allocation to default.
+4. Use the Download / Upload radio button to set your bandwidth allocation for Upload. Click Reset Distribution if you want to reset your Bandwidth Allocation to default.

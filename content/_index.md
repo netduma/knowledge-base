@@ -2,6 +2,7 @@
 layout: index
 ---
 
+<!-- markdownlint-disable-next-line MD041 -->
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
   Netduma Support
@@ -81,4 +82,5 @@ layout: index
 </div>
 
 ## Further Support
+
 We are always available via email and via our support forums. Our friendly support team will answer any questions you have about Netduma, DumaOS or networking in general.

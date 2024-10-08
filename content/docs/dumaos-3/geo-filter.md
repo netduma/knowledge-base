@@ -13,15 +13,15 @@ Before following this guide, we recommend that you follow the Geo-Filter Tour wi
 
 2. Click ‘**Add Device**’ on the Devices panel. Select your device from the list. If your selected device is a console, it will be added to the Geo-Filter upon clicking ‘Done’. If you have added a device that is not a console such as your gaming PC, you will be asked to select the game you wish to filter. Select the game from the dropdown list that appears. If your PC game is not listed, [see this guide](http://support.netduma.com/support/solutions/articles/16000092094-how-to-add-your-gaming-pc-to-the-dumaos-geo-filter).
 
-![InrmQAjhTpZrLHq8NGwpNlkWZJ3zH81yAA.png](geo-filter/267713576360c0e2660a6a0f52ed5c172f7da76f.png)
+    ![InrmQAjhTpZrLHq8NGwpNlkWZJ3zH81yAA.png](geo-filter/267713576360c0e2660a6a0f52ed5c172f7da76f.png)
 
-> NOTE FOR BLACK OPS 4 PC PLAYERS: you need to make a small adjustment for the Geo-FIlter to work Go to Device Manager and click on your gaming PC. Change the device type to a PS4 and click Save. Now go to the Geo-Filter and add your device at the top as described above. It will show the service as 'Console'. You can now follow the remaining steps
+    > NOTE FOR BLACK OPS 4 PC PLAYERS: you need to make a small adjustment for the Geo-FIlter to work Go to Device Manager and click on your gaming PC. Change the device type to a PS4 and click Save. Now go to the Geo-Filter and add your device at the top as described above. It will show the service as 'Console'. You can now follow the remaining steps
 
 3. Once your device has been added it will default to either **Filtering Mode** or **Spectating Mode** depending on whether the service you have selected can be filtered. Filtering Mode will block connections outside of your radius. Spectating Mode will not block connections, it will just show where the locations are located.
 
-The reason we have two modes is that almost all console games and some PC games benefit from Filtering because you cannot choose the server within the game. But this is not true for every game, e.g. League of Legends, CS:GO, Battlefield etc, where you can choose the server. So for these games you just want Spectating Mode.
+    The reason we have two modes is that almost all console games and some PC games benefit from Filtering because you cannot choose the server within the game. But this is not true for every game, e.g. League of Legends, CS:GO, Battlefield etc, where you can choose the server. So for these games you just want Spectating Mode.
 
-![1Vbx6n9KxFNnLOn1lZl4AvDezw2ZZhjl9Q.png](geo-filter/08b58d4337aec81c5fb06381bae4cdf3fc2ed213.png)
+    ![1Vbx6n9KxFNnLOn1lZl4AvDezw2ZZhjl9Q.png](geo-filter/08b58d4337aec81c5fb06381bae4cdf3fc2ed213.png)
 
 4. **Set your home location** on the map by clicking the ‘Pin-Drop’ icon located just above the Geo-Filter Map. Then click on your location on the Geo-Filter Map.
 
@@ -31,25 +31,25 @@ The reason we have two modes is that almost all console games and some PC games 
 
 7. Now **Set Distance** by dragging the distance slider. For a game that requires filtering, we recommend 1000km-2000km (600 miles - 1200 miles) to begin with. Once you start playing, you can move this up or down depending on your experience. For example, if search times are high, increase the size of the distance or if you feel search times are fast but your ping could be better, reduce the distance.
 
-> PING ASSIST: See this [separate guide](http://support.netduma.com/en/support/solutions/articles/16000087579--dumaos-optimal-settings-guide-ping-assist-step-2-1-) on how to optimally setup Ping Assist for your DumaOS-powered router
+    > PING ASSIST: See this [separate guide](http://support.netduma.com/en/support/solutions/articles/16000087579--dumaos-optimal-settings-guide-ping-assist-step-2-1-) on how to optimally setup Ping Assist for your DumaOS-powered router
 
 8. Now **boot up your game** and start searching. Refer to the legend below:
 
-![T9gPpjSrQ1opLHx-wV4SFad3uFvwtvHGBQ.png](geo-filter/c26c43fea7a91f6f96d4f7e0a443581039568918.png)
+    ![T9gPpjSrQ1opLHx-wV4SFad3uFvwtvHGBQ.png](geo-filter/c26c43fea7a91f6f96d4f7e0a443581039568918.png)
 
 9. If you are in Filtering Mode, you will see hosts get blocked if they are outside of your radius. You will be blocking distant, higher-ping servers and hosts, allowing you to find the best online connections.
 
-![nolgI5QU-jETsZbK9fqWjKmUkyZp_2GQbQ.png](geo-filter/75bb1f509fe48f3edc26634784c210ed2438a9c3.png)
+    ![nolgI5QU-jETsZbK9fqWjKmUkyZp_2GQbQ.png](geo-filter/75bb1f509fe48f3edc26634784c210ed2438a9c3.png)
 
-If you are in Spectating Mode, hosts will not be blocked, but you can see their location. 
+    If you are in Spectating Mode, hosts will not be blocked, but you can see their location. 
 
-![CY-Z44YCmPw4IJ2hNgXoryKXTzlVRFC2PQ.png](geo-filter/44c9656eeb8a4754292baa8b1f7821c169bd6838.png)
+    ![CY-Z44YCmPw4IJ2hNgXoryKXTzlVRFC2PQ.png](geo-filter/44c9656eeb8a4754292baa8b1f7821c169bd6838.png)
 
-> Note: if you see a server with a white ring around it (often in Ireland), this is just an Authentication Server used by the game to allow you to play. It's not a dedicated server that hosts your actual game. So you can ignore this when it appears.
+    > Note: if you see a server with a white ring around it (often in Ireland), this is just an Authentication Server used by the game to allow you to play. It's not a dedicated server that hosts your actual game. So you can ignore this when it appears.
 
 10. View the **Ping** to the host in the panel that appears below the Map. If Auto Ping Host is enabled, it will do this automatically once the host has been chosen. If you disabled it in the Options menu on the Geo-Filter Map, then you need to click on a connection icon to view its ping. The largest icon will always be the host of the game.
 
-![ca-v6xQBQOkzk5KaftllVGkFK1VBTLB4rQ.png](geo-filter/b80b56351716b4e3c007a4cf4bd79ba0493e418c.png)
+    ![ca-v6xQBQOkzk5KaftllVGkFK1VBTLB4rQ.png](geo-filter/b80b56351716b4e3c007a4cf4bd79ba0493e418c.png)
 
 ## Allow and Deny
 
