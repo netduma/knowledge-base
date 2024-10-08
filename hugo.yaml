@@ -86,9 +86,8 @@ params:
     width: normal
 
   editURL:
-    # TODO: Enable and edit this when the repository was transferred
-    enable: false
-    base: "https://github.com/Gr3q/knowledge-base/edit/main/content"
+    enable: true
+    base: "https://github.com/netduma/knowledge-base/edit/main/content"
 
   theme:
     # light | dark | system
