@@ -2,7 +2,7 @@
 
 Adblocker protects your devices by blocking ads and trackers network-wide: even on hard-to-protect devices such as Smart TVs and games consoles.
 
-![](adblocker/2024-10-04-14-08-40-image.png)
+![adblocker-page](adblocker/2024-10-04-14-08-40-image.png)
 
 ## Customising Adblocker
 

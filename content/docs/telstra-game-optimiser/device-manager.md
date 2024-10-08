@@ -22,6 +22,4 @@ C) Click Save to save your changes.
 D) Click Block to prevent an unwanted device from accessing your network.
 E) Click Delete to remove an offline device from your Device Tree.
 
-
-
 ![14bf411144aec7b4b101e27c3f3fa56cbc170f92.png](device-manager/14bf411144aec7b4b101e27c3f3fa56cbc170f92.png)

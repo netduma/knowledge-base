@@ -2,15 +2,13 @@
 title: How to use Allow and Deny on DumaOS 3
 ---
 
-## Allow and Deny
-
 **Allow** lets you white-list your friends who live outside of your range so they can connect to you even if they are outside of your filter range. 
 
 **Deny** lets you block connections that are within your range, for example a nearby server that gives you a bad connection. 
 
 You 'Deny’ bad hosts or ‘Allow’ good hosts and friends from the Ping Panel on your Geo-Filter page.
 
-## How to Deny a bad connection
+### How to Deny a bad connection
 
 1. If you have Auto Ping Host enabled, then the host of the game will be automatically pinged.
 2. If you have Auto-Ping disabled, click on the icon you wish to deny on your Geo-Filter Map. The host is usually shown as the largest icon on your Geo-Filter Map. *(You can toggle Auto Ping Host on/off on the Geo-Filter Map's advanced options - click on the icon with the three horizontal lines in the top left corner of the panel to access this)*
@@ -19,7 +17,7 @@ You 'Deny’ bad hosts or ‘Allow’ good hosts and friends from the Ping Panel
 
 ![BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png](how-to-use-allow-and-deny-dumaos/BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png)
 
-**How to Allow a good connection / friend**
+### How to Allow a good connection / friend
 
 1. To whitelist a friend or any other connection outside of your usual filter range, set your Filter to Spectating Mode in the top Device panel
 2. Then connect to the person or server you want to whitelist. For example, invite your friend into your game lobby or party chat

@@ -11,15 +11,15 @@ Press Add Device to get started. If you add a PC, you’ll need to choose a game
 
 Adjust the Filter Size slider to choose how close to home you’d like your game hosts to be. You can change your filter location by pressing on the Home button on the map. Here you can search for your city / town, allow the router to use your location, or just press on the map.
 
-![](geo-filter/2024-10-01-16-36-53-image.png)
+![Geo-Filter main page](geo-filter/2024-10-01-16-36-53-image.png)
 
 You can also switch to Custom Mode, giving you the power to draw filter shapes wherever you want them. Try using the Pencil button to draw around servers or countries you prefer to connect to.
 
-![](geo-filter/2024-10-01-16-38-16-image.png)
+![Geo-Filter main page with polygon drawn on the map](geo-filter/2024-10-01-16-38-16-image.png)
 
 In Custom mode, you can also select specific countries to filter to, and shapes will automatically be drawn around them.
 
-![](geo-filter/2024-10-01-16-39-36-image.png)
+![Geo-Filter main page with multiple countries selected on the map](geo-filter/2024-10-01-16-39-36-image.png)
 
 Try using Ping Heatmap to find the best server locations for a variety of games.
 

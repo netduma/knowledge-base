@@ -18,7 +18,7 @@ Hybrid VPN is a router VPN Client solution that allows you to apply your VPN pro
 
 *Hybrid VPN is available on the latest firmware for Netduma R1, Netduma R2, Nighthawk XR500, XR450 and XR700.* 
 
-1. Netduma R1: if you are signed up to the Open Beta, you will receive an email from netduma@netduma.com with the latest firmware and instructions. Please go here if you have not signed up yet: https://netduma.com/r1-dumaos/
+1. Netduma R1: if you are signed up to the Open Beta, you will receive an email from [netduma@netduma.com](netduma@netduma.com) with the latest firmware and instructions. Please go here if you have not signed up yet: [https://netduma.com/r1-dumaos/](https://netduma.com/r1-dumaos/)
 2. Nighthawk Users: Upgrade to the latest XR500 firmware by going to >Settings>Administration>Firmware Update and then clicking Check. The latest firmware may have already been installed, but if not, confirm you would like to proceed with the upgrade
 
 ### 2. Hybrid VPN Setup

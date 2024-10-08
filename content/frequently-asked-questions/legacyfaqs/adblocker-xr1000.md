@@ -14,7 +14,7 @@ However, you can manually add the default list by following the instructions bel
 
 ![jwtmUmw5w7ezT5HSIhQi-NZDaKmrU67qPg.png](adblocker-xr1000/jwtmUmw5w7ezT5HSIhQi-NZDaKmrU67qPg.png)
 
-- Enter the name as Default, and paste in the following URL: https://netduma.com/adblocker-lists/default-list.txt!
+- Enter the name as Default, and paste in the following URL: [https://netduma.com/adblocker-lists/default-list.txt](https://netduma.com/adblocker-lists/default-list.txt)!
 
 ![HC2tH2meVF74z2QElr5MrvRjCaE3UPhzzA.png](adblocker-xr1000/HC2tH2meVF74z2QElr5MrvRjCaE3UPhzzA.png)
 
@@ -23,8 +23,6 @@ After clicking ADD, you should now have a Default list
 ![Qc0mg-IAykullRhpvLpsQ4gdyVkEjsyzWQ.png](adblocker-xr1000/Qc0mg-IAykullRhpvLpsQ4gdyVkEjsyzWQ.png)
 
 - Now scroll up to the main Adblock panel, and click ENABLE ADBLOCKER
-
-
 
 ![49XUENLsqpkRw_1Ka_zb-YWFJo6oZqP28g.png](adblocker-xr1000/49XUENLsqpkRw_1Ka_zb-YWFJo6oZqP28g.png)
 

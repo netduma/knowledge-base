@@ -6,19 +6,19 @@ title: Legacy Guide - Optimal DumaOS settings for Apex Legends
 
 You can use the Geo-Filter to guarantee you only play on your favourite server location in Apex Legends. This guide will help you to setup your Geo-Filter optimally for Apex Legends:
 
-**<u><span>Background</span></u>**
+## Background
 
 Apex Legends uses Dedicated Servers to host your game. They are located all around the world. The game may give you a nearby server with a low ping, but it can not guarantee this. For example, when many players are online, it will prioritize giving you an available server quickly rather than the server with the best possible ping. This is true even when you try to use the Data Center selector in the bootup screen. 
 
 But with the DumaOS Geo-Filter, you can guarantee that you play on the same server every time, ensuring you always play with a consistent, low ping. (See a demonstration video here: 
 
-**<u><span>Server Locations</span></u>**
+## Server Locations
 
 Here are the server locations in Apex Legends, including the region that Respawn consider them to be in:
 
 ![tSWWx5x6RuNUUn4HqY6v9Y99JJx2TRQ7xg.jpg](optimal-settings-apex-legends/tSWWx5x6RuNUUn4HqY6v9Y99JJx2TRQ7xg.jpg)
 
-**<u>Setup Guide</u>**
+## Setup Guide
 
 1. Access DumaOS from a computer. On a Nighthawk Pro Gaming router, go to [routerlogin.net](http://routerlogin.net). On a Netduma R1, go to [192.168.88.1](http://192.168.88.1) 
 2. Default login details are **admin** and **password** *(in English)*
@@ -35,9 +35,9 @@ Here are the server locations in Apex Legends, including the region that Respawn
 
 We hope you enjoy using the Geo-Filter to Dominate Lag in Apex Legends. If you would want to optimise your connection even further, see all our [Optimal Settings Guides for DumaOS](http://support.netduma.com/support/solutions/folders/16000090646)
 
-**<u><span>Troubleshooting</span></u>**
+## Troubleshooting
 
-**Q: I cannot search for a game after blocking servers, what should I do?**
+### Q: I cannot search for a game after blocking servers, what should I do?
 
 A: It is common when using the Geo-Filter to see this screen:
 
@@ -47,19 +47,19 @@ This happens when you block distant servers on multiple occasions in a single ga
 
 To reduce the frequency of this screen appearing, we recommend you don't make your Geo-Filter radius too small - try to at least cover the server region you want to play in (see the Server Map above to see your region).
 
-**Q: I cannot join the pre-game Home lobby  / I see the message "Attempting Connection"**
+### Q: I cannot join the pre-game Home lobby  / I see the message "Attempting Connection"
 
 A: If you get this please reattempt to join the lobby. This can sometimes happen because the Geo-Filter blocks Authentication servers we have not yet whitelisted. We will be improving our Whitelist to include more authentication servers to minimise this issue, but for now please just reattempt to join the lobby. If this does not work, please restart the game
 
 ![aCbdm-S2PEeeGrcNUpDcroFtAsNYs2e5Mw.png](optimal-settings-apex-legends/aCbdm-S2PEeeGrcNUpDcroFtAsNYs2e5Mw.png)
 
-**Q: What are the rectangles with white rings around them?**
+### Q: What are the rectangles with white rings around them?
 
  These are "Authentication" servers used by the game to allow you to connect to the home lobby. They are not used to host your actual game. You can ignore these when they appear in the Map
 
 ![YNgoTG7dTz3XjQZNJNpK-DxMA9UUKyjmtw.png](optimal-settings-apex-legends/YNgoTG7dTz3XjQZNJNpK-DxMA9UUKyjmtw.png)
 
-**Q: I think a server is in the wrong location on the Map**
+### Q: I think a server is in the wrong location on the Map
 
 This can sometimes happen because accurately placing every connection in the world is nigh-on impossible. But we can correct any mislocations with your help. Please let us know on our forum in this thread (read the first post so you know what to provide): [Geo-Filter Server Location Improvements - Feature Ideas &amp; Improvements for DumaOS - Netduma Forum](https://forum.netduma.com/topic/28284-reporting-mislocated-geo-filter-servers/) 
 

@@ -8,6 +8,14 @@ A static site generated with Hugo and Hextra.
 
 ## Development
 
+### Run makdownlint
+
+Install markdownlint-cli2 globally (`npm --global markdownlint-cli2` or from your package manager)
+
+```bash
+markdownlint-cli2 "**/*.md" "*.md"
+```
+
 ### On Linux
 
 ```bash
