@@ -6,7 +6,7 @@ Setting an interface password is a great way to limit access to your router cont
 
 To set an interface password for DumaOS on the Netduma R1, first click on the 'Account Settings' icon located on the header bar of DumaOS. This will open the 'Account Settings' box below:
 
-![d2AdyX8kFPPr-oFJPzJti8KuPRRrPgu8rg.png](howtochangeyourdumaosinterfacepasswordonthenetdumar1\d2AdyX8kFPPr-oFJPzJti8KuPRRrPgu8rg.png)
+![d2AdyX8kFPPr-oFJPzJti8KuPRRrPgu8rg.png](change-wifi-password-r1/d2AdyX8kFPPr-oFJPzJti8KuPRRrPgu8rg.png)
 
 Here you can change the username and / or password any visitor will need to enter before accessing DumaOS.
 

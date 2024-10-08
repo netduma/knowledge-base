@@ -12,7 +12,7 @@ Ping Assist on DumaOS is very powerful, so you could choose to use Ping Assist a
 
 3. Now shrink your **Set Distance** radius to the lowest amount. This should now mean your Geo-Filter range covers no land area. It should look like this:
 
-   ![ss7nqkcDaFz6snKwYLQEfJ12N8dVb8vzUg.png](usingpingassistasapingfilter/ss7nqkcDaFz6snKwYLQEfJ12N8dVb8vzUg.png)
+   ![ss7nqkcDaFz6snKwYLQEfJ12N8dVb8vzUg.png](using-ping-assist-as-a-ping-filter/ss7nqkcDaFz6snKwYLQEfJ12N8dVb8vzUg.png)
 
 4. Expand the Geo-Filter Map options. This is in the top left corner of the Geo-Filter Map panel (three horizontal lines
 

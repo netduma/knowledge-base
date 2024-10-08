@@ -6,7 +6,7 @@ Setting a WiFi password is one of the best ways to protect your network from unw
 
 To change this, first navigate to Network Settings before clicking on the WiFi tab. This will open the WiFi settings seen below:
 
-![sROfOnP73iH9COk3qYP-ABdpUypELR2EgQ.png](howtochangethenetdumar1wifipasswordusingdumaos\sROfOnP73iH9COk3qYP-ABdpUypELR2EgQ.png)
+![sROfOnP73iH9COk3qYP-ABdpUypELR2EgQ.png](change-wifi-password-r1/sROfOnP73iH9COk3qYP-ABdpUypELR2EgQ.png)
 
 Next, use the 'Password' field to enter a memorable WiFi password for your router. If you forget this password at any point, you can factory reset the router using this guide. Once you factory reset the router, your default WiFi password will become 'netdumar1'.
 

@@ -21,7 +21,7 @@ If only some of your devices are connected to DumaOS, but other devices on the n
 
 The optimal network configuration for DumaOS would be for all devices on the network to be connected behind the DumaOS router.
 
-![ndXZlps9IKcTdd9rMPiDCoFrRhuWhd3MEA.png](whycantigetfullspeedsfrommydumaosrouter\ndXZlps9IKcTdd9rMPiDCoFrRhuWhd3MEA.png)
+![ndXZlps9IKcTdd9rMPiDCoFrRhuWhd3MEA.png](network-speeds-low/ndXZlps9IKcTdd9rMPiDCoFrRhuWhd3MEA.png)
 
 ## Disable QoS
 
@@ -50,6 +50,6 @@ To do this, log in to your DumaOS interface. 
 
 If Connection Benchmark reports considerably lower speeds than what you'd expect, run a speed test while connected directly to you ISP router/modem and check to see if the results are the same. If they are, contact your ISP.
 
-![F8viid4kl7EXFLO1rQbh-rxM_sJrquAcyg.png](whycantigetfullspeedsfrommydumaosrouter\F8viid4kl7EXFLO1rQbh-rxM_sJrquAcyg.png)
+![F8viid4kl7EXFLO1rQbh-rxM_sJrquAcyg.png](network-speeds-low/F8viid4kl7EXFLO1rQbh-rxM_sJrquAcyg.png)
 
 If you haven't found the cause/solution to your problem using this article, please create a new topic on our support [forum](https://forum.netduma.com/) and one of our admins will be glad to assist you.

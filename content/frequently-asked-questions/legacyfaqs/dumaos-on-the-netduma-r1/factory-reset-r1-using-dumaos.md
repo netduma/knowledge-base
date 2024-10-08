@@ -8,7 +8,7 @@ Performing a factory reset on the Netduma R1 is easy, though you should only do 
 
 To perform a factory reset, first click on the 'i' (Information) icon on the header bar of DumaOS. This will open the 'Information' box shown below:
 
-![VZVQEr7vY30xmlq6rdalA8Bv5aLRZESUZA.png](howtofactoryresetthenetdumar1usingdumaos\VZVQEr7vY30xmlq6rdalA8Bv5aLRZESUZA.png)
+![VZVQEr7vY30xmlq6rdalA8Bv5aLRZESUZA.png](factory-reset-r1-using-dumaos/VZVQEr7vY30xmlq6rdalA8Bv5aLRZESUZA.png)
 
 Click on 'Factory Reset' and wait for the router to fully reboot before trying to use the interface again. This process will take around two minutes.
 

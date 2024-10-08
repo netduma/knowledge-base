@@ -17,7 +17,7 @@ You 'Deny’ bad hosts or ‘Allow’ good hosts and friends from the Ping Panel
 3. In the Ping Panel below the Geo-Filter Map, name the connection and click on **Deny**. The connection will then be added to your Allow and Deny panel as denied
 4. The connection will now be blocked whenever you next try to connect to it
 
-![BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png](howtouseallowanddenyondumaos\BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png)
+![BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png](how-to-use-allow-and-deny-dumaos/BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png)
 
 **How to Allow a good connection / friend**
 
@@ -28,6 +28,6 @@ You 'Deny’ bad hosts or ‘Allow’ good hosts and friends from the Ping Panel
 5. Set your Filter back to Filtering Mode in the top Device Panel
 6. You will now always be able to connect to this allowed connection, even if they are outside of your filtering range
 
-![BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png](howtouseallowanddenyondumaos\BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png)
+![BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png](how-to-use-allow-and-deny-dumaos/BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png)
 
 You have now successfully configured the Geo-Filter for gaming. [Click here for more Optimal Settings Guides](http://support.netduma.com/support/solutions/folders/16000090646)

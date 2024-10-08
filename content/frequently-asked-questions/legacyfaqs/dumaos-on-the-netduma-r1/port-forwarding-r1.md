@@ -6,11 +6,11 @@ Port forwarding is a great way to achieve an open NAT type for multiplayer games
 
 To access the Port Forwarding menu, first click on 'Network Settings' and then select 'Port Forwarding' on the LAN settings panel.
 
-![XQxOb-99PpiJ4CFdWd0WCGhawjlNW3XNbA.png](howtoportforwardonthenetdumar1usingdumaos\XQxOb-99PpiJ4CFdWd0WCGhawjlNW3XNbA.png)
+![XQxOb-99PpiJ4CFdWd0WCGhawjlNW3XNbA.png](port-forwarding-r1/XQxOb-99PpiJ4CFdWd0WCGhawjlNW3XNbA.png)
 
 Next, click 'Add Rule'. This will open the port forwarding box seen below:
 
-![k4eAxuJT2cCIotImzTCKs4OcdyYJaz6oFw.png](howtoportforwardonthenetdumar1usingdumaos\k4eAxuJT2cCIotImzTCKs4OcdyYJaz6oFw.png)
+![k4eAxuJT2cCIotImzTCKs4OcdyYJaz6oFw.png](port-forwarding-r1/k4eAxuJT2cCIotImzTCKs4OcdyYJaz6oFw.png)
 
 In the 'Name' text box, type any name you want to help identify your port forwarding rule. (e.g Call of Duty Ports)
 
@@ -20,9 +20,9 @@ Now it's time to enter which ports you are forwarding. Remember that you may nee
 
 When you're forwarding ports, you should use the same values for both 'Incoming Ports' and 'Outgoing Ports' in almost all cases.
 
-Start Port - If the ports you need to open are in a range (e.g. 1 - 10) you would type the first port in that range here. If you need for open only one port, this number should be the same as ‘End Port’.  
+Start Port - If the ports you need to open are in a range (e.g. 1 - 10) you would type the first port in that range here. If you need for open only one port, this number should be the same as ‘End Port’.
 
-End Port - If the ports you need to open are in a range you would type the last port in that range here. If you only need to open one port, this number should be the same as ‘Start Port’.  
+End Port - If the ports you need to open are in a range you would type the last port in that range here. If you only need to open one port, this number should be the same as ‘Start Port’.
 
 Protocol - You can choose between TCP, UDP or both. You should be able to find out which option you need to select here online.
 

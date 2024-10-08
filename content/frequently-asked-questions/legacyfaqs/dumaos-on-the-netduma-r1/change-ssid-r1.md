@@ -6,7 +6,7 @@ Your SSID (Set Service Identifier), commonly referred to as your 'Network Name',
 
 To change this, first navigate to Network Settings before clicking on the WiFi tab. This will open the WiFi settings seen below:
 
-![o4jBGQbMuelam3fw4k8OwazHWVybdnkFFg.png](howtochangethenetdumar1ssidusingdumaos\o4jBGQbMuelam3fw4k8OwazHWVybdnkFFg.png)
+![o4jBGQbMuelam3fw4k8OwazHWVybdnkFFg.png](change-ssid-r1/o4jBGQbMuelam3fw4k8OwazHWVybdnkFFg.png)
 
 Next, simply type a memorable name into the 'Network Name' field. You may select the 'Don't Broadcast Network Name' option below to prevent others from being able to see your network name.
 
