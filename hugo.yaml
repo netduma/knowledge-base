@@ -56,8 +56,11 @@ menu:
     - name: Forum ↗
       url: "https://forum.netduma.com"
       weight: 5
-    - name: Search
+    - name: Buy ↗
+      url: "https://www.netduma.com/checkout"
       weight: 6
+    - name: Search
+      weight: 7
       params:
         type: search
 
