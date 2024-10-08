@@ -29,7 +29,7 @@ The first thing to check is QoS. If disabling QoS fixes the problem, that tells 
 
 To Disable QoS, first login to your DumaOS interface:
 
-1. For Netgear, go to **192.168.1.1** OR [**routerlogin.net**](https://routerlogin.net) in your browser. For an R1 or an R2, go to **192.168.88.1** (R1) or **192.168.77.1** (R2) in your browser. 
+1. For NETGEAR, go to **192.168.1.1** OR [**routerlogin.net**](https://routerlogin.net) in your browser. For an R1 or an R2, go to **192.168.88.1** (R1) or **192.168.77.1** (R2) in your browser. 
 2. Login with your credentials
 3. Go to **QoS**
 4. Click the three-line menu in top left corner of **Congestion Control (Anti-Bufferbloat for older versions)**
@@ -42,7 +42,7 @@ If the speed-test results are back to full ISP speeds, we know the drop in speed
 
 To do this, log in to your DumaOS interface. 
 
-1. For Netgear, go to **192.168.1.1** OR [**routerlogin.net**](https://routerlogin.net) in your browser. For an R1 or an R2, go to **192.168.88.1** (R1) or **192.168.77.1** (R2) in your browser. 
+1. For NETGEAR, go to **192.168.1.1** OR [**routerlogin.net**](https://routerlogin.net) in your browser. For an R1 or an R2, go to **192.168.88.1** (R1) or **192.168.77.1** (R2) in your browser. 
 2. Login with your credentials
 3. Go to **Connection Benchmark.** 
 4. Run a test and wait for it to complete.
