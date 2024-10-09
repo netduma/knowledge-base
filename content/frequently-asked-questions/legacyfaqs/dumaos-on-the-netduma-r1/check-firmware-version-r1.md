@@ -2,18 +2,11 @@
 title: How do I check my R1 firmware version number?
 ---
 
-1. On a PC or Laptop connect to your Netduma R1 router. 
-   You can do this using a wired Ethernet cable, or by connecting to the 
-   router wirelessly
+1. On a PC or Laptop connect to your Netduma R1 router. You can do this using a wired Ethernet cable, or by connecting to the router wirelessly
 2. Open a web browser, like Google Chrome
 3. In the address bar, type in 192.168.88.1 and press enter
 4. The Netduma user interface should open. If it does not, please try typing in [http://r1/](http://r1/) instead
-5. Once
-   on the user interface, scroll to the very bottom of the page. You 
-   should be able to see the version number. It will look something like 
-   this:
-
-
+5. Once on the user interface, scroll to the very bottom of the page. You should be able to see the version number. It will look something like this:
 
 ![NDHOPAAWx9FCVEuGnHEFlQCnZmWVHNbXow.png](check-firmware-version-r1\NDHOPAAWx9FCVEuGnHEFlQCnZmWVHNbXow.png)
 
