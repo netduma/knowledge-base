@@ -7,11 +7,15 @@ SmartBOOST dynamically adjusts to give your favourite applications the exact ban
 
 Add some priorities to get started. You can prioritise devices, applications, or whole categories of applications.
 
+![](smartboost/2024-10-09-13-06-12-image.png)
+
 ## Fine-tuning SmartBOOST
 
 Once you’ve prioritised some items, you can order them based on what matters to you - from most important to least. When bandwidth is being used, SmartBOOST will ensure that your favourites will always get what they need based on your priority order.
 
 Devices are prioritised in a separate list, with their own order of importance. Applications in use on your favourite devices will be given a higher priority than those on other devices.
+
+![](smartboost/2024-10-09-13-01-01-image.png)
 
 ## Understanding allocation
 
@@ -24,3 +28,13 @@ To get a very in-depth breakdown of exactly how bandwidth is being allocated on 
 ## Creating Profiles
 
 Profiles let you swap out your active priority list on a schedule. Try scheduling in your work hours or other routine events to fully automate your network. Don’t worry - even without custom profiles, we’ll still make sure your priorities get what they need.
+
+![](smartboost/2024-10-09-12-51-44-image.png)
+
+## Bandwidth Reservation
+
+Using Bandwidth Reservation, you can give a chosen application on a chosen device a guaranteed minimum slice of your bandwidth.
+
+While SmartBOOST will always try to balance your connection, Bandwidth Reservation allows you to manually assign larger amounts of bandwidth than might be allocated by the default settings. It also acts as a guarantee that bandwidth will not drop below the set threshold.
+
+![](smartboost/2024-10-09-12-48-34-image.png)

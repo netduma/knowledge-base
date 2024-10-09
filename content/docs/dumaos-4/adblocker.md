@@ -19,3 +19,12 @@ If you’re having trouble accessing a webpage, try pausing your device or all d
 To expand the capabilities of Adblocker, you can add your own domain lists for your router to block. You can find new lists of domains through online databases.
 
 Navigate to your Adblocker Lists and press Add Blocklist to get started. You can provide a URL to a list, or create your own list manually.
+
+> We suggest checking [firebog.net](https://firebog.net/) for new lists to add. Simply open the desired list in your browser and copy the URL. It should end in `.txt`
+
+URLs can be added individually. You can add them with or without subdomains. You cannot however add specific paths.
+
+✔ `www.microsoft.com`
+✔ `microsoft.com`
+❌ `https://www.microsoft.com`
+❌ `microsoft.com/microsoft-teams`

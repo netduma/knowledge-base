@@ -41,4 +41,6 @@ Steady Ping smoothes out your gaming connection using the same approach as suspe
 
 When you connect to a game, Steady Ping will take a few seconds to stabilise your connection. Once you’re stabilised, check out your ping to the host: on the chart, you can see how unstable your ping would’ve been on the bottom, and what your current ping is above.
 
+> Steady Ping creates a "ping buffer". This will result in your ping appearing slightly higher than normal in-game, but it will feel much smoother and more responsive. To return to your normal ping, simply disable Steady Ping.
+
 In the rare case that Steady Ping can’t stabilise the host, your gameplay will be unaffected and proceed as normal. Since your average ping will only be increased by ~8ms to achieve rock-solid gameplay, there really is no down-side.
