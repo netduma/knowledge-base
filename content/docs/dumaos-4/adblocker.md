@@ -1,4 +1,6 @@
-# Adblocker on DumaOS 4
+---
+title: Adblocker on DumaOS 4
+---
 
 Adblocker protects your devices by blocking ads and trackers network-wide: even on hard-to-protect devices such as Smart TVs and games consoles.
 
