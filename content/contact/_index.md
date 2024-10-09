@@ -5,7 +5,7 @@ cascade:
 
 # Contact
 
-Get the quickest response on our [Forum](forum.netduma.com)
+Get the quickest response on our [Forum](https://forum.netduma.com)
 
 Send your query via email: [netduma@netduma.com](mailto:netduma@netduma.com)
 
