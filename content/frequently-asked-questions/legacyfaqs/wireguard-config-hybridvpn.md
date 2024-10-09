@@ -21,4 +21,4 @@ If you believe your traffic is not being routed through the VPN, use [https://ip
 
 If it shows that your IP hasn't changed and that your location remains the same, you may be experiencing a DNS leak. Please check this article to see how you can resolve that.
 
-[Why should I set DNS entries for Hybrid VPN? : NETDUMA](http://support.netduma.com/support/solutions/articles/16000122401-why-should-i-set-dns-entries-for-hybrid-vpn-)
+[Why should I set DNS entries for Hybrid VPN? : NETDUMA](/frequently-asked-questions/hybrid-vpn-dns-entries/)

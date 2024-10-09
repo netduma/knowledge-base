@@ -5,7 +5,7 @@ weight: 3
 
 QoS stands for 'Quality of Service'. It is used to prevent congestion from building on your network, kind of like having a smart traffic controller during rush hour on the roads..
 
-By default, the QoS R-App is configured to give you your full speeds provided by your ISP. However, this will not necessarily give you the best experience when gaming or doing anything else that is latency sensitive. This quick guide will help you setup your QoS optimal for gaming etc. If you just want to maximise your bandwidth speeds, check out our [DumaOS Speed Guide](http://support.netduma.com/support/solutions/articles/16000076586-dumaos-optimal-settings-guide-speeds).
+By default, the QoS R-App is configured to give you your full speeds provided by your ISP. However, this will not necessarily give you the best experience when gaming or doing anything else that is latency sensitive. This quick guide will help you setup your QoS optimal for gaming etc. If you just want to maximise your bandwidth speeds, check out our [DumaOS Speed Guide](/docs/dumaos-3/maximum-bandwidth-speeds/).
 
 ### Congestion Control
 
@@ -53,4 +53,4 @@ You can manually add ports to Traffic Prioritization. To do this, click ‘Add D
 
 If you wish to add just one port, type its number into both the Start and End boxes beneath ‘Destination Port’. For a range of ports, type the first number of the range in Start and the last number of the range in End beneath ‘Destination Port’. After this, select your protocol and click ‘Done’.
 
-You have now successfully configured QoS for gaming. [Click here for more Optimal Settings Guides](http://support.netduma.com/support/solutions/folders/16000090646).
+You have now successfully configured QoS for gaming. [Click here for more Optimal Settings Guides](/docs/dumaos-3/).

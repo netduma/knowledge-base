@@ -14,10 +14,10 @@ Click on 'Factory Reset' and wait for the router to fully reboot before trying t
 
 After a factory reset is performed, your settings will be reverted to default and your password will become 'netdumar1'. You can change your password by clicking the 'Account Settings' icon on the header bar of DumaOS.
 
-To setup your router optimally, we recommend you follow these guides:  [DumaOS Optimal Settings Guides : NETDUMA](http://support.netduma.com/en/support/solutions/folders/16000090646)
+To setup your router optimally, we recommend you follow these guides:  [DumaOS Optimal Settings Guides : NETDUMA](/docs/dumaos-3/)
 
 ## Performing a Factory Reset using the Reset button
 
 If you can't access the interface, you can still reset your router using the reset button.
 
-Follow this guide: [How to factory reset the Netduma R1 using the Reset button : NETDUMA](https://netduma.freshdesk.com/en/support/solutions/articles/16000094903-how-to-reset-a-netduma-r1-using-the-reset-button)
+Follow this guide: [How to factory reset the Netduma R1 using the Reset button : NETDUMA](/frequently-asked-questions/legacyfaqs/dumaos-on-the-netduma-r1/factory-reset-r1-using-reset-button/)

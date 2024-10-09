@@ -30,4 +30,4 @@ After installation has completed you are ready to setup DumaOS! Please use the f
 
 **Downgrading:**
 
-You can downgrade back to the original R1 firmware any time you wish to. Follow [these instructions](http://support.netduma.com/support/solutions/articles/16000085792-downgrading-back-to-the-original-r1-firmware-from-dumaos).
+You can downgrade back to the original R1 firmware any time you wish to. Follow [these instructions](/frequently-asked-questions/legacyfaqs/dumaos-on-the-netduma-r1/downgrade-firmware-r1/).

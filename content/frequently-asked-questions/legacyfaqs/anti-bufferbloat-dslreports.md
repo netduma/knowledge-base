@@ -20,4 +20,4 @@ If you wish to verify this yourself, then you can easily do so by using a progra
 2. Saturate your connection as much as possible (e.g. download files, stream HD    videos etc), then do a PingPlotter test and see how much your ping rises.
 3. Enable QoS by switching Anti-Bufferbloat to 'Always' and drag the sliders down to 70% each. You will then see your ping return to pre-congestion levels and stabilise your connection.
 
-For full test steps, [see this link](http://support.netduma.com/support/solutions/articles/16000074717-diagnose-modem-internet-service-provider-issues/preview)
+For full test steps, [see this link](/frequently-asked-questions/legacyfaqs/test-your-ping/)
