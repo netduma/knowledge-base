@@ -1,8 +1,7 @@
 ---
 weight: 2
+title: Device Manager on Telstra Game Optimiser
 ---
-
-# Device Manager on Telstra Game Optimiser
 
 ## Network Map
 

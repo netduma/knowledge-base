@@ -1,4 +1,6 @@
-# Network Activity on DumOS 4
+---
+title: Network Activity on DumOS 4
+---
 
 Network Activity lets you break down your network usage to spot programs/devices that are hogging bandwidth, in real-time or over any range of time.
 
