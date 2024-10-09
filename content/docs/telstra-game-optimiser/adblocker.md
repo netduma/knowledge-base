@@ -1,4 +1,6 @@
-# Adblocker on Telstra Game Optimiser
+---
+title: Adblocker on Telstra Game Optimiser
+---
 
 Adblocker will block Ads, Tracking and Malware on all devices on your network. You can select which devices are filtered and which are not. You can also customize the blacklists to block specific websites.
 
