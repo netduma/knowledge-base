@@ -24,7 +24,7 @@ Ping Assist is an add-on to the Geo-Filter. It allows low ping hosts to connect 
 
 > Note: if you are playing Black Ops 4, we always recommend rebooting your game after making Geo-Filter changes. There's a crucial network check the game does at bootup. So if you're not getting the lobbies you like, reboot the game and it should be better the next time.*
 
-To use Ping Assist as a Ping Filter, follow this guide: [DumaOS Optimal Settings Guide: Using Ping Assist as a Ping Filter : NETDUMA](https://netduma.freshdesk.com/en/support/solutions/articles/16000095583-using-ping-assist-as-a-ping-filter)  
+To use Ping Assist as a Ping Filter, follow this guide: [DumaOS Optimal Settings Guide: Using Ping Assist as a Ping Filter : NETDUMA](/docs/dumaos-3/using-ping-assist-as-a-ping-filter/)  
 
 ## Troubleshooting
 
@@ -32,4 +32,4 @@ On rare occasions, Ping Assist may block connections below the threshold.
 This is usually due to the netcode of the game. If this happens, restart
 your game and it should work great the next time
 
-[Click here for more Optimal Settings Guides](http://support.netduma.com/support/solutions/folders/16000090646)
+[Click here for more Optimal Settings Guides](/docs/dumaos-3/)

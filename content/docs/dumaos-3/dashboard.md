@@ -39,4 +39,4 @@ To go even further into detail, you can click on a segment of the Category Break
 
 ![IMOHSmovVK61iGOl59oNOrDEBOY6CBwDbA.png](dashboard/5bba6408cd0a92dd98b0ff3f5559692d554ee1d9.png)
 
-That concludes the DumaOS Optimal Settings Guide. If you wish to learn more, try checking out [this guide on how to get an open NAT type](http://support.netduma.com/support/solutions/articles/16000076587-dumaos-optimal-settings-guide-nat), or [this guide to discover how to maximise your speeds using DumaOS](http://support.netduma.com/support/solutions/articles/16000076586-dumaos-optimal-settings-guide).
+That concludes the DumaOS Optimal Settings Guide. If you wish to learn more, try checking out [this guide on how to get an open NAT type](/docs/dumaos-3/open-nat/), or [this guide to discover how to maximise your speeds using DumaOS](/docs/dumaos-3/maximum-bandwidth-speeds/).

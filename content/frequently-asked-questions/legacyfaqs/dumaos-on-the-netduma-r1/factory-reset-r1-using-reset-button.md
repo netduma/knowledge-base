@@ -14,4 +14,4 @@ If you are are not able to access the user interface to factory reset your route
    - the default credentials are **admin** and **password  -** make sure you type these in English and lower case
 5. You should now be able to access your R1 which has been restored to default settings. To setup your router optimally, we recommend you follow these guides: [DumaOS Optimal Settings Guides : NETDUMA](http://support.netduma.com/en/support/solutions/folders/16000090646)
 
-In future, you can reset the router from inside the interface:  [How to factory reset the Netduma R1 using DumaOS : NETDUMA](http://support.netduma.com/support/solutions/articles/16000084263-how-to-factory-reset-the-netduma-r1-using-dumaos)
+In future, you can reset the router from inside the interface:  [How to factory reset the Netduma R1 using DumaOS : NETDUMA](/frequently-asked-questions/legacyfaqs/dumaos-on-the-netduma-r1/factory-reset-r1-using-dumaos/)

@@ -79,4 +79,4 @@ You 'Deny’ bad hosts or ‘Allow’ good hosts and friends from the Ping Panel
 
 ![BSv4R8ltQ7z4ksVw6QMWeE-TzFwY-n6w7A.png](geo-filter/98f743d78f3ac7cf8a6ffcedd98df4b1805cc1ab.png)
 
-You have now successfully configured the Geo-Filter for gaming. [Click here for more Optimal Settings Guides](http://support.netduma.com/support/solutions/folders/16000090646)
+You have now successfully configured the Geo-Filter for gaming. [Click here for more Optimal Settings Guides](/docs/dumaos-3/)

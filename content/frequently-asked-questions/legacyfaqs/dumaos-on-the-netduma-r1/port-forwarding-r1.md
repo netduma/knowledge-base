@@ -30,4 +30,4 @@ Protocol - You can choose between TCP, UDP or both. You should be able to find o
 
 ## **<u>Still not able to achieve an open NAT?</u>**
 
-If you have tried every step in this guide and still cannot get an open NAT, check out the [DumaOS NAT guide](http://support.netduma.com/en/support/solutions/articles/16000076587-dumaos-optimal-settings-guide-nat).
+If you have tried every step in this guide and still cannot get an open NAT, check out the [DumaOS NAT guide](/docs/dumaos-3/open-nat/).

@@ -57,7 +57,7 @@ You need to re-enable QoS. So navigate to **QoS**. On the ****Congestion Control
 
 Now repeat the Speedtest. 
 
-If your speeds **returned to normal** then you have achieved the objective of getting full speeds. However, your QoS is no longer setup optimally. We recommend you now configure this to get the best congestion elimination setup for your network. See this [Optimal QoS Setup](http://support.netduma.com/support/solutions/articles/16000077073-dumaos-optimal-settings-guide-qos-step-3-) guide to learn how
+If your speeds **returned to normal** then you have achieved the objective of getting full speeds. However, your QoS is no longer setup optimally. We recommend you now configure this to get the best congestion elimination setup for your network. See this [Optimal QoS Setup](/docs/dumaos-3/qos/) guide to learn how
 
 If your speeds **were still low** but they are normal through your modem, then you have an obscure issue. We recommend you try the following:
 
