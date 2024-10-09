@@ -1,4 +1,6 @@
-# Ping Heatmap on Telstra Game Optimiser
+---
+title: Ping Heatmap on Telstra Game Optimiser
+---
 
 ## Monitor Server Quality
 
