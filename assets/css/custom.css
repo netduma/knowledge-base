@@ -1,5 +1,7 @@
 :root {
-    --primary-hue: 357deg;
+    --primary-hue: 357.41deg;
     --primary-saturation: 100%;
+    /* Hextra adds 5% in most places  */
+    --primary-lightness: 70%;
     font-family: "Roboto";
 }
