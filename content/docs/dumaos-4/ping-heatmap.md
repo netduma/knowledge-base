@@ -1,6 +1,6 @@
 ---
 weight: 11
-title: Ping Heatmap on DumaOS 4
+title: Ping Heatmap
 ---
 
 Ping Heatmap allows you to see the location of every server for your favourite games. Try using Ping Heatmap to see where the best game servers are for your region before you set up the Geo-Filter.

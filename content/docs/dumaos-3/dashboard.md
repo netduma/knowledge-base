@@ -1,6 +1,6 @@
 ---
 weight: 8
-title: Dashboard and Network Monitor on DumaOS 3
+title: Dashboard and Network Monitor
 ---
 
 There are many unique features in DumaOS designed to help you to understand your network in an intuitive way. In this guide we will cover the Dashboard and the Network Monitor.

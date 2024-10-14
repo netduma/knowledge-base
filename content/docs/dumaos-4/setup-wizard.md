@@ -1,5 +1,5 @@
 ---
-title: Setup Wizard on DumaOS 4
+title: Setup Wizard
 weight: 5
 ---
 

@@ -1,6 +1,6 @@
 ---
 weight: 6
-title: Ping Assist on DumaOS 3
+title: Ping Assist
 ---
 
 This guide will help you setup Ping Assist on your DumaOS powered router. 

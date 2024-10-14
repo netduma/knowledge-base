@@ -1,5 +1,5 @@
 ---
-title: Nighthawk XR500 User Manual
+title: Nighthawk XR500
 ---
 
 ![u7Ow3qVilpdImYumii-7lAovVkh_mGUwug.jpg](nighthawk-xr500-user-manual/u7Ow3qVilpdImYumii-7lAovVkh_mGUwug.jpg)

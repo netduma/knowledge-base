@@ -1,5 +1,5 @@
 ---
-title: Geo-Filter on DumaOS 4
+title: Geo-Filter
 weight: 10
 ---
 

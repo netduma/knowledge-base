@@ -1,6 +1,6 @@
 ---
 weight: 3
-title: Connection Benchmark on Telstra Game Optimiser
+title: Connection Benchmark
 ---
 
 ## Test Network Performance
