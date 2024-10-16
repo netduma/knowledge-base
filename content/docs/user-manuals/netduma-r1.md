@@ -1,5 +1,5 @@
 ---
-title: Netduma R1 User Manual
+title: Netduma R1
 ---
 
 Download the Netduma R1 DumaOS user guide here:

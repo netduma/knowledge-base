@@ -1,5 +1,5 @@
 ---
-title: QoS on Telstra Game Optimiser
+title: QoS
 ---
 
 When devices in your home are using all the bandwidth, it creates congestion. This causes lag, especially for online games.

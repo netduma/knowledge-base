@@ -1,5 +1,5 @@
 ---
-title: Geo-Filter on Telstra Game Optimiser
+title: Geo-Filter
 ---
 
 Lag in online games is usually caused by the distance from you to the host or server of your game. Geo-Filter allows you to specify which areas of the world you wish to connect to, meaning you can stop connections to laggy hosts before they happen.

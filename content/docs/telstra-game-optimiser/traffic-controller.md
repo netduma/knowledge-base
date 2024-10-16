@@ -1,5 +1,5 @@
 ---
-title: Traffic Controller on Telstra Game Optimiser
+title: Traffic Controller
 ---
 
 ## Next-generation Firewall

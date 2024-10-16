@@ -1,5 +1,5 @@
 ---
-title: Using Ping Assist as a Ping Filter on DumaOS 3
+title: Using Ping Assist as a Ping Filter
 weight: 7
 ---
 

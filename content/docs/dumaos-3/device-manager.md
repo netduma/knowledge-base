@@ -1,5 +1,5 @@
 ---
-title: Device Manager on DumaOS 3
+title: Device Manager
 weight: 2
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: QoS on DumaOS 3
+title: QoS
 weight: 3
 ---
 

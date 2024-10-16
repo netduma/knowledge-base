@@ -23,7 +23,7 @@ module:
     min: "0.112.0"
 
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/Gr3q/hextra
 
 markup:
   goldmark:
