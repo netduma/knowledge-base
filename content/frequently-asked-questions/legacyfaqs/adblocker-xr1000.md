@@ -14,7 +14,7 @@ However, you can manually add the default list by following the instructions bel
 
 ![jwtmUmw5w7ezT5HSIhQi-NZDaKmrU67qPg.png](adblocker-xr1000/jwtmUmw5w7ezT5HSIhQi-NZDaKmrU67qPg.png)
 
-- Enter the name as Default, and paste in the following URL: [https://netduma.com/adblocker-lists/default-list.txt](https://netduma.com/adblocker-lists/default-list.txt)!
+- Enter the name as Default, and paste in the following URL: [https://netgear-adblocker-workaround.netduma.com/default-list.txt](https://netgear-adblocker-workaround.netduma.com/default-list.txt)
 
 ![HC2tH2meVF74z2QElr5MrvRjCaE3UPhzzA.png](adblocker-xr1000/HC2tH2meVF74z2QElr5MrvRjCaE3UPhzzA.png)
 
