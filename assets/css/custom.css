@@ -6,3 +6,11 @@
     --sidebar-bg-selected-opacity: 0;
     font-family: "Roboto";
 }
+
+.hextra-footer {
+    background-color: transparent;
+}
+
+.hextra-footer:is(html[class~="dark"] *) {
+    background-color: transparent;
+}
