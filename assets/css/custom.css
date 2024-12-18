@@ -4,10 +4,20 @@
     /* Hextra adds 5% in most places  */
     --primary-lightness: 70%;
     font-family: "Roboto";
-}.sidebar-active-item {
+}
+
+.sidebar-active-item {
     background-color: transparent;
 }
 
 .sidebar-active-item:is(html[class~="dark"] *) {
+    background-color: transparent;
+}
+
+.hextra-footer {
+    background-color: transparent;
+}
+
+.hextra-footer:is(html[class~="dark"] *) {
     background-color: transparent;
 }
