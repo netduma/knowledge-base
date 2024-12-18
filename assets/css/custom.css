@@ -3,6 +3,11 @@
     --primary-saturation: 100%;
     /* Hextra adds 5% in most places  */
     --primary-lightness: 70%;
-    --sidebar-bg-selected-opacity: 0;
     font-family: "Roboto";
+}.sidebar-active-item {
+    background-color: transparent;
+}
+
+.sidebar-active-item:is(html[class~="dark"] *) {
+    background-color: transparent;
 }
