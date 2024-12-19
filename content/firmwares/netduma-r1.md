@@ -1,5 +1,6 @@
 ---
 title: NETDUMA R1
+weight: 1
 ---
 
 Current Firmware

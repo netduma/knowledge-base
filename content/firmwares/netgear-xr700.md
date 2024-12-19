@@ -1,9 +1,9 @@
 ---
-title: Netgear XR300 Installation Instructions
+title: NETGEAR Nighthawk Pro Gaming XR700
 weight: 5
 ---
 
-Most of the time you will be able to upgrade your Netgear Nighthawk Pro Gaming XR300 using the built in automatic update tool. However there are some scenarios where you may need to manually download and install a firmware.
+Most of the time you will be able to upgrade your NETGEAR Nighthawk Pro Gaming XR700 using the built in automatic update tool. However there are some scenarios where you may need to manually download and install a firmware.
 
 This guide will detail the process.
 
@@ -12,7 +12,7 @@ This guide will detail the process.
 Download the correct firmware files for your unit. These will contain the model number in the title and will be in .chk format. Do not attempt to install any firmwares which are not specifically intended for your unit.
 
 Official firmware files can be downloaded directly from Netgear here:
-[XR300 Firmware](https://www.netgear.com/support/product/xr300/#download)
+[XR700 Firmware](https://www.netgear.com/support/product/xr700/#download)
 
 ## Installation steps
 

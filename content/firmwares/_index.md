@@ -19,4 +19,12 @@ However the firmwares are all available here in case you would like to roll-back
 
 - [NETDUMA R3](/firmwares/netduma-r3/)
 
-- [NETGEAR Nighthawk Pro Gaming](/firmwares/netgear-nighthawk-pro-gaming/)
+- [NETGEAR Nighthawk Pro Gaming XR1000 and XR1000v2](/firmwares/netgear-xr1000/)
+
+- [NETGEAR Nighthawk Pro Gaming XR700](/firmwares/netgear-xr700/)
+
+- [NETGEAR Nighthawk Pro Gaming XR500](/firmwares/netgear-xr500/)
+
+- [NETGEAR Nighthawk Pro Gaming XR450](/firmwares/netgear-xr450/)
+
+- [NETGEAR Nighthawk Pro Gaming XR300](/firmwares/netgear-xr300/)

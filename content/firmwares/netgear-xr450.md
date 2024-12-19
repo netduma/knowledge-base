@@ -1,9 +1,9 @@
 ---
-title: Netgear XR450 Installation Instructions
-weight: 4
+title: NETGEAR Nighthawk Pro Gaming XR450
+weight: 7
 ---
 
-Most of the time you will be able to upgrade your Netgear Nighthawk Pro Gaming XR450 using the built in automatic update tool. However there are some scenarios where you may need to manually download and install a firmware.
+Most of the time you will be able to upgrade your NETGEAR Nighthawk Pro Gaming XR450 using the built in automatic update tool. However there are some scenarios where you may need to manually download and install a firmware.
 
 This guide will detail the process.
 

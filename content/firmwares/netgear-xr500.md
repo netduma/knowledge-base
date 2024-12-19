@@ -1,9 +1,9 @@
 ---
-title: Netgear XR500 Installation Instructions
-weight: 3
+title: NETGEAR Nighthawk Pro Gaming XR500 Installation Instructions
+weight: 6
 ---
 
-Most of the time you will be able to upgrade your Netgear Nighthawk Pro Gaming XR500 using the built in automatic update tool. However there are some scenarios where you may need to manually download and install a firmware.
+Most of the time you will be able to upgrade your NETGEAR Nighthawk Pro Gaming XR500 using the built in automatic update tool. However there are some scenarios where you may need to manually download and install a firmware.
 
 This guide will detail the process.
 
