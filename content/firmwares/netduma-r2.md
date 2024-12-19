@@ -1,5 +1,6 @@
 ---
 title: NETDUMA R2
+weight: 2
 ---
 
 Current Firmware

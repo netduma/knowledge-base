@@ -1,5 +1,6 @@
 ---
 title: NETDUMA R3
+weight: 3
 ---
 
 The Netduma R3 has an automatic update system which will appear on the DumaOS frontend whenever a new firmware is available for you. If you wish to download a firmware manually or return to an older version, you can download the files below.
