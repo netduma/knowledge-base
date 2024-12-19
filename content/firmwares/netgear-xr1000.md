@@ -13,7 +13,7 @@ There are two versions of the XR1000 on the market. They are identical in terms 
 
 Log onto DumaOS in your browser by visiting routerlogin.net while connected to your home network. The version number at the top right of the screen will either say "xr1000" or "xr1000v2". Make a note of this.
 
-![versionnumber.png](netgear-xr1000\versionnumber.png)
+![versionnumber.png](netgear-xr1000/versionnumber.png)
 
 ## Downloading the firmware files
 
@@ -29,4 +29,4 @@ After you've downloaded the firmware to your PC, log onto the DumaOS frontend, t
 
 Your router will restart during the process, so you'll lose internet access for a few minutes. Also, make sure not to unplug the unit during the upgrade, as this could potentially brick your unit.
 
-![upgradeclicks.png](netgear-xr1000\upgradeclicks.png)
+![upgradeclicks.png](netgear-xr1000/upgradeclicks.png)
