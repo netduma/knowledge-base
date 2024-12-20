@@ -21,3 +21,8 @@
 .hextra-footer:is(html[class~="dark"] *) {
     background-color: transparent;
 }
+
+.custom-footer {
+    padding-left: max(env(safe-area-inset-left),0rem);
+    padding-right: max(env(safe-area-inset-right),0rem);
+}
