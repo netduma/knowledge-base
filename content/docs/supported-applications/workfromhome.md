@@ -17,7 +17,6 @@ aliases:
 - Lifesize
 - Slack Huddle
 - Teams/Skype Call
-- VPNaaaa
 - Webex Meeting
 - Zoho Meeting
 - Zoom
