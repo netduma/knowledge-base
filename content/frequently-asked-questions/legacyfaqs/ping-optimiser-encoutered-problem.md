@@ -1,5 +1,7 @@
 ---
-title: DumaOS 3 - "Ping Optimiser has encountered a problem"
+title: Ping Optimiser has encountered a problem
+aliases:
+    - /support/solutions/articles/16000129545
 ---
 
 ## Why am I seeing this?
