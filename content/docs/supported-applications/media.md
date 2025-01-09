@@ -1,0 +1,83 @@
+---
+title: Supported Media and Streaming Applications
+weight: 3
+---
+
+- 7Plus
+- 9Now
+- ABC iView
+- AVI
+- Acorn TV
+- Amazon Prime Video
+- Apple Music
+- Apple TV+
+- BBC iPlayer
+- BritBox
+- CNN
+- Dailymotion
+- Deezer
+- DirecTV Stream
+- Disney+
+- EE TV
+- ESPN+
+- Flash
+- Fox
+- Fubo
+- H323
+- HBO Max
+- HayU
+- Hulu
+- ITVX
+- Icecast
+- Last.fm
+- MPEG
+- MPEG-TS
+- Magenta TV
+- NOS
+- Netflix
+- Now TV
+- Ogg
+- Optus
+- PPS.tv
+- PPlive
+- Pandora
+- Paramount+
+- Philo TV
+- Plex
+- Pluto TV
+- QQLive
+- QuickTime
+- Quickplay
+- RTCP
+- RTMP
+- RTP Portugal
+- RTSP
+- RealMedia
+- SBS OnDemand
+- SHOUTcast
+- SIC
+- SINA Video
+- Sky TV
+- Sling Orange
+- SopCast
+- Spotify
+- Stan
+- Starz
+- TF1
+- TIDAL
+- TVP
+- TVU Player
+- TvAnts
+- VEVO
+- Vimeo
+- Vix
+- Webm
+- Windows Media Player
+- YouTube
+- Zattoo
+- iQIYI
+- iflix
+
+<br/>
+
+***Information accurate as of January 2025***
