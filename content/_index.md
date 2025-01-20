@@ -84,7 +84,7 @@ layout: index
     </div>
   </div>
 
-  <div>
+  <!-- <div>
     {{< tabs items="RECENT" >}}
       {{< tab >}}
         <div class="pt-1">
@@ -92,7 +92,7 @@ layout: index
         </div>
       {{< /tab >}}
     {{< /tabs >}}
-  </div>
+  </div> -->
 </div>
 
 ## Further Support
