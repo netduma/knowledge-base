@@ -4,7 +4,106 @@
     /* Hextra adds 5% in most places  */
     --primary-lightness: 70%;
     font-family: "Roboto";
+    --container-max-width: 1536px;
 }
+
+html {
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+html[class~="dark"] {
+    scrollbar-color: hsla(0, 0%, 100%, .39) #000;
+}
+
+body:is(html[class~="dark"] *) {
+    background: #000;
+}
+
+.nav-container:is(html[class~="dark"] *) {
+    background: transparent;
+}
+
+.nav-container nav {
+    justify-content: flex-start;
+    gap: 1.5rem;
+    max-width: var(--container-max-width);
+    padding: 0 3rem;
+}
+
+.nav-container nav > a {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .025em;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.nav-container:is(html[class~="dark"] *) nav > a {
+    color: hsla(0,0%,100%,.65);
+}
+
+.nav-container:is(html[class~="dark"] *) nav > a.hx-font-medium {
+    color: #fff;
+}
+
+.nav-container nav > a.hx-font-medium::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    display: block;
+    clip-path: polygon(0px 100%, 5px calc(100% - 6px), calc(100% - 5px) calc(100% - 6px), 100% 100%);
+    opacity: 1;
+    width: 100%;
+    height: 0.25rem;
+    background: rgb(255 70 78/var(--tw-bg-opacity));
+    animation: nav-underline forwards 300ms;
+    transform: translateX(-50%)
+}
+
+@keyframes nav-underline {
+    from  { width: 0%; }
+    to    { width: 100%; }
+}
+
+.nav-container nav > a[href="/"] {
+    margin-right: 0;
+    padding-right: 1.5rem;
+}
+
+.nav-container nav > a[href="/"] img {
+    height: 1.5rem;
+    width: auto;
+}
+
+.nav-container .search-wrapper {
+    margin-left: auto;
+}
+@supports ( ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) ) {
+    .nav-container-blur:is(html[class~="dark"] *) {
+        background-color: transparent !important;
+        box-shadow: none;
+    }
+}
+
+/* search styling inline with current website inputs - to be changed to underline (as per the design) if/when the website is updated */
+[type=search]:is(html[class~="dark"] *) {
+    background: #141414;
+    border: thin solid #2d2727;
+    border-radius: 0.375rem;
+}
+[type=search]:is(html[class~="dark"] *):focus {
+    border-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5), 0px 1px 6px rgba(0, 0, 0, 0.25), 0 0 0 3px hsla(0, 0%, 100%, 25%), 0 1px 1px 0 rgba(255, 255, 255, 0.12);
+    transition: background 0.15s ease, border 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
+}
+[type=search]:is(html[class~="dark"] *):focus-visible {
+    outline: none;
+}
+
 
 .sidebar-active-item {
     background-color: transparent;
