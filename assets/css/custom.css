@@ -113,10 +113,7 @@ body:is(html[class~="dark"] *) {
     background-color: transparent;
 }
 
-.hextra-footer {
-    background-color: transparent;
-}
-
 .hextra-footer:is(html[class~="dark"] *) {
     background-color: transparent;
+    color: #fff !important;
 }
