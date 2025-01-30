@@ -1,33 +1,69 @@
 {{- if not .aboveVisible -}}
-<hr class="dark:hx-border-neutral-800" />
+
 {{- end -}}
-<!-- <div style="width: 100%;">
-    <div class="pl-12 md:pl-24 flex flex-col gap-6 md:flex-row md:gap-24 py-6 md:pb-12 text-black dark:text-white">
-        <div class="flex flex-col items-start">
-            <h2 class="text-lg">Company</h2>
-            <button class="h-6 px-1 text-xs mt-2" href="/hello">About</button>
-            <button class="h-6 px-1 text-xs" href="/hello">Case Studies</button>
-            <button class="h-6 px-1 text-xs" href="/hello">Support</button>
-            <button class="h-6 px-1 text-xs" href="/hello">Contact</button>
-        </div>
-        <div class="flex flex-col items-start">
-            <h2 class="text-lg">Community</h2>
-            <button class=" h-6 px-1 text-xs mt-2" href="/hello">Knowledge Base</button>
-            <button class=" h-6 px-1 text-xs" href="/hello">News</button>
-            <button class=" h-6 px-1 text-xs" href="/hello">Blog</button>
-            <button class=" h-6 px-1 text-xs" href="/hello">Forum</button>
-        </div>
-        <div class="flex flex-col items-start">
-            <h2 class="text-lg">Legal</h2>
-            <button class=" h-6 px-1 text-xs mt-2" href="/hello">Terms</button>
-            <button class=" h-6 px-1 text-xs" href="/hello">Cookies Policy</button>
-            <button class=" h-6 px-1 text-xs" href="/hello">Privacy Policy</button>
-            <button class=" h-6 px-1 text-xs" href="/hello">EULA</button>
-        </div>
+<div class="mx-auto px-6 md:px-12 pt-12 pb-6 md:pb-14 lg:pb-16 max-w-screen-2xl w-full flex flex-col gap-12 lg:gap-16">
+  <div class="flex justify-between flex-col sm:flex-row gap-6">
+    <div class="flex flex-col gap-12">
+      <a class="hx-flex hx-items-center hover:hx-opacity-75 ltr:hx-mr-auto rtl:hx-ml-auto" href="/">
+        <img class="hx-block dark:hx-hidden" src="/images/logo.svg" alt="Knowledge Base" height="30" width="186">
+        <img class="hx-hidden dark:hx-block" src="/images/logo.svg" alt="Knowledge Base" height="30" width="186">
+      </a>
+      <div class="flex gap-12">
+        <a href="https://x.com/netduma">
+          <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" class="h-[24px] transition-colors fill-text-secondary hover:fill-text-primary">
+            <path d="M18.9,1.153L22.581,1.153L14.54,10.342L24,22.847L16.595,22.847L10.79,15.265L4.156,22.847L0.469,22.847L9.069,13.017L-0,1.153L7.593,1.153L12.834,8.083L18.9,1.153ZM17.606,20.647L19.645,20.647L6.482,3.239L4.292,3.239L17.606,20.647Z"></path>
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/@netduma">
+          <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" class="h-[24px] transition-colors fill-text-secondary hover:fill-text-primary">
+            <path d="M23.498,6.212C23.222,5.172 22.409,4.354 21.377,4.076C19.505,3.571 12,3.571 12,3.571C12,3.571 4.495,3.571 2.623,4.076C1.591,4.354 0.778,5.172 0.502,6.212C0,8.095 0,12.026 0,12.026C0,12.026 0,15.956 0.502,17.84C0.778,18.879 1.591,19.664 2.623,19.942C4.495,20.446 12,20.446 12,20.446C12,20.446 19.505,20.446 21.377,19.942C22.409,19.664 23.222,18.879 23.498,17.84C24,15.956 24,12.026 24,12.026C24,12.026 24,8.095 23.498,6.212ZM9.545,15.594L9.545,8.457L15.818,12.026L9.545,15.594Z"></path>
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/Netduma/">
+          <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" class="h-[24px] transition-colors fill-text-secondary hover:fill-text-primary">
+            <path d="M8.284,14.038L8.284,24.009L13.721,24.009L13.721,14.038L17.776,14.038L18.62,9.454L13.721,9.454L13.721,7.832C13.721,5.409 14.673,4.481 17.129,4.481C17.893,4.481 18.507,4.499 18.863,4.537L18.863,0.379C18.193,0.196 16.553,0.009 15.606,0.009C10.595,0.009 8.284,2.376 8.284,7.481L8.284,9.454L5.19,9.454L5.19,14.038L8.284,14.038Z"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/company/netduma/">
+          <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" class="h-[24px] transition-colors fill-text-secondary hover:fill-text-primary">
+            <path id="path14" d="M-0,1.73c-0,-0.955 0.794,-1.73 1.774,-1.73l20.452,0c0.98,0 1.774,0.775 1.774,1.73l-0,20.692c-0,0.956 -0.794,1.73 -1.774,1.73l-20.452,0c-0.98,0 -1.774,-0.774 -1.774,-1.73l-0,-20.692Zm12.906,9.126l0,0.038l-0.024,-0c0.008,-0.013 0.016,-0.025 0.024,-0.038l0,-1.544l-3.625,-0c0.048,1.023 0,10.906 0,10.906l3.625,-0l-0,-6.09c-0,-0.326 0.023,-0.652 0.119,-0.885c0.262,-0.651 0.859,-1.326 1.86,-1.326c1.312,0 1.837,1 1.837,2.466l-0,5.835l3.624,-0l0,-6.253c0,-3.35 -1.788,-4.909 -4.173,-4.909c-1.923,-0 -2.785,1.057 -3.267,1.8Zm-5.631,9.362l0,-10.906l-3.625,-0l0,10.906l3.625,-0Zm-1.812,-12.395c1.264,-0 2.051,-0.838 2.051,-1.884c-0.024,-1.07 -0.787,-1.885 -2.027,-1.885c-1.24,0 -2.051,0.815 -2.051,1.885c-0,1.046 0.787,1.884 2.003,1.884l0.024,-0Z"></path>
+          </svg>
+        </a>
+      </div>
     </div>
-</div>
-<hr class="dark:hx-border-neutral-800" /> -->
-<div class="flex flex-col sm:flex-row items-center justify-center py-6 text-black dark:text-white/70 gap-6 sm:gap-12">
-    <p class="text-xs">© Netduma Ltd 2024</p>
-    <p class="text-xs">© Netduma Software Ltd 2024</p>
+    <div class="flex gap-24">
+      <div class="flex flex-col gap-4">
+        <h3 class="tracking-wide text-text-primary text-xl lg:text-2xl font-semibold">Netduma</h3>
+        <div class="flex flex-col gap-2">
+          <a class="transition-colors text-text-secondary hover:text-text-primary" href="/about"><p>About</p></a>
+          <a class="transition-colors text-text-secondary hover:text-text-primary" href="/case-studies"><p>Case Studies</p></a>
+          <a class="transition-colors text-text-secondary hover:text-text-primary" href="/support"><p>Support</p></a>
+          <a class="transition-colors text-text-secondary hover:text-text-primary" href="/contact"><p>Contact</p></a>
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <h3 class="tracking-wide text-text-primary text-xl lg:text-2xl font-semibold">Community</h3>
+        <div class="flex flex-col gap-2">
+          <a class="transition-colors text-text-secondary hover:text-text-primary" href="/news"><p>News</p></a>
+          <a class="transition-colors text-text-secondary hover:text-text-primary" href="/blog"><p>Blog</p></a>
+          <a class="transition-colors text-text-secondary hover:text-text-primary" href="https://forum.netduma.com"><p>Forum</p></a>
+          <a class="transition-colors text-text-secondary hover:text-text-primary" href="https://support.netduma.com"><p>Knowledge Base</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col justify-end gap-6 lg:gap-8 pt-8 border-t-[1px] border-misc-divider">
+    <div class="grid grid-cols-2 lg:flex lg:flex-wrap lg:justify-center gap-y-2 gap-x-6 lg:gap-x-8">
+      <a class="transition-all text-nowrap text-text-secondary hover:text-text-primary opacity-75 hover:opacity-100" href="/about">About</a>
+      <a class="transition-all text-nowrap text-text-secondary hover:text-text-primary opacity-75 hover:opacity-100" href="/contact">Contact</a>
+      <a class="transition-all text-nowrap text-text-secondary hover:text-text-primary opacity-75 hover:opacity-100" href="/terms">Terms</a>
+      <a class="transition-all text-nowrap text-text-secondary hover:text-text-primary opacity-75 hover:opacity-100" href="/cookies-policy">Cookies Policy</a>
+      <a class="transition-all text-nowrap text-text-secondary hover:text-text-primary opacity-75 hover:opacity-100" href="/privacy-policy">Privacy Policy</a>
+      <a class="transition-all text-nowrap text-text-secondary hover:text-text-primary opacity-75 hover:opacity-100" href="/eula">EULA</a>
+    </div>
+    <div class="flex flex-wrap justify-center gap-6 lg:gap-8">
+      <p class="tracking-wide  text-body-sm md:text-body-md lg:text-body text-opacity-75 text-nowrap text-text-secondary/75">© Netduma Ltd <!-- -->2025</p>
+      <p class="tracking-wide  text-body-sm md:text-body-md lg:text-body text-opacity-75 text-nowrap text-text-secondary/75">© Netduma Software Ltd <!-- -->2025</p>
+    </div>
+  </div>
 </div>
