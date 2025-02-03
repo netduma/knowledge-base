@@ -22,10 +22,6 @@ body:is(html[class~="dark"] *) {
     color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.nav-container:is(html[class~="dark"] *) {
-    background: transparent;
-}
-
 .nav-container nav {
     justify-content: flex-start;
     gap: 1.5rem;
