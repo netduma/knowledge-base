@@ -8,7 +8,7 @@ layout: index
   <p>Welcome to the Netduma support site. Here you'll find guides for all of our features, along with frequently asked questions and useful links.</p>
 </div>
 
-<div class="flex flex-row gap-16 justify-center py-16">
+<div class="flex flex-col lg:flex-row gap-16 justify-center py-16">
   <div class="flex flex-col gap-8 items-center">
     <div class="text-xl font-semibold">DumaOS</div>
     <div class="flex flex-row gap-16">
@@ -47,29 +47,29 @@ layout: index
  <input class="rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none" placeholder="Search Knowledge Base" type="text" name="search"/>
 </div>
 
-<div class="flex gap-8">
-  <div class="grid grid-cols-6 grid-flow-row gap-6 basis-2/3">
-    <div class="col-span-2 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
+<div class="flex flex-col-reverse md:flex-row gap-8">
+  <div class="grid grid-cols-1 lg:grid-cols-6 grid-flow-row gap-6 grow basis-2/3">
+    <div class="lg:col-span-2 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
       <div class="text-xl font-semibold">FAQs</div>
       <div class="text-white/80">Frequently Asked Questions about Netduma, DumaOS and networking in general</div>
     </div>
-    <div class="col-span-2 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
+    <div class="lg:col-span-2 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
       <div class="text-xl font-semibold">Firmwares</div>
       <div class="text-white/80">Get the latest updates for DumaOS</div>
     </div>
-    <div class="col-span-2 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
+    <div class="lg:col-span-2 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
       <div class="text-xl font-semibold">User Manuals</div>
       <div class="text-white/80">User manuals for DumaOS compatible hardware.</div>
     </div>
-    <div class="col-span-3 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
+    <div class="lg:col-span-3 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
       <div class="text-xl font-semibold">FAQs</div>
       <div class="text-white/80">Frequently Asked Questions about Netduma, DumaOS and networking in general</div>
     </div>
-    <div class="col-span-3 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
+    <div class="lg:col-span-3 flex flex-col gap-2 rounded-lg bg-white/10 p-6">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
       <div class="text-xl font-semibold">FAQs</div>
       <div class="text-white/80">Frequently Asked Questions about Netduma, DumaOS and networking in general</div>
