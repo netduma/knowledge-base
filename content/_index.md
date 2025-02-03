@@ -76,6 +76,10 @@ layout: index
     </div>
   </div>
   <div class="flex flex-col gap-6">
+    <div class="flex tabs border-t">
+      <a class="grow relative pt-3 text-2xl text-center uppercase no-underline font-semibold active">Popular</a>
+      <a class="grow relative pt-3 text-2xl text-center uppercase no-underline text-white/80 font-semibold">Recent</a>
+    </div>
     <div class="flex flex-col gap-2">
       <div class="text-xl font-semibold">Call of Duty Optimisation Guide</div>
       <div class="flex gap-4 text-sm text-white/65">
