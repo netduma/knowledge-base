@@ -75,25 +75,58 @@ layout: index
       <div class="text-white/80">Frequently Asked Questions about Netduma, DumaOS and networking in general</div>
     </div>
   </div>
-  <div class="flex flex-col gap-6">
-    <div class="flex tabs border-t">
-      <a class="grow relative pt-3 text-2xl text-center uppercase no-underline font-semibold active">Popular</a>
-      <a class="grow relative pt-3 text-2xl text-center uppercase no-underline text-white/80 font-semibold">Recent</a>
-    </div>
-    <div class="flex flex-col gap-2">
-      <div class="text-xl font-semibold">Call of Duty Optimisation Guide</div>
-      <div class="flex gap-4 text-sm text-white/65">
-        <div>DumaOS</div>
-        <div>Game Guide</div>
-      </div>
-    </div>
-    <div class="flex flex-col gap-2">
-      <div class="text-xl font-semibold">Call of Duty Optimisation Guide</div>
-      <div class="flex gap-4 text-sm text-white/65">
-        <div>DumaOS</div>
-        <div>Game Guide</div>
-      </div>
-    </div>
+
+  <div class="basis-1/3">
+      {{< netduma/tabs items="POPULAR,RECENT" >}}
+
+        {{< netduma/tab >}}  
+          <div class="flex flex-col gap-2">
+            <div class="text-xl font-semibold">Call of Duty Optimisation Guide</div>
+            <div class="flex gap-4 text-sm text-white/65">
+              <div>DumaOS</div>
+              <div>Game Guide</div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <div class="text-xl font-semibold">Call of Duty Optimisation Guide</div>
+            <div class="flex gap-4 text-sm text-white/65">
+              <div>DumaOS</div>
+              <div>Game Guide</div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <div class="text-xl font-semibold">Ping Heatmap</div>
+            <div class="flex gap-4 text-sm text-white/65">
+              <div>DumaOS</div>
+              <div>Features</div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <div class="text-xl font-semibold">Halo Optimisation Guide</div>
+            <div class="flex gap-4 text-sm text-white/65">
+              <div>DumaOS</div>
+              <div>Game Guide</div>
+            </div>
+          </div>
+        {{< /netduma/tab >}}
+        {{< netduma/tab >}}
+          <div class="flex flex-col gap-2">
+            <div class="text-xl font-semibold">Geo-Filter</div>
+            <div class="flex gap-4 text-sm text-white/65">
+              <div>DumaOS 4</div>
+              <div>Features</div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <div class="text-xl font-semibold">Call of Duty Optimisation Guide</div>
+            <div class="flex gap-4 text-sm text-white/65">
+              <div>DumaOS 4</div>
+              <div>Game Guide</div>
+            </div>
+          </div>
+        {{< /netduma/tab >}}
+
+      {{</ netduma/tabs >}}
   </div>
 </div>
 

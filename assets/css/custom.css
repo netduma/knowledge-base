@@ -116,7 +116,11 @@ body:is(html[class~="dark"] *) {
     color: #fff !important;
 }
 
-.tabs a.active::after {
+.hextra-tabs-toggle {
+    position: relative;
+}
+
+.hextra-tabs-toggle[data-state="selected"]::after {
     content: "";
     position: absolute;
     top: -1px;
