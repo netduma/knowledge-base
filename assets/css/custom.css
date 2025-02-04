@@ -116,6 +116,20 @@ body:is(html[class~="dark"] *) {
     color: #fff !important;
 }
 
+.hextra-tabs {
+    position: relative;
+}
+
+.hextra-tabs::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2px;
+    right: 2px;
+    border-top: thin solid white;
+    z-index: -1;
+}
+
 .hextra-tabs-toggle {
     position: relative;
 }

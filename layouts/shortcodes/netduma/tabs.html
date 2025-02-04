@@ -5,26 +5,26 @@
   {{ errorf "no items provided" }}
 {{- end -}}
 
-<div class="flex flex-col gap-6 ">
-<div class="hextra-scrollbar hx-overflow-x-auto hx-overflow-y-hidden hx-overscroll-x-contain">
-  <div class="hx-flex hx-w-max hx-min-w-full border-t hx-pb-px">
-    {{- range $i, $item := $items -}}
-      <button
-        class="hextra-tabs-toggle data-[state=selected]:text-primary text-2xl font-medium transition-colors select-none p-2 text-center w-full"
-        role="tab"
-        type="button"
-        aria-controls="tabs-panel-{{ $i }}"
-        {{- if eq $i $defaultIndex }} aria-selected="true" {{ end -}}
-        {{- if eq $i $defaultIndex }} tabindex="0" {{ end -}}
-        {{- if eq $i $defaultIndex }} data-state="selected"{{ end -}}
-      >
-        {{- $item -}}
-      </button>
-    {{- end -}}
+<div class="hextra-tabs flex flex-col gap-6 ">
+  <div>
+    <div class="hx-flex hx-w-max hx-min-w-full hx-pb-px">
+      {{- range $i, $item := $items -}}
+        <button
+          class="hextra-tabs-toggle data-[state=selected]:text-primary text-2xl font-medium transition-colors select-none p-2 text-center w-full"
+          role="tab"
+          type="button"
+          aria-controls="tabs-panel-{{ $i }}"
+          {{- if eq $i $defaultIndex }} aria-selected="true" {{ end -}}
+          {{- if eq $i $defaultIndex }} tabindex="0" {{ end -}}
+          {{- if eq $i $defaultIndex }} data-state="selected"{{ end -}}
+        >
+          {{- $item -}}
+        </button>
+      {{- end -}}
+    </div>
   </div>
-</div>
-<div>
-  {{- .Inner -}}
-</div>
+  <div>
+    {{- .Inner -}}
+  </div>
 </div>
 {{- /* Drop trailing newlines */ -}}
