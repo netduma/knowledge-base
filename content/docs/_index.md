@@ -14,3 +14,5 @@ Select your DumaOS version to continue. Netduma R3 users should select DumaOS 4.
 - [Telstra Game Optimiser](/docs/telstra-game-optimiser/)
 
 - [User Manuals](/docs/user-manuals/)
+
+- [Supported Applications](/docs/supported-applications/)
