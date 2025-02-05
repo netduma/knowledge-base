@@ -4,6 +4,58 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
     tailwind.config = {
+        theme: {
+            colors: {
+                transparent: "transparent",
+                current: "currentColor",
+                black: "#000",
+                white: "#FFF",
+                text: {
+                  primary: "#FFFFFF",
+                  secondary: "rgba(255,255,255,0.80)",
+                  tertiary: "rgba(255,255,255,0.65)",
+                  disabled: "rgba(255,255,255,0.39)",
+                },
+                background: {
+                  black: "#000000",
+                  default: "#141111",
+                  paper: "#1C1919",
+                  content: "#232020",
+                },
+                primary: {
+                  main: "#FF464E",
+                  light: "#FF7E74",
+                  dark: "#F5131D",
+                },
+                secondary: {
+                  main: "#6E8BFF",
+                  light: "#9AC6FF",
+                  dark: "#5970FF",
+                },
+                info: {
+                  main: "#6E8BFF",
+                  light: "#9AC6FF",
+                  dark: "#5970FF",
+                },
+                error: {
+                  main: "#FF464E",
+                  light: "#FF7E74",
+                  dark: "#F5131D",
+                  contrastText: "#fff",
+                },
+                warning: {
+                  main: "#F6CB53",
+                  light: "#FFF38E",
+                  dark: "#EB8131",
+                  contrastText: "rgba(0, 0, 0, 0.87)",
+                },
+                success: {
+                  main: "#3FF66A",
+                  light: "#A4FC8F",
+                  dark: "#17AE49",
+                },
+            }
+        },
         darkMode: ['class', 'html[class~="dark"]']
     }
 </script>
