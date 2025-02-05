@@ -124,8 +124,8 @@ body:is(html[class~="dark"] *) {
     content: "";
     position: absolute;
     top: 0;
-    left: 2px;
-    right: 2px;
+    left: 1px;
+    right: 1px;
     border-top: thin solid hsla(0, 0%, 100%, 0.2);
     z-index: -1;
 }
@@ -137,7 +137,7 @@ body:is(html[class~="dark"] *) {
 .hextra-tabs-toggle[data-state="selected"]::after {
     content: "";
     position: absolute;
-    top: -1px;
+    top: 0;
     left: 50%;
     display: block;
     clip-path: polygon(0px 100%, 5px calc(100% - 6px), calc(100% - 5px) calc(100% - 6px), 100% 100%);
