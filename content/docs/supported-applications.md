@@ -7,7 +7,7 @@ aliases:
 
 ## Gaming
 
-### Games supported by Geo-Filter and SmartBOOST:
+### Games supported by Geo-Filter and SmartBOOST
 
 <br/>
 
@@ -51,7 +51,7 @@ World of Tanks
 
 <br/>
 
-### Games supported only by SmartBOOST:
+### Games supported only by SmartBOOST
 
 <br/>
 
@@ -98,10 +98,9 @@ World of Warcraft
   </div>
 </div>
 
-
 <br/>
 
-### Supported Cloud Gaming Protocols:
+### Supported Cloud Gaming Protocols
 
 <br/>
 
@@ -118,7 +117,7 @@ Xbox Cloud Gaming
 
 <br/>
 
-### Supported Gaming Download Protocols:
+### Supported Gaming Download Protocols
 
 <br/>
 
@@ -137,7 +136,7 @@ Xbox Download
 
 <br/>
 
-### Supported Gaming Communication Protocols:
+### Supported Gaming Communication Protocols
 
 <br/>
 
@@ -156,7 +155,7 @@ Twitch
 
 ## Work From Home
 
-### Supported Meeting and Call Protocols:
+### Supported Meeting and Call Protocols
 
 <br/>
 
@@ -179,7 +178,7 @@ Zoom
 
 <br/>
 
-### Supported VPN Protocols:
+### Supported VPN Protocols
 
 <br/>
 
@@ -200,7 +199,7 @@ WireGuard
 
 <br/>
 
-### Supported File Storage Protocols:
+### Supported File Storage Protocols
 
 <br/>
 
@@ -217,7 +216,7 @@ OneDrive
 
 <br/>
 
-### Supported Remote Desktop Protocols:
+### Supported Remote Desktop Protocols
 
 <br/>
 
@@ -235,7 +234,7 @@ RDP
 
 ## Media
 
-### Supported Video Streaming Services:
+### Supported Video Streaming Services
 
 <br/>
 
@@ -292,7 +291,7 @@ YouTube
 
 <br/>
 
-### Supported Music Streaming Services:
+### Supported Music Streaming Services
 
 <br/>
 
@@ -313,7 +312,7 @@ TIDAL
 
 ## Web (General)
 
-### Supported Websites:
+### Supported Websites
 
 <br/>
 
@@ -340,7 +339,7 @@ Yahoo
 
 <br/>
 
-### Supported Speedtests:
+### Supported Speedtests
 
 <br/>
 
@@ -357,7 +356,7 @@ Waveform Speedtest
 
 <br/>
 
-### Supported Download Protocols:
+### Supported Download Protocols
 
 <br/>
 
