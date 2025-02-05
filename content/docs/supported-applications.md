@@ -1,6 +1,8 @@
 ---
 title: Supported Applications
 weight: 5
+aliases:
+- /support/solutions/articles/16000167350-work-from-home-applications-supported-by-dumaos
 ---
 
 ## Gaming
