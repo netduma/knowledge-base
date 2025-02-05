@@ -1,7 +1,11 @@
 ---
-title: Supported Games
-weight: 1
+title: Supported Applications
+weight: 5
+aliases:
+- /support/solutions/articles/16000167350-work-from-home-applications-supported-by-dumaos
 ---
+
+## Gaming
 
 <br/>
 
@@ -157,4 +161,189 @@ weight: 1
 
 <br/>
 
-***Information accurate as of January 2025***
+## Work From Home
+
+<br/>
+
+<details>
+  <summary>Supported Meeting and Call Protocols:</summary>
+
+- BigBlueButton
+- BlueJeans
+- Google Meet
+- Jitsi Meet
+- Lifesize
+- Slack Huddle
+- Teams/Skype Call
+- Webex Meeting
+- Zoho Meeting
+- Zoom
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Supported VPN Protocols:</summary>
+
+- CiscoVPN
+- GlobalProtect VPN
+- Hotspot Shield
+- IKEv2
+- Mimic VPN
+- OpenVPN
+- Tor
+- WireGuard
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Supported File Storage Protocols:</summary>
+
+- Apple iCloud
+- Dropbox
+- Google Workspace
+- OneDrive
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Supported Remote Desktop Protocols:</summary>
+
+- Chrome Remote Desktop
+- TeamViewer
+- RDP
+
+</details>
+
+<br/>
+
+## Media
+
+<br/>
+
+<details>
+  <summary>Supported Video Streaming Services:</summary>
+
+- 7Plus
+- 9Now
+- ABC iView
+- Acorn TV
+- Amazon Prime Video
+- Apple Music
+- Apple TV+
+- BBC iPlayer
+- BritBox
+- CNN
+- Dailymotion
+- Deezer
+- DirecTV Stream
+- Disney+
+- EE TV
+- ESPN+
+- Fox
+- Fubo
+- HBO Max
+- HayU
+- Hulu
+- ITVX
+- Magenta TV
+- NOS
+- Netflix
+- Now TV
+- Optus
+- Paramount+
+- Philo TV
+- Pluto TV
+- RTP Portugal
+- SBS OnDemand
+- SINA Video
+- Sky TV
+- Stan
+- Starz
+- TF1
+- TIDAL
+- TVP
+- TVU Player
+- VEVO
+- Vimeo
+- Vix
+- YouTube
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Supported Music Streaming Services:</summary>
+
+- Apple Music
+- Deezer
+- Last.fm
+- Pandora
+- Spotify
+- TIDAL
+
+</details>
+
+<br/>
+
+## Web (General)
+
+<br/>
+
+<details>
+  <summary>Supported Websites:</summary>
+
+- Amazon
+- Apple
+- Facebook
+- eBay
+- GitHub
+- Google
+- Instagram
+- LinkedIn
+- Microsoft
+- Snapchat
+- TikTok
+- Wikipedia
+- X (Twitter)
+- Yahoo
+
+</details>
+
+<br/>
+
+<details>
+  <summary> Supported Speedtests:</summary>
+
+- Cloudflare Speedtest
+- nPerf Speedtest
+- Ookla Speedtest
+- Waveform Speedtest
+
+</details>
+
+<br/>
+
+<details>
+  <summary> Supported Download Protocols:</summary>
+
+- Battle.net Download
+- BitTorrent
+- Call of Duty Data Streaming
+- Microsoft Flight Simulator Data Streaming
+- PlayStation Download
+- Steam Download
+- Xbox Download
+
+</details>
+
+<br/>
+<br/>
+
+***Information accurate as of February 2025***
