@@ -126,7 +126,7 @@ body:is(html[class~="dark"] *) {
     top: 0;
     left: 2px;
     right: 2px;
-    border-top: thin solid white;
+    border-top: thin solid hsla(0, 0%, 100%, 0.2);
     z-index: -1;
 }
 

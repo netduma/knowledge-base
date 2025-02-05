@@ -26,7 +26,7 @@ layout: index
       </a>
     </div>
   </div>
-  <div class="border-r border-misc-divider"></div>
+  <div class="border-r border-white/20"></div>
   <div class="flex flex-col gap-8 items-center">
     <div class="text-2xl font-semibold">Hardware</div>
     <div class="flex flex-row gap-16">
