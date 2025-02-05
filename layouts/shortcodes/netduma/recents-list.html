@@ -1,0 +1,93 @@
+{{/* FlexSearch Index Data */}}
+{{- $indexType := site.Params.search.flexsearch.index | default "content" -}}
+
+{{- if not (in (slice "content" "summary" "heading" "title" ) $indexType) -}}
+  {{- errorf "unknown flexsearch index type: %s" $indexType -}}
+{{- end -}}
+
+{{- $pages := where .Site.Pages "Kind" "in" (slice "page" "section") -}}
+{{- $pages = where $pages "Params.excludeSearch" "!=" true -}}
+{{- $pages = where $pages "Content" "!=" "" -}}
+
+{{- $pageData := dict -}}
+
+{{- range $index, $page := $pages -}}
+  {{- $pageTitle := $page.LinkTitle | default $page.File.BaseFileName -}}
+  {{- $pageLink := $page.RelPermalink -}}
+  {{- $updated := $page.Lastmod -}}
+  {{- $pageData = $pageData | merge (dict $pageLink (dict "link" $pageLink "title" $pageTitle "updated" $updated)) -}}
+{{- end -}}
+
+<!-- Iterate through all pages to find actual subpages that have updated time  -->
+{{- $output := dict -}}
+{{- range $index, $item := $pageData -}}
+    {{- if not $item.updated -}}
+        {{- continue -}}
+    {{- end -}}
+
+    {{- $urlParts := split $item.link "/" -}}
+    {{- $parts := slice -}}
+    {{- range $index, $part := $urlParts -}}
+        {{- if eq $part "" -}}
+            {{- continue -}}
+        {{- end -}}
+
+        <!-- continue if part starts with #  -->
+        {{- if strings.HasPrefix $part "#" -}}
+            {{- continue -}}
+        {{- end -}}
+
+        {{- $parts = $parts | append $part -}}
+    {{- end -}}
+    {{- $urlParts = $parts -}}
+
+    <!-- if urlParts has less then 2 elements, just continue  -->
+    {{- if lt (len $urlParts) 2 -}}
+        {{- continue -}}
+    {{- end -}}
+
+    {{- $parentLink := "" -}}
+    {{- range $index, $part := first (sub (len $urlParts) 1) $urlParts -}}
+        {{- $parentLink = (printf "%s/%s" $parentLink $part) -}}
+    {{- end -}}
+
+    <!-- if missing, add trailing / to parentLink -->
+    {{- if not (strings.HasSuffix $parentLink "/") -}}
+        {{- $parentLink = (printf "%s/" $parentLink) -}}
+    {{- end -}}
+
+    <!-- if parentLink is "/", remove item from output -->
+    {{- if eq $parentLink "/" -}}
+        {{- continue -}}
+    {{- end -}}
+
+    <!-- Get the parent item from the output -->
+    {{- $parentItem := index $pageData $parentLink -}}
+
+    {{- if not $parentItem -}}
+        <!-- if parentItem is missing, do not add item -->
+        {{- continue -}}
+    {{- end -}}
+
+    {{- if $parentItem -}}
+        <!-- Add parentItems's title to the $item as "parentTitle" property -->
+        {{- $output = $output | merge (dict $item.link (dict "link" $item.link "title" $item.title "updated" $item.updated "parentTitle" $parentItem.title)) -}}
+    {{- end -}}
+
+{{- end -}}
+
+{{- $output := sort $output "updated" "desc" -}}
+
+<div class="flex flex-col">
+{{- range $index, $item := first 5 $output -}}
+    {{- if $item.updated -}}
+        <a
+            href="{{- $item.link -}}"
+            class="flex gap-1 flex-col hx-px-2 py-2 text-black dark:text-white no-underline rounded-md hx-transition-colors hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50"
+        >
+            <span class="font-bold">{{- $item.title -}}</span>
+            <span class="text-xs text-black/70 dark:text-white/70">{{- $item.parentTitle -}}</span>
+        </a>
+    {{- end -}}
+{{- end -}}
+</div>
