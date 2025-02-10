@@ -87,6 +87,14 @@ body:is(html[class~="dark"] *) {
     }
 }
 
+/* main container has no unique class */
+@media (min-width: 768px) {
+    .nav-container + div {
+        max-width: var(--container-max-width);
+        padding: 0 3rem;
+    }
+}
+
 /* search styling inline with current website inputs - to be changed to underline (as per the design) if/when the website is updated */
 [type=text]:is(html[class~="dark"] *),
 [type=search]:is(html[class~="dark"] *) {
@@ -105,18 +113,52 @@ body:is(html[class~="dark"] *) {
     outline: none;
 }
 
+/* sidebar navigation */
+@media (min-width: 768px) {
+    .sidebar-container a {
+        padding-left: 0;
+    }
 
-.sidebar-active-item {
-    background-color: transparent;
+    .sidebar-container a:hover,
+    .sidebar-container:is(html[class~="dark"] *) a:hover {
+        background: transparent;
+    }
+
+    .sidebar-container > .hextra-scrollbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* sidebar open nav line */
+    .sidebar-container li.open ul::before {
+        left: -0.5rem;
+    }
+
+    .sidebar-active-item,
+    .sidebar-active-item:is(html[class~="dark"] *) {
+        background-color: transparent;
+    }
 }
 
-.sidebar-active-item:is(html[class~="dark"] *) {
-    background-color: transparent;
+/* toc */
+.hextra-toc {
+    padding: 0;
 }
 
+.hextra-toc > div > div {
+    box-shadow: none !important;
+    background: transparent !important;
+    border-color: hsla(0, 0%, 100%, 0.2) !important;
+}
+
+/* breadcrumbs */
+main > div:first-child:not(.content) {
+    margin-bottom: 2rem;
+}
+
+.hextra-footer,
 .hextra-footer:is(html[class~="dark"] *) {
     background-color: transparent;
-    color: #fff !important;
 }
 
 .hextra-tabs {
