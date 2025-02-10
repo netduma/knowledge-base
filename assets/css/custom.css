@@ -22,12 +22,21 @@ body:is(html[class~="dark"] *) {
     color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.nav-container nav {
-    justify-content: flex-start;
-    gap: 1.5rem;
-    max-width: var(--container-max-width);
-    padding: 0 3rem;
+@media (min-width: 768px) {
+    .nav-container nav {
+        justify-content: flex-start;
+        gap: 1.5rem;
+        max-width: var(--container-max-width);
+        padding: 0 3rem;
+    }
+    .nav-container nav > a {
+        margin: 0;
+    }
+    .nav-container nav > a[href="/"] {
+        padding-right: 1.5rem;
+    }
 }
+
 
 .nav-container nav > a {
     font-size: 1.125rem;
@@ -35,7 +44,6 @@ body:is(html[class~="dark"] *) {
     font-weight: 600;
     letter-spacing: .025em;
     padding: 0;
-    margin: 0;
     position: relative;
 }
 
@@ -65,11 +73,6 @@ body:is(html[class~="dark"] *) {
 @keyframes nav-underline {
     from  { width: 0%; }
     to    { width: 100%; }
-}
-
-.nav-container nav > a[href="/"] {
-    margin-right: 0;
-    padding-right: 1.5rem;
 }
 
 .nav-container nav > a[href="/"] img {
