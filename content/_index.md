@@ -47,7 +47,7 @@ layout: index
  <input class="max-w-xl w-full rounded-md grow py-2 px-3 shadow-sm focus:outline-none" placeholder="Search Knowledge Base" type="text" name="search"/>
 </div>
 
-<div class="flex flex-col-reverse md:flex-row gap-8">
+<div class="flex flex-col-reverse md:flex-row gap-8 py-16">
   <div class="grid grid-cols-1 lg:grid-cols-6 grid-flow-row gap-6 grow basis-2/3">
     <div class="lg:col-span-2 flex flex-col gap-2 rounded-lg bg-background-paper p-6">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>

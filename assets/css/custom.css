@@ -94,7 +94,7 @@ body:is(html[class~="dark"] *) {
 @media (min-width: 768px) {
     .nav-container + div {
         max-width: var(--container-max-width);
-        padding: 0 3rem;
+        padding: 1rem 3rem;
     }
 }
 
@@ -156,7 +156,7 @@ body:is(html[class~="dark"] *) {
 
 /* breadcrumbs */
 main > div:first-child:not(.content) {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .hextra-footer,
