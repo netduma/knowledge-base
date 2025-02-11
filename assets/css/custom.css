@@ -117,29 +117,38 @@ body:is(html[class~="dark"] *) {
 }
 
 /* sidebar navigation */
+
+.sidebar-container a {
+    padding-left: 0;
+}
+
+.sidebar-container a:hover,
+.sidebar-container:is(html[class~="dark"] *) a:hover {
+    background: transparent;
+}
+
+.sidebar-active-item,
+.sidebar-active-item:is(html[class~="dark"] *) {
+    background-color: transparent;
+}
+
+/* sidebar open nav line */
+.sidebar-container li.open ul::before {
+    left: -0.5rem;
+}
+
+/* sidebar navigation mobile */
+@media (max-width: 767px) {
+    .sidebar-container:is(html[class~="dark"] *) {
+        background: #000;
+    }
+}
+
+/* sidebar navigation desktop */
 @media (min-width: 768px) {
-    .sidebar-container a {
-        padding-left: 0;
-    }
-
-    .sidebar-container a:hover,
-    .sidebar-container:is(html[class~="dark"] *) a:hover {
-        background: transparent;
-    }
-
     .sidebar-container > .hextra-scrollbar {
         padding-left: 0;
         padding-right: 0;
-    }
-
-    /* sidebar open nav line */
-    .sidebar-container li.open ul::before {
-        left: -0.5rem;
-    }
-
-    .sidebar-active-item,
-    .sidebar-active-item:is(html[class~="dark"] *) {
-        background-color: transparent;
     }
 }
 
