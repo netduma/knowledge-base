@@ -20,6 +20,8 @@ body:is(html[class~="dark"] *) {
     line-height: 1.4rem;
     background: #000;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+    /* all text on live has increased letter-spacing. buttons do not, so use tracking-normal when needed. negates the need for tracking-wide on every instance of a heading or copy */
+    letter-spacing: 0.025em;
 }
 
 @media (min-width: 768px) {
