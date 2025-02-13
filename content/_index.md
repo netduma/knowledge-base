@@ -11,34 +11,19 @@ layout: index
 <div class="flex flex-col lg:flex-row gap-16 justify-center py-16">
   <div class="flex flex-col gap-8 items-center">
     <div class="text-2xl font-semibold tracking-wide">DumaOS</div>
-    <div class="flex flex-row gap-16">
-      <a class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer">
-        <svg width="30" height="31" viewBox="0 0 30 31" xmlns="http://www.w3.org/2000/svg" class="stroke-0 fill-current size-9"><path d="M6.66667 0.5L0 0.5L4.26685e-07 7.16667L6.66667 7.16667L6.66667 0.5ZM18.3333 0.499999L11.6667 0.499999L11.6667 7.16667L18.3333 7.16667L18.3333 0.499999ZM30 0.499998L23.3333 0.499999L23.3333 7.16667L30 7.16666L30 0.499998ZM6.66667 12.1667L7.46696e-07 12.1667L1.17338e-06 18.8333L6.66667 18.8333L6.66667 12.1667ZM18.3333 12.1833L11.6667 12.1833L11.6667 18.85L18.3333 18.85L18.3333 12.1833ZM30 12.1667L23.3333 12.1667L23.3333 18.8333L30 18.8333L30 12.1667ZM6.66667 23.8333L1.49339e-06 23.8333L1.92008e-06 30.5L6.66667 30.5L6.66667 23.8333ZM18.3333 23.8333L11.6667 23.8333L11.6667 30.5L18.3333 30.5L18.3333 23.8333ZM30 23.8333L23.3333 23.8333L23.3333 30.5L30 30.5L30 23.8333Z"/></svg>
-        <div>DumaOS 4</div>
-      </a>
-      <a class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer">
-        <svg width="30" height="31" viewBox="0 0 30 31" xmlns="http://www.w3.org/2000/svg" class="stroke-0 fill-current size-9"><path d="M6.66667 0.5L0 0.5L4.26685e-07 7.16667L6.66667 7.16667L6.66667 0.5ZM18.3333 0.499999L11.6667 0.499999L11.6667 7.16667L18.3333 7.16667L18.3333 0.499999ZM30 0.499998L23.3333 0.499999L23.3333 7.16667L30 7.16666L30 0.499998ZM6.66667 12.1667L7.46696e-07 12.1667L1.17338e-06 18.8333L6.66667 18.8333L6.66667 12.1667ZM18.3333 12.1833L11.6667 12.1833L11.6667 18.85L18.3333 18.85L18.3333 12.1833ZM30 12.1667L23.3333 12.1667L23.3333 18.8333L30 18.8333L30 12.1667ZM6.66667 23.8333L1.49339e-06 23.8333L1.92008e-06 30.5L6.66667 30.5L6.66667 23.8333ZM18.3333 23.8333L11.6667 23.8333L11.6667 30.5L18.3333 30.5L18.3333 23.8333ZM30 23.8333L23.3333 23.8333L23.3333 30.5L30 30.5L30 23.8333Z"/></svg>
-        <div>DumaOS 3.0</div>
-      </a>
-      <a class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
-        <div>Telstra</div>
-      </a>
-    </div>
+    {{< netduma/grid-icons >}}  
+      {{< netduma/grid-icon link="../#" title="DumaOS 4" icon="r3" >}}
+      {{< netduma/grid-icon link="../#" title="DumaOS 3.0" icon="test" >}}
+      {{< netduma/grid-icon link="../#" title="Telstra" icon="test" >}}
+    {{< /netduma/grid-icons >}}  
   </div>
   <div class="border-r border-white/20"></div>
   <div class="flex flex-col gap-8 items-center">
     <div class="text-2xl font-semibold tracking-wide">Hardware</div>
-    <div class="flex flex-row gap-16">
-      <a class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="22" viewBox="0 0 34 22" class="stroke-0 fill-current size-9"><path d="M17.0002 13.8732L3.79183 20.2932L5.3335 21.8332L17.0002 20.1665L28.6668 21.8332L30.2085 20.2915L17.0002 13.8732Z"/><path d="M18.6668 10.9763L31.5118 17.2197L33.6668 11.833L25.3335 1.833L18.6668 0.499663L18.6668 10.9763Z"/><path d="M15.3335 10.9763L15.3335 0.499663L8.66683 1.833L0.333497 11.833L2.4885 17.2197L15.3335 10.9763Z"/></svg>
-        <div>Netduma R3</div>
-      </a>
-      <a class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer">
-        <svg width="30" height="31" viewBox="0 0 30 31" xmlns="http://www.w3.org/2000/svg" class="stroke-0 fill-current size-9"><path d="M6.66667 0.5L0 0.5L4.26685e-07 7.16667L6.66667 7.16667L6.66667 0.5ZM18.3333 0.499999L11.6667 0.499999L11.6667 7.16667L18.3333 7.16667L18.3333 0.499999ZM30 0.499998L23.3333 0.499999L23.3333 7.16667L30 7.16666L30 0.499998ZM6.66667 12.1667L7.46696e-07 12.1667L1.17338e-06 18.8333L6.66667 18.8333L6.66667 12.1667ZM18.3333 12.1833L11.6667 12.1833L11.6667 18.85L18.3333 18.85L18.3333 12.1833ZM30 12.1667L23.3333 12.1667L23.3333 18.8333L30 18.8333L30 12.1667ZM6.66667 23.8333L1.49339e-06 23.8333L1.92008e-06 30.5L6.66667 30.5L6.66667 23.8333ZM18.3333 23.8333L11.6667 23.8333L11.6667 30.5L18.3333 30.5L18.3333 23.8333ZM30 23.8333L23.3333 23.8333L23.3333 30.5L30 30.5L30 23.8333Z"/></svg>
-        <div>Netduma R2</div>
-      </a>
-    </div>
+    {{< netduma/grid-icons >}}  
+      {{< netduma/grid-icon link="../#" title="Netduma R3" icon="r3" >}}
+      {{< netduma/grid-icon link="../#" title="Netduma R2" icon="test" >}}
+    {{< /netduma/grid-icons >}}  
   </div>
 </div>
 
