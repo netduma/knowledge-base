@@ -3,9 +3,9 @@ layout: index
 ---
 
 <!-- markdownlint-disable-next-line MD041 -->
-<div class="py-16 container mx-auto max-w-screen-sm text-center">
+<div class="py-16 container mx-auto max-w-screen-sm text-center flex flex-col gap-4">
   <h1 class="text-5xl tracking-wide">Netduma Knowledge Base</h1>
-  <p class="text-text-secondary">Welcome to the Netduma support site. Here you'll find guides for all of our features, along with frequently asked questions and useful links.</p>
+  <div class="text-text-secondary tracking-wide">Welcome to the Netduma support site. Here you'll find guides for all of our features, along with frequently asked questions and useful links.</div>
 </div>
 
 <div class="flex flex-col lg:flex-row gap-16 justify-center py-16">
