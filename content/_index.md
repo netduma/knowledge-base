@@ -9,22 +9,16 @@ layout: index
 </div>
 
 <div class="flex flex-col lg:flex-row gap-16 justify-center py-16">
-  <div class="flex flex-col gap-8 items-center">
-    <div class="text-2xl font-semibold tracking-wide">DumaOS</div>
-    {{< netduma/grid-icons >}}  
-      {{< netduma/grid-icon link="../#" title="DumaOS 4" icon="r3" >}}
-      {{< netduma/grid-icon link="../#" title="DumaOS 3.0" icon="test" >}}
-      {{< netduma/grid-icon link="../#" title="Telstra" icon="test" >}}
-    {{< /netduma/grid-icons >}}  
-  </div>
+  {{< netduma/grid-icons title="DumaOS" >}}  
+    {{< netduma/grid-icon link="../#" title="DumaOS 4" icon="r3" >}}
+    {{< netduma/grid-icon link="../#" title="DumaOS 3.0" icon="test" >}}
+    {{< netduma/grid-icon link="../#" title="Telstra" icon="test" >}}
+  {{< /netduma/grid-icons >}}
   <div class="border-r border-white/20"></div>
-  <div class="flex flex-col gap-8 items-center">
-    <div class="text-2xl font-semibold tracking-wide">Hardware</div>
-    {{< netduma/grid-icons >}}  
-      {{< netduma/grid-icon link="../#" title="Netduma R3" icon="r3" >}}
-      {{< netduma/grid-icon link="../#" title="Netduma R2" icon="test" >}}
-    {{< /netduma/grid-icons >}}  
-  </div>
+  {{< netduma/grid-icons title="Hardware">}}  
+    {{< netduma/grid-icon link="../#" title="Netduma R3" icon="r3" >}}
+    {{< netduma/grid-icon link="../#" title="Netduma R2" icon="test" >}}
+  {{< /netduma/grid-icons >}}
 </div>
 
 <div class="text-center flex flex-col items-center gap-4 py-16">
