@@ -118,18 +118,9 @@ layout: index
 <div class="py-16 container mx-auto max-w-screen-sm text-center">
   <div class="text-2xl font-semibold tracking-wide">Still need Help?</div>
   <p class="text-text-secondary">We are always available via email and via our support forums. Our friendly support team will answer any questions you have about Netduma, DumaOS or networking in general.</p>
-  <div class="flex flex-row gap-16 justify-center py-8">
-    <a class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer">
-      <svg width="34" height="24" viewBox="0 0 34 24" xmlns="http://www.w3.org/2000/svg" class="stroke-0 fill-current size-9"><path d="M15.2852 17.6384L0.333497 8.66671L0.333498 23.6667L33.6668 23.6667L33.6668 8.66671L18.7152 17.6384C17.6602 18.2717 16.3402 18.2717 15.2852 17.6384Z"/><path d="M18.7152 14.305L33.6668 5.33337L33.6668 0.333372L0.333496 0.333374L0.333496 5.33337L15.2852 14.305C16.3402 14.9384 17.6602 14.9384 18.7152 14.305Z"/></svg>
-      <div>Email</div>
-    </a>
-    <a class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer">
-      <svg width="27" height="34" viewBox="0 0 27 34" xmlns="http://www.w3.org/2000/svg" class="stroke-0 fill-current size-9"><path d="M6.83317 17L20.1665 17L20.1665 13.6667L6.83317 13.6667L6.83317 17ZM6.83317 10.3334L20.1665 10.3334L20.1665 7.00004L6.83317 7.00004L6.83317 10.3334ZM26.7498 31.125L19.9998 22.3334C19.5276 21.6945 18.9443 21.2014 18.2498 20.8542C17.5554 20.507 16.8054 20.3334 15.9998 20.3334L0.166505 20.3334L0.166504 3.66671C0.166504 2.75004 0.492893 1.96532 1.14567 1.31254C1.79845 0.659763 2.58317 0.333374 3.49984 0.333374L23.4998 0.333373C24.4165 0.333372 25.2012 0.659761 25.854 1.31254C26.5068 1.96532 26.8332 2.75004 26.8332 3.66671L26.8332 30.3334C26.8332 30.4723 26.8262 30.6042 26.8123 30.7292C26.7984 30.8542 26.7776 30.9862 26.7498 31.125ZM3.49984 33.6667C2.58317 33.6667 1.79845 33.3403 1.14567 32.6875C0.492895 32.0348 0.166506 31.25 0.166506 30.3334L0.166505 23.6667L15.9998 23.6667C16.2776 23.6667 16.5346 23.7292 16.7707 23.8542C17.0068 23.9792 17.2082 24.1528 17.3748 24.375L24.3748 33.5417C24.236 33.5973 24.0901 33.632 23.9373 33.6459C23.7846 33.6598 23.6387 33.6667 23.4998 33.6667L3.49984 33.6667Z"/></svg>
-      <div>Forum</div>
-    </a>
-    <a class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer">
-      <svg width="35" height="24" viewBox="0 0 35 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="stroke-0 fill-current size-9"><path d="M33.4699 3.97638C33.0873 2.54251 31.9566 1.41348 30.5229 1.02961C27.9244 0.333372 17.5002 0.333373 17.5002 0.333373C17.5002 0.333373 7.07592 0.333374 4.47744 1.02961C3.04372 1.41348 1.91304 2.54251 1.53047 3.97638C0.833496 6.57692 0.833497 12 0.833497 12C0.833497 12 0.833497 17.4232 1.53047 20.0237C1.91304 21.4576 3.04372 22.5866 4.47744 22.9705C7.07782 23.6667 17.5002 23.6667 17.5002 23.6667C17.5002 23.6667 27.9244 23.6667 30.5229 22.9705C31.9566 22.5866 33.0873 21.4576 33.4699 20.0237C34.1668 17.425 34.1668 12 34.1668 12C34.1668 12 34.1668 6.57692 33.4699 3.97638ZM14.0911 16.9245L14.0911 7.07558L22.8032 12L14.0911 16.9245Z"></svg>
-      <div>Youtube</div>
-    </a>
-  </div>
+    {{< netduma/grid-icons class="justify-center py-8" >}}  
+      {{< netduma/grid-icon link="../#" title="Email" icon="email" >}}
+      {{< netduma/grid-icon link="../#" title="Forum" icon="forum" >}}
+      {{< netduma/grid-icon link="../#" title="Youtube" icon="youtube" >}}
+    {{< /netduma/grid-icons >}}  
 </div>
