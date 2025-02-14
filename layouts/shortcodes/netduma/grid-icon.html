@@ -9,8 +9,8 @@
   {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
   class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer"
 >
-    {{ with $icon -}}
-        {{- partial "utils/icon.html" (dict "name" . "attributes" "class=size-9") -}}
-    {{ end -}}
-    <div>{{ $title }}</div>
+  {{ with $icon -}}
+    {{- partial "utils/icon.html" (dict "name" . "attributes" "class=size-9") -}}
+  {{ end -}}
+  <div>{{ $title }}</div>
 </a>

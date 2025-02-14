@@ -2,8 +2,8 @@
 {{- $title := .Get "title" -}}
 
 {{ with $title -}}
-    <div class="flex flex-col gap-8 items-center">
-        <div class="text-2xl font-semibold">{{ $title }}</div>
+  <div class="flex flex-col gap-8 items-center">
+    <div class="text-2xl font-semibold">{{ $title }}</div>
 {{ end -}}
 
 <div class="flex flex-row gap-16 {{ $class }} ">
@@ -11,5 +11,5 @@
 </div>
 
 {{ with $title -}}
-    </div>
+  </div>
 {{ end -}}
