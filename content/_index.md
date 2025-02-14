@@ -39,7 +39,6 @@ layout: index
 
   <div class="basis-1/3">
       {{< netduma/tabs items="POPULAR,RECENT" >}}
-
         {{< netduma/tab >}}  
           <div class="flex flex-col gap-2">
             <div class="text-xl font-semibold tracking-wide">Call of Duty Optimisation Guide</div>
@@ -86,7 +85,6 @@ layout: index
             </div>
           </div>
         {{< /netduma/tab >}}
-
       {{</ netduma/tabs >}}
   </div>
 </div>
