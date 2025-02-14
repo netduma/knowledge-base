@@ -27,32 +27,14 @@ layout: index
 </div>
 
 <div class="flex flex-col-reverse md:flex-row gap-8 py-16">
-  <div class="grid grid-cols-1 lg:grid-cols-6 grid-flow-row gap-6 grow basis-2/3">
-    <div class="lg:col-span-2 flex flex-col gap-2 rounded-lg bg-background-paper p-6">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
-      <div class="text-xl font-semibold tracking-wide">FAQs</div>
-      <div class="text-text-secondary">Frequently Asked Questions about Netduma, DumaOS and networking in general</div>
-    </div>
-    <div class="lg:col-span-2 flex flex-col gap-2 rounded-lg bg-background-paper p-6">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
-      <div class="text-xl font-semibold tracking-wide">Firmwares</div>
-      <div class="text-text-secondary">Get the latest updates for DumaOS</div>
-    </div>
-    <div class="lg:col-span-2 flex flex-col gap-2 rounded-lg bg-background-paper p-6">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
-      <div class="text-xl font-semibold tracking-wide">User Manuals</div>
-      <div class="text-text-secondary">User manuals for DumaOS compatible hardware.</div>
-    </div>
-    <div class="lg:col-span-3 flex flex-col gap-2 rounded-lg bg-background-paper p-6">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
-      <div class="text-xl font-semibold tracking-wide">FAQs</div>
-      <div class="text-text-secondary">Frequently Asked Questions about Netduma, DumaOS and networking in general</div>
-    </div>
-    <div class="lg:col-span-3 flex flex-col gap-2 rounded-lg bg-background-paper p-6">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12.8" viewBox="0 0 20 12.8" class="stroke-0 fill-current size-9"><polygon points="10 8.024 2.075 11.875 3 12.8 10 11.8 17 12.8 17.925 11.875 10 8.024"></polygon><polygon points="11 6.286 18.707 10.032 20 6.8 15 .8 11 0 11 6.286"></polygon><polygon points="9 6.286 9 0 5 .8 0 6.8 1.293 10.032 9 6.286"></polygon></svg>
-      <div class="text-xl font-semibold tracking-wide">FAQs</div>
-      <div class="text-text-secondary">Frequently Asked Questions about Netduma, DumaOS and networking in general</div>
-    </div>
+  <div class="basis-2/3">
+    {{< netduma/cards cols="6">}}  
+      {{< netduma/card span="2" link="../#" title="FAQs" icon="r3" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
+      {{< netduma/card span="2" link="../#" title="Firmwares" icon="test" subtitle="Get the latest updates for DumaOS" >}}
+      {{< netduma/card span="2" link="../#" title="User Manuals" icon="test" subtitle="User manuals for DumaOS compatible hardware" >}}
+      {{< netduma/card span="3" link="../#" title="FAQs" icon="test" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
+      {{< netduma/card span="3" link="../#" title="FAQs" icon="test" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
+    {{< /netduma/cards >}}
   </div>
 
   <div class="basis-1/3">
