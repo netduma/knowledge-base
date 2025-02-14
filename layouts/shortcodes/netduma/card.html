@@ -1,0 +1,20 @@
+{{- $title := .Get "title" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $class := .Get "class" -}}
+{{- $icon := .Get "icon" -}}
+{{- $link := .Get "link" -}}
+{{- $span := .Get "span" | default 3 -}}
+
+{{- $external := hasPrefix $link "http" -}}
+{{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
+
+<a
+  {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
+  class="{{ $class }} lg:col-span-{{ $span }} flex flex-col gap-2 rounded-lg bg-background-paper p-6 no-underline"
+>
+  {{ with $icon -}}
+    {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-9 text-text-primary mb-2'") -}}
+  {{ end -}}
+  <div class="text-xl font-semibold text-text-primary">{{ $title }}</div>
+  <div class="text-text-secondary">{{ $subtitle | markdownify }}</div>
+</a>

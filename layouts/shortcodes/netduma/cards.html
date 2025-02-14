@@ -1,0 +1,6 @@
+{{- $class := .Get "class" -}}
+{{- $cols := .Get "cols" | default 3 -}}
+
+<div class="grid grid-cols-1 lg:grid-cols-{{ $cols }} grid-flow-row gap-6 {{ $class }}">
+  {{ .Inner }}
+</div>
