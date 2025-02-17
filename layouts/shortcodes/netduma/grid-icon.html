@@ -7,10 +7,10 @@
 
 <a
   {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
-  class="flex flex-col gap-6 min-w-24 items-center text-text-secondary hover:text-text-primary no-underline transition-colors cursor-pointer"
+  class="flex flex-col gap-6 min-w-24 items-center no-underline cursor-pointer group"
 >
   {{ with $icon -}}
-    {{- partial "utils/icon.html" (dict "name" . "attributes" "class=size-9") -}}
+    {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-9 text-text-secondary group-hover:text-primary-main transition-colors'") -}}
   {{ end -}}
-  <div>{{ $title }}</div>
+  <div class="text-text-secondary group-hover:text-text-primary transition-colors">{{ $title }}</div>
 </a>

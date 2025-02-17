@@ -36,52 +36,51 @@ layout: index
       {{< netduma/card span="3" link="../#" title="FAQs" icon="test" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
     {{< /netduma/cards >}}
   </div>
-
   <div class="basis-1/3">
       {{< netduma/tabs items="POPULAR,RECENT" >}}
         {{< netduma/tab >}}  
           <div class="flex flex-col gap-2">
-            <div class="text-xl font-semibold tracking-wide">Call of Duty Optimisation Guide</div>
+            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
             <div class="flex gap-4 text-sm text-white/65">
-              <div>DumaOS</div>
-              <div>Game Guide</div>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS</a>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Game Guide</a>
             </div>
           </div>
           <div class="flex flex-col gap-2">
-            <div class="text-xl font-semibold tracking-wide">Call of Duty Optimisation Guide</div>
+            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
             <div class="flex gap-4 text-sm text-white/65">
-              <div>DumaOS</div>
-              <div>Game Guide</div>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS</a>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Game Guide</a>
             </div>
           </div>
           <div class="flex flex-col gap-2">
-            <div class="text-xl font-semibold tracking-wide">Ping Heatmap</div>
+            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
             <div class="flex gap-4 text-sm text-white/65">
-              <div>DumaOS</div>
-              <div>Features</div>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS</a>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Features</a>
             </div>
           </div>
           <div class="flex flex-col gap-2">
-            <div class="text-xl font-semibold tracking-wide">Halo Optimisation Guide</div>
+            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
             <div class="flex gap-4 text-sm text-white/65">
-              <div>DumaOS</div>
-              <div>Game Guide</div>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS</a>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Game Guide</a>
             </div>
           </div>
         {{< /netduma/tab >}}
         {{< netduma/tab >}}
           <div class="flex flex-col gap-2">
-            <div class="text-xl font-semibold tracking-wide">Geo-Filter</div>
+            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Geo-Filter</a>
             <div class="flex gap-4 text-sm text-white/65">
-              <div>DumaOS 4</div>
-              <div>Features</div>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS 4</a>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Features</a>
             </div>
           </div>
           <div class="flex flex-col gap-2">
-            <div class="text-xl font-semibold tracking-wide">Call of Duty Optimisation Guide</div>
+            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
             <div class="flex gap-4 text-sm text-white/65">
-              <div>DumaOS 4</div>
-              <div>Game Guide</div>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS 4</a>
+              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Game Guide</a>
             </div>
           </div>
         {{< /netduma/tab >}}

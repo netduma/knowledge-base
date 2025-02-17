@@ -10,11 +10,11 @@
 
 <a
   {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
-  class="{{ $class }} lg:col-span-{{ $span }} flex flex-col gap-2 rounded-lg bg-background-paper p-6 no-underline"
+  class="{{ $class }} lg:col-span-{{ $span }} flex flex-col gap-2 rounded-lg bg-background-paper border border-white/0 hover:border-white/20 p-6 no-underline group transition-colors"
 >
   {{ with $icon -}}
-    {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-9 text-text-primary mb-2'") -}}
+    {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-9 text-text-secondary group-hover:text-primary-main transition-colors mb-2'") -}}
   {{ end -}}
-  <div class="text-xl font-semibold text-text-primary">{{ $title }}</div>
+  <div class="text-xl font-semibold text-text-secondary group-hover:text-text-primary transition-colors">{{ $title }}</div>
   <div class="text-text-secondary">{{ $subtitle | markdownify }}</div>
 </a>
