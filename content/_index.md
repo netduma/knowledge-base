@@ -10,14 +10,14 @@ layout: index
 
 <div class="flex flex-col lg:flex-row gap-16 justify-center py-16">
   {{< netduma/grid-icons title="DumaOS" >}}  
-    {{< netduma/grid-icon link="../#" title="DumaOS 4" icon="r3" >}}
-    {{< netduma/grid-icon link="../#" title="DumaOS 3.0" icon="test" >}}
-    {{< netduma/grid-icon link="../#" title="Telstra" icon="test" >}}
+    {{< netduma/grid-icon link="../#" title="DumaOS 4" icon="dumaos4" >}}
+    {{< netduma/grid-icon link="../#" title="DumaOS 3.0" icon="dumaos3" >}}
+    {{< netduma/grid-icon link="../#" title="Telstra" icon="telstra" >}}
   {{< /netduma/grid-icons >}}
   <div class="border-r border-white/20"></div>
   {{< netduma/grid-icons title="Hardware">}}  
     {{< netduma/grid-icon link="../#" title="Netduma R3" icon="r3" >}}
-    {{< netduma/grid-icon link="../#" title="Netduma R2" icon="test" >}}
+    {{< netduma/grid-icon link="../#" title="Netduma R2" icon="r2" >}}
   {{< /netduma/grid-icons >}}
 </div>
 
@@ -29,11 +29,11 @@ layout: index
 <div class="flex flex-col-reverse md:flex-row gap-12 py-16">
   <div class="basis-2/3">
     {{< netduma/cards cols="6">}}  
-      {{< netduma/card span="2" link="../#" title="FAQs" icon="r3" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
-      {{< netduma/card span="2" link="../#" title="Firmwares" icon="test" subtitle="Get the latest updates for DumaOS" >}}
-      {{< netduma/card span="2" link="../#" title="User Manuals" icon="test" subtitle="User manuals for DumaOS compatible hardware" >}}
-      {{< netduma/card span="3" link="../#" title="FAQs" icon="test" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
-      {{< netduma/card span="3" link="../#" title="FAQs" icon="test" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
+      {{< netduma/card span="2" link="../frequently-asked-questions" title="FAQs" icon="faq" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
+      {{< netduma/card span="2" link="../firmwares" title="Firmwares" icon="firmware" subtitle="Get the latest updates for DumaOS" >}}
+      {{< netduma/card span="2" link="../docs/user-manuals" title="User Manuals" icon="grid" subtitle="User manuals for DumaOS compatible hardware" >}}
+      {{< netduma/card span="3" link="../#" title="DumaOS 3.0" icon="dumaos3" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
+      {{< netduma/card span="3" link="../#" title="DumaOS 4" icon="dumaos4" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
     {{< /netduma/cards >}}
   </div>
   <div class="basis-1/3">
