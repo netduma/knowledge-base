@@ -26,7 +26,7 @@ layout: index
  <input class="max-w-xl w-full rounded-md grow py-2 px-3 shadow-sm focus:outline-none" placeholder="Search Knowledge Base" type="text" name="search"/>
 </div>
 
-<div class="flex flex-col-reverse md:flex-row gap-8 py-16">
+<div class="flex flex-col-reverse md:flex-row gap-12 py-16">
   <div class="basis-2/3">
     {{< netduma/cards cols="6">}}  
       {{< netduma/card span="2" link="../#" title="FAQs" icon="r3" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}

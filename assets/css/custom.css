@@ -7,6 +7,10 @@
     --container-max-width: 1536px;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 html {
     scrollbar-width: thin;
     scroll-behavior: smooth;
@@ -37,8 +41,11 @@ body:is(html[class~="dark"] *) {
     .nav-container nav > a[href="/"] {
         padding-right: 1.5rem;
     }
+    .nav-container + div {
+        max-width: var(--container-max-width);
+        padding: 1rem 3rem;
+    }
 }
-
 
 .nav-container nav > a {
     font-size: 1.125rem;
@@ -89,14 +96,6 @@ body:is(html[class~="dark"] *) {
     .nav-container-blur:is(html[class~="dark"] *) {
         background-color: transparent !important;
         box-shadow: none;
-    }
-}
-
-/* main container has no unique class */
-@media (min-width: 768px) {
-    .nav-container + div {
-        max-width: var(--container-max-width);
-        padding: 1rem 3rem;
     }
 }
 
