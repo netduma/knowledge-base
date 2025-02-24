@@ -8,18 +8,39 @@ layout: index
   <div class="text-text-secondary tracking-wide">Welcome to the Netduma support site. Here you'll find guides for all of our features, along with frequently asked questions and useful links.</div>
 </div>
 
-<div class="flex flex-col lg:flex-row gap-16 justify-center py-16">
-  {{< netduma/grid-icons title="DumaOS" >}}  
-    {{< netduma/grid-icon link="../#" title="DumaOS 4" icon="dumaos4" >}}
-    {{< netduma/grid-icon link="../#" title="DumaOS 3.0" icon="dumaos3" >}}
-    {{< netduma/grid-icon link="../#" title="Telstra" icon="telstra" >}}
-  {{< /netduma/grid-icons >}}
-  <div class="border-r border-white/20"></div>
-  {{< netduma/grid-icons title="Hardware">}}  
-    {{< netduma/grid-icon link="../#" title="Netduma R3" icon="r3" >}}
-    {{< netduma/grid-icon link="../#" title="Netduma R2" icon="r2" >}}
-  {{< /netduma/grid-icons >}}
-</div>
+{{< netduma/cards cols="6" class="py-16" title="Get Started">}}
+  {{< netduma/button-card 
+    span="2" 
+    link="../#" 
+    title="DumaOS 4" 
+    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
+    buttonText="Something Here" 
+    image="/images/R3-Render.png" 
+    imagePos="top" 
+    imageClass="mx-0 mb-6" 
+  >}}
+  {{< netduma/button-card 
+    span="2" 
+    link="../#" 
+    title="DumaOS 3.0" 
+    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
+    buttonText="Something Here" 
+    image="/images/R2-Render.png" 
+    imagePos="top" 
+    imageClass="mx-0 mb-6" >}}
+  {{< netduma/button-card 
+    span="2" 
+    link="../#" 
+    title="Telstra Game Optimiser" 
+    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
+    buttonColor="secondary" 
+    buttonText="Something Here"
+    class="bg-[white]"
+    image="/images/telstra-render.png" 
+    imagePos="top" 
+    imageClass="mx-0 mb-6" 
+  >}}
+{{< /netduma/cards >}}
 
 <div class="text-center flex flex-col items-center gap-4 py-16">
   <label for="search" class="text-2xl font-semibold tracking-wide">Search for Topics</label>
@@ -29,11 +50,9 @@ layout: index
 <div class="flex flex-col-reverse md:flex-row gap-12 py-16">
   <div class="basis-2/3">
     {{< netduma/cards cols="6">}}  
-      {{< netduma/card span="2" link="../frequently-asked-questions" title="FAQs" icon="faq" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
-      {{< netduma/card span="2" link="../firmwares" title="Firmwares" icon="firmware" subtitle="Get the latest updates for DumaOS" >}}
-      {{< netduma/card span="2" link="../docs/user-manuals" title="User Manuals" icon="grid" subtitle="User manuals for DumaOS compatible hardware" >}}
-      {{< netduma/card span="3" link="../#" title="DumaOS 3.0" icon="dumaos3" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
-      {{< netduma/card span="3" link="../#" title="DumaOS 4" icon="dumaos4" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
+      {{< netduma/card span="3" link="../frequently-asked-questions" title="FAQs" icon="faq" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
+      {{< netduma/card span="3" link="../docs/user-manuals" title="User Manuals" icon="grid" subtitle="User manuals for DumaOS compatible hardware" >}}
+      {{< netduma/card span="3" link="../firmwares" title="Firmwares" icon="firmware" subtitle="Get the latest updates for DumaOS" >}}
     {{< /netduma/cards >}}
   </div>
   <div class="basis-1/3">
@@ -91,9 +110,9 @@ layout: index
 <div class="py-16 container mx-auto max-w-screen-sm text-center">
   <div class="text-2xl font-semibold tracking-wide">Still need Help?</div>
   <p class="text-text-secondary">We are always available via email and via our support forums. Our friendly support team will answer any questions you have about Netduma, DumaOS or networking in general.</p>
-    {{< netduma/grid-icons class="justify-center py-8" >}}  
+    {{< netduma/grid class="justify-center py-8" >}}  
       {{< netduma/grid-icon link="../#" title="Email" icon="email" >}}
       {{< netduma/grid-icon link="../#" title="Forum" icon="forum" >}}
       {{< netduma/grid-icon link="../#" title="Youtube" icon="youtube" >}}
-    {{< /netduma/grid-icons >}}  
+    {{< /netduma/grid >}}  
 </div>

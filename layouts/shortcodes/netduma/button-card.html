@@ -6,7 +6,8 @@
 {{- $imagePos := .Get "imagePos" -}}
 {{- $imageClass := .Get "imageClass" -}}
 {{- $link := .Get "link" -}}
-{{- $buttonLink := .Get "buttonLink" -}}
+{{- $buttonColor := .Get "buttonColor" | default "primary" -}}
+{{- $buttonText := .Get "buttonText" -}}
 {{- $span := .Get "span" | default 3 -}}
 
 {{- $external := hasPrefix $link "http" -}}
@@ -17,14 +18,8 @@
 {{- end -}}
 
 {{- if $link -}}
-<a
-  {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
-  class="{{ $class }} lg:col-span-{{ $span }} flex flex-col gap-2 rounded-lg bg-background-paper border border-white/0 hover:border-white/20 p-6 no-underline group transition-colors"
->
-{{- end -}}
-{{- if $buttonLink -}}
 <div
-  class="{{ $class }} lg:col-span-{{ $span }} flex flex-col gap-2 rounded-lg bg-background-default p-6 no-underline group transition-colors"
+  class="{{ $class }} lg:col-span-{{ $span }} flex flex-col gap-2 rounded-lg bg-background-default p-6"
 >
 {{- end -}}
   {{- with $image -}}
@@ -33,9 +28,9 @@
     {{- end -}}
   {{- end -}}
   {{ with $icon -}}
-    {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-9 text-text-secondary group-hover:text-primary-main transition-colors mb-2'") -}}
+    {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-9 text-text-secondary mb-2'") -}}
   {{ end -}}
-  <div class="text-xl font-semibold text-text-secondary group-hover:text-text-primary transition-colors">{{ $title }}</div>
+  <div class="text-xl font-semibold text-text-secondary ">{{ $title }}</div>
   <div class="text-text-secondary">{{ $subtitle | markdownify }}</div>
   {{- with $image -}}
     {{- if hasPrefix $imagePos "bottom" -}}
@@ -43,9 +38,8 @@
     {{- end -}}
   {{- end -}}
 {{- if $link -}}
-</a>
-{{- end -}}
-{{- if $buttonLink -}}
-  <a class="mt-2 py-2 px-4 rounded-[4px] font-semibold uppercase text-nowrap text-primary-main border border-primary-main hover:text-primary-light hover:border-primary-light no-underline">Button Test</a>
+  <a 
+  {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
+  class="self-start mt-2 py-2 px-4 rounded-[4px] font-semibold uppercase text-nowrap text-{{ $buttonColor }}-main border border-{{ $buttonColor }}-main hover:text-{{ $buttonColor }}-light hover:border-{{ $buttonColor }}-light no-underline">{{ $buttonText }}</a>
 </div>
 {{- end -}}
