@@ -206,3 +206,12 @@ main > div:first-child:not(.content) {
     animation: nav-underline forwards 300ms;
     transform: translateX(-50%) rotate(180deg);
 }
+
+/* content */
+
+.content :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    border: none;
+}
+hr {
+    border-color: hsla(0, 0%, 100%, 0.2);
+}
