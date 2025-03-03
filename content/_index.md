@@ -8,39 +8,38 @@ layout: index
   <div class="text-text-secondary tracking-wide">Welcome to the Netduma support site. Here you'll find guides for all of our features, along with frequently asked questions and useful links.</div>
 </div>
 
-{{< netduma/cards cols="6" class="py-16" title="Get Started">}}
+{{< netduma/cards cols="6" title="Get Started">}}
   {{< netduma/card-button
     span="2" 
-    link="../#" 
+    link="../docs/dumaos-4/" 
     title="DumaOS 4" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
     buttonText="Something Here" 
-    image="/images/R3-Render.png" 
-    imagePos="top" 
-    imageClass="mx-0 mb-6" 
+    image="https://placehold.co/800x400"
   >}}
   {{< netduma/card-button
     span="2" 
-    link="../#" 
+    link="../docs/dumaos-3/" 
     title="DumaOS 3.0" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
     buttonText="Something Here" 
-    image="/images/R2-Render.png" 
-    imagePos="top" 
-    imageClass="mx-0 mb-6" >}}
+    image="https://placehold.co/800x400"
+  >}}
   {{< netduma/card-button
     span="2" 
-    link="../#" 
+    link="../docs/telstra-game-optimiser/" 
     title="Telstra Game Optimiser" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
     buttonColor="secondary" 
     buttonText="Something Here"
     class="bg-[white]"
-    image="/images/telstra-render.png" 
-    imagePos="top" 
-    imageClass="mx-0 mb-6" 
+    image="https://placehold.co/800x400"
   >}}
 {{< /netduma/cards >}}
+
+{{< callout icon="r3" >}}
+  If you're unsure which version of DumaOS you have, check this handy dandy info to determine your version. 
+{{< /callout >}}
 
 <div class="text-center flex flex-col items-center gap-4 py-16">
   <label for="search" class="text-2xl font-semibold tracking-wide">Search for Topics</label>
@@ -49,9 +48,10 @@ layout: index
 
 <div class="flex flex-col-reverse md:flex-row gap-12 py-16">
   <div class="basis-2/3">
-    {{< netduma/cards cols="6">}}  
+    {{< netduma/cards cols="6">}}
+      {{< netduma/card span="3" link="#" title="Hardware Support" subtitle="Get the latest updates for DumaOS" >}}
+      {{< netduma/card span="3" link="#" title="User Manuals" subtitle="User manuals for DumaOS compatible hardware" >}}
       {{< netduma/card span="3" link="../frequently-asked-questions" title="FAQs" icon="faq" subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" >}}
-      {{< netduma/card span="3" link="../docs/user-manuals" title="User Manuals" icon="grid" subtitle="User manuals for DumaOS compatible hardware" >}}
       {{< netduma/card span="3" link="../firmwares" title="Firmwares" icon="firmware" subtitle="Get the latest updates for DumaOS" >}}
     {{< /netduma/cards >}}
   </div>
