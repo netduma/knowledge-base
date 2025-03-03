@@ -9,7 +9,7 @@ layout: index
 </div>
 
 {{< netduma/cards cols="6" class="py-16" title="Get Started">}}
-  {{< netduma/button-card 
+  {{< netduma/card-button
     span="2" 
     link="../#" 
     title="DumaOS 4" 
@@ -19,7 +19,7 @@ layout: index
     imagePos="top" 
     imageClass="mx-0 mb-6" 
   >}}
-  {{< netduma/button-card 
+  {{< netduma/card-button
     span="2" 
     link="../#" 
     title="DumaOS 3.0" 
@@ -28,7 +28,7 @@ layout: index
     image="/images/R2-Render.png" 
     imagePos="top" 
     imageClass="mx-0 mb-6" >}}
-  {{< netduma/button-card 
+  {{< netduma/card-button
     span="2" 
     link="../#" 
     title="Telstra Game Optimiser" 
