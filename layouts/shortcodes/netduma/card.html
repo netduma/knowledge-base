@@ -7,7 +7,7 @@
 {{- $imageClass := .Get "imageClass" -}}
 {{- $link := .Get "link" -}}
 {{- $buttonLink := .Get "buttonLink" -}}
-{{- $span := .Get "span" | default 3 -}}
+{{- $span := .Get "span" | default 1 -}}
 
 {{- $external := hasPrefix $link "http" -}}
 {{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
@@ -35,8 +35,12 @@
   {{ with $icon -}}
     {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-9 text-text-secondary group-hover:text-primary-main transition-colors mb-2'") -}}
   {{ end -}}
-  <div class="text-xl font-semibold text-text-secondary group-hover:text-text-primary transition-colors">{{ $title }}</div>
-  <div class="text-text-secondary">{{ $subtitle | markdownify }}</div>
+  {{ with $title -}}
+    <div class="text-xl font-semibold text-text-secondary group-hover:text-text-primary transition-colors">{{ $title }}</div>
+  {{- end -}}
+  {{ with $subtitle -}}
+    <div class="text-text-secondary">{{ $subtitle | markdownify }}</div>
+  {{- end -}}
   {{- with $image -}}
     {{- if hasPrefix $imagePos "bottom" -}}
       <img src="{{ . }}" class="{{ $imageClass }} max-w-fit my-0" alt="{{ $title }}" />

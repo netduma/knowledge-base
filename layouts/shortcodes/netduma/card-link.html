@@ -1,0 +1,17 @@
+{{- $title := .Get "title" -}}
+{{- $icon := .Get "icon" -}}
+{{- $link := .Get "link" -}}
+
+{{- $external := hasPrefix $link "http" -}}
+{{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
+
+{{- if $link -}}
+  <a 
+    {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
+    class="font-semibold text-nowrap no-underline flex gap-2">
+    {{ with $icon -}}
+      {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-5'") -}}
+    {{ end -}}
+    {{ $title }}
+  </a>
+{{- end -}}
