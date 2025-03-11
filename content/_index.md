@@ -15,7 +15,7 @@ layout: index
     title="DumaOS 4" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
     buttonText="Something Here" 
-    image="https://placehold.co/800x400"
+    image="/images/R3-Render.png"
   >}}
   {{< netduma/card-button
     span="2" 
@@ -23,7 +23,7 @@ layout: index
     title="DumaOS 3.0" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
     buttonText="Something Here" 
-    image="https://placehold.co/800x400"
+    image="/images/R2-Render.png"
   >}}
   {{< netduma/card-button
     span="2" 
@@ -33,7 +33,7 @@ layout: index
     buttonColor="secondary" 
     buttonText="Something Here"
     class="bg-[white]"
-    image="https://placehold.co/800x400"
+    image="/images/telstra-render.png"
   >}}
 {{< /netduma/cards >}}
 
