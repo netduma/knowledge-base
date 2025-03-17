@@ -1,0 +1,21 @@
+{{- $title := .Get "title" -}}
+{{- $image := .Get "image" -}}
+{{- $imageClass := .Get "imageClass" -}}
+{{- $link := .Get "link" -}}
+
+{{- if hasPrefix $image "/" -}}
+  {{- $image = relURL (strings.TrimPrefix "/" $image) -}}
+{{- end -}}
+
+{{- $external := hasPrefix $link "http" -}}
+{{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
+
+<a
+  {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
+  class="flex flex-col gap-4 min-w-24 items-center no-underline cursor-pointer group"
+>
+  {{- with $image -}}
+      <img src="{{ . }}" class="{{ $imageClass }} my-0 max-w-24" alt="{{ $title }}" />
+  {{- end -}}
+  <div class="text-text-secondary group-hover:text-text-primary transition-colors">{{ $title }}</div>
+</a>

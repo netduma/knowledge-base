@@ -1,0 +1,51 @@
+{{- $title := .Get "title" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $class := .Get "class" -}}
+{{- $icon := .Get "icon" -}}
+{{- $image := .Get "image" -}}
+{{- $imageClass := .Get "imageClass" -}}
+{{- $link := .Get "link" -}}
+{{- $buttonLink := .Get "buttonLink" -}}
+{{- $span := .Get "span" | default 1 -}}
+
+{{- $external := hasPrefix $link "http" -}}
+{{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
+
+{{- if hasPrefix $image "/" -}}
+  {{- $image = relURL (strings.TrimPrefix "/" $image) -}}
+{{- end -}}
+
+{{- if $link -}}
+<a
+  {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
+  class="{{ $class }} card lg:col-span-{{ $span }} flex flex-col rounded-lg bg-background-paper border border-white/0 hover:border-white/20 no-underline group transition-colors"
+>
+{{- else -}}
+<div
+  class="{{ $class }} card lg:col-span-{{ $span }} flex flex-col rounded-lg bg-background-default no-underline group transition-colors"
+>
+{{- end -}}
+  {{- with $image -}}
+    <img src="{{ . }}" class="{{ $imageClass }} max-w-fit m-0 " alt="{{ $title }}" />
+  {{- end -}}
+  <div class="flex flex-col gap-2 p-6">
+    {{- with $icon -}}
+      {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-9 text-text-secondary group-hover:text-primary-main transition-colors mb-2'") -}}
+    {{- end -}}
+    {{- with $title -}}
+      {{- with $link -}}
+        <div class="text-xl font-semibold text-text-secondary group-hover:text-text-primary transition-colors">{{ $title }}</div>
+      {{- else -}}
+        <div class="text-xl font-semibold text-text-primary">{{ $title }}</div>
+      {{- end -}}
+    {{- end -}}
+    {{- with $subtitle -}}
+      <div class="text-text-secondary">{{ $subtitle | markdownify }}</div>
+    {{- end -}}
+    {{ .Inner }}
+  </div>
+{{- if $link -}}
+</a>
+{{- else -}}
+</div>
+{{- end -}}
