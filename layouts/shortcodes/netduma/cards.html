@@ -2,8 +2,10 @@
 {{- $cols := .Get "cols" | default 3 -}}
 {{- $gap := .Get "gap" | default 6 -}}
 {{- $title := .Get "title" -}}
+{{- $class := .Get "class" -}}
 
-<div class="mt-6">
+
+<div class="{{ $class }}">
   {{ with $title -}}
     <div class="flex flex-col gap-8 items-center">
       <div class="text-2xl font-semibold">{{ $title }}</div>
