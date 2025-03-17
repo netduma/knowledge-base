@@ -1,15 +1,13 @@
 {{- $link := .Get "link" -}}
 {{- $text := .Get "text" -}}
 {{- $buttonColor := .Get "buttonColor" -}}
-{{- $style := .Get "style" -}}
 
 {{- $external := hasPrefix $link "http" -}}
 {{- $href := cond (hasPrefix $link "/") ($link | relURL) $link -}}
 
 <a
   href="{{ $href }}"
-  class="not-prose mt-2 py-2 px-4 rounded-[4px] font-semibold uppercase text-nowrap text-{{ $buttonColor }}-main border border-{{ $buttonColor }}-main hover:text-{{ $buttonColor }}-light hover:border-{{ $buttonColor }}-light no-underline"
-  {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+  class="not-prose mt-2 py-2 px-4 rounded-[4px] font-semibold uppercase text-nowrap text-{{ $buttonColor }}-main border border-{{ $buttonColor }}-main hover:text-{{ $buttonColor }}-light hover:border-{{ $buttonColor }}-light transition-colors no-underline self-start"
   {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
 >
   {{- $text -}}
