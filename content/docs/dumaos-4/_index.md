@@ -1,6 +1,7 @@
 ---
 title: DumaOS 4
 weight: 1
+toc: false
 
 ---
 
