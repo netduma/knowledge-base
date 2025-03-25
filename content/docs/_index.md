@@ -4,11 +4,11 @@ weight: 1
 toc: false
 ---
 
-This section contains in-depth guides on every DumaOS feature.
+{{< callout icon="r3" >}}
+  Netduma R3 users should select DumaOS 4.
+{{< /callout >}}
 
-Select your DumaOS version to continue. Netduma R3 users should select DumaOS 4.
-
-{{< netduma/cards cols="4">}}
+{{< netduma/cards class="my-6" cols="4">}}
   {{< netduma/card
     span="2" 
     title="DumaOS 4" 
@@ -38,6 +38,13 @@ Select your DumaOS version to continue. Netduma R3 users should select DumaOS 4.
     span="2"
     title="User Manuals" 
     subtitle="User manuals for DumaOS compatible hardware" 
+    class="bg-[white]"
+  >}}
+    {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/user-manuals/" >}}
+  {{< /netduma/card >}}
+  {{< netduma/card
+    span="2"
+    title="Supported Applications" 
     class="bg-[white]"
   >}}
     {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/user-manuals/" >}}

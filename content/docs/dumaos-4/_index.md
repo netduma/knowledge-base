@@ -7,7 +7,7 @@ toc: false
 
 The latest version of DumaOS, featuring groundbreaking new features like SmartBOOST and Geo-Filter 2.0.
 
-{{< netduma/cards cols="6">}}
+{{< netduma/cards class="my-6" cols="6">}}
   {{< netduma/card span="3" title="Getting Started" subtitle="Get the latest updates for DumaOS 4" >}}
     {{< netduma/card-links >}}
       {{< netduma/card-link title="Accessing DumaOS" link="/docs/dumaos-4/accessing-dumaos/" >}}
