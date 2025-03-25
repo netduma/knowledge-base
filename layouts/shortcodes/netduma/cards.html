@@ -2,20 +2,22 @@
 {{- $cols := .Get "cols" | default 3 -}}
 {{- $gap := .Get "gap" | default 6 -}}
 {{- $title := .Get "title" -}}
-{{- $class := .Get "class" -}}
 
-
+{{- with $class -}}
 <div class="{{ $class }}">
-  {{ with $title -}}
+{{- end -}}
+  {{- with $title -}}
     <div class="flex flex-col gap-8 items-center">
       <div class="text-2xl font-semibold">{{ $title }}</div>
-  {{ end -}}
+  {{- end -}}
 
-  <div class="grid grid-cols-1 lg:grid-cols-{{ $cols }} grid-flow-row gap-{{ $gap }} {{ $class }}">
+  <div class="grid grid-cols-1 lg:grid-cols-{{ $cols }} grid-flow-row gap-{{ $gap }}">
     {{ .Inner }}
   </div>
 
-  {{ with $title -}}
+  {{- with $title -}}
     </div>
-  {{ end -}}
+  {{- end -}}
+{{ with $class -}}
 </div>
+{{- end -}}
