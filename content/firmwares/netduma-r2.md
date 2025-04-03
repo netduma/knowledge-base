@@ -1,5 +1,5 @@
 ---
-title: NETDUMA R2
+title: Netduma R2
 weight: 2
 ---
 
