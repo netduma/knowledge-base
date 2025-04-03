@@ -1,3 +1,4 @@
+{{- $class := .Get "class" -}}
 {{- $link := .Get "link" -}}
 {{- $text := .Get "text" -}}
 {{- $buttonColor := .Get "buttonColor" -}}
@@ -7,7 +8,7 @@
 
 <a
   href="{{ $href }}"
-  class="not-prose py-2 px-4 rounded-[4px] font-semibold uppercase text-nowrap text-{{ $buttonColor }}-main border border-{{ $buttonColor }}-main hover:text-{{ $buttonColor }}-light hover:border-{{ $buttonColor }}-light transition-colors no-underline self-start"
+  class="not-prose inline-block py-2 px-4 rounded-[4px] font-semibold uppercase text-nowrap text-{{ $buttonColor }}-main border border-{{ $buttonColor }}-main hover:text-{{ $buttonColor }}-light hover:border-{{ $buttonColor }}-light transition-colors no-underline self-start {{ $class }}"
   {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
 >
   {{- $text -}}

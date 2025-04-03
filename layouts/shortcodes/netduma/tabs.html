@@ -1,3 +1,4 @@
+{{- $class := .Get "class" -}}
 {{- $items := split (.Get "items") "," -}}
 {{- $defaultIndex := int ((.Get "defaultIndex") | default "0") -}}
 
@@ -5,7 +6,7 @@
   {{ errorf "no items provided" }}
 {{- end -}}
 
-<div class="hextra-tabs flex flex-col gap-6 ">
+<div class="hextra-tabs flex flex-col gap-6 {{ $class }}">
   <div>
     <div class="hx-flex hx-w-max hx-min-w-full hx-pb-px">
       {{- range $i, $item := $items -}}
