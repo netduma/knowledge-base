@@ -34,19 +34,22 @@ toc: false
   >}}
     {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/telstra-game-optimiser/" >}}
   {{< /netduma/card >}}
-  {{< netduma/card
-    span="2"
-    title="User Manuals" 
-    subtitle="User manuals for DumaOS compatible hardware" 
-    class="bg-[white]"
-  >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/user-manuals/" >}}
-  {{< /netduma/card >}}
-  {{< netduma/card
-    span="2"
-    title="Supported Applications" 
-    class="bg-[white]"
-  >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/user-manuals/" >}}
-  {{< /netduma/card >}}
+  {{< netduma/cards class="lg:col-span-2">}}
+    {{< netduma/card
+      span="4"
+      title="User Manuals" 
+      subtitle="User manuals for DumaOS compatible hardware" 
+      class="bg-[white]"
+    >}}
+      {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/user-manuals/" >}}
+    {{< /netduma/card >}}
+    {{< netduma/card
+      span="4"
+      title="Supported Applications" 
+      class="bg-[white]"
+    >}}
+      {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/user-manuals/" >}}
+    {{< /netduma/card >}}
+  {{< /netduma/cards >}}
+
 {{< /netduma/cards >}}
