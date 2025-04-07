@@ -17,11 +17,11 @@ html {
 }
 
 html[class~="dark"] {
+    line-height: 1.4;
     scrollbar-color: hsla(0, 0%, 100%, .39) #000;
 }
 
 body:is(html[class~="dark"] *) {
-    line-height: 1.4rem;
     background: #000;
     color: rgb(255 255 255 / var(--tw-text-opacity));
     /* all text on live has increased letter-spacing. buttons do not, so use tracking-normal when needed. negates the need for tracking-wide on every instance of a heading or copy */
@@ -166,7 +166,7 @@ body:is(html[class~="dark"] *) {
 
 /* breadcrumbs */
 main > div:first-child:not(.content) {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .hextra-footer,
@@ -215,6 +215,7 @@ main > div:first-child:not(.content) {
 
 .content :where(p):not(:where([class~=not-prose],[class~=not-prose] *)) {
     color: rgb(255 255 255 / 0.8);
+    line-height: 1.4;
 }
 
 hr {
