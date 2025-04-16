@@ -207,6 +207,15 @@ main > div:first-child:not(.content) {
     transform: translateX(-50%) rotate(180deg);
 }
 
+.card .hextra-tabs {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+.card .hextra-tabs-panel {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
 /* content */
 
 .content :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)) {
