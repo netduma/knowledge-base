@@ -189,6 +189,7 @@ main > div:first-child:not(.content) {
 
 .hextra-tabs-toggle {
     position: relative;
+    text-transform: uppercase;
 }
 
 .hextra-tabs-toggle[data-state="selected"]::after {
