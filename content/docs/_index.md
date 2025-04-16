@@ -2,6 +2,7 @@
 title: Guides
 weight: 1
 toc: false
+breadcrumbs: false
 ---
 
 <div class="flex gap-8 mt-4">
