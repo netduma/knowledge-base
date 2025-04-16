@@ -7,6 +7,6 @@
   {{- if eq .Ordinal $defaultIndex }} tabindex="0" {{ end -}}
   {{- if eq .Ordinal $defaultIndex }} data-state="selected" {{ end -}}
 >
-  {{- .InnerDeindent | markdownify -}}
+  {{- .Inner -}}
 </div>
 {{- /* Drop trailing newlines */ -}}
