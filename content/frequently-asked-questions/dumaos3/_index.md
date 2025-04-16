@@ -1,5 +1,5 @@
 ---
-title: DumaOS 3 Questions
+title: DumaOS 3
 weight: 99
 ---
 
