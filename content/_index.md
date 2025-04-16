@@ -8,32 +8,41 @@ layout: index
   <div class="text-text-secondary tracking-wide">Welcome to the Netduma support site. Here you'll find guides for all of our features, along with frequently asked questions and useful links.</div>
 </div>
 
-{{< netduma/cards cols="6" title="Get Started">}}
+{{< netduma/cards cols="6" title="Hardware">}}
   {{< netduma/card
     span="2" 
-    title="DumaOS 4" 
+    title="Netduma R3" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
-    image="/images/dumaos4-devicemanager.jpg"
+    image="/images/R3-Render.png"
+    imageClass="pt-4 px-4"
+    link="../hardware/r3"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/dumaos-4/" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
-    title="DumaOS 3.0" 
+    title="Netduma R2" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general"
-    image="/images/dumaos3-devicemanager.jpg"
+    image="/images/R2-Render.png"
+    imageClass="pt-4 px-4"
+    link="../hardware/r2"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/dumaos-3/" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
-    title="Telstra Game Optimiser" 
+    title="Telstra Modem" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general"
-    image="/images/dumaos-telstra.jpg"
+    image="/images/telstra-render.png"
+    imageClass="pt-4 px-4"
+    link="../hardware/telstra"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="Dropbox" link="../docs/telstra-game-optimiser/" >}}
   {{< /netduma/card >}}
 {{< /netduma/cards >}}
+
+{{< netduma/grid title="DumaOS" class="mt-16" >}}  
+  {{< netduma/grid-icon link="../hardware/r3" title="Netduma R3" icon="dumaos4" >}}
+  {{< netduma/grid-icon link="../hardware/r2" title="Netduma R2" icon="dumaos3" >}}
+  {{< netduma/grid-icon link="../#" title="Telstra" icon="telstra" >}}
+{{< /netduma/grid >}}
 
 {{< callout icon="r3" >}}
   If you're unsure which version of DumaOS you have, check this handy dandy info to determine your version. 
@@ -45,7 +54,7 @@ layout: index
 </div>
 
 <div class="flex flex-col-reverse md:flex-row gap-12 py-16">
-  <div class="basis-2/3">
+  <div class="basis-3/5">
     {{< netduma/cards cols="6">}}
       {{< netduma/card span="3" link="#" title="Hardware Support" subtitle="Get the latest updates for DumaOS" >}}{{< /netduma/card >}}
       {{< netduma/card span="3" link="#" title="User Manuals" subtitle="User manuals for DumaOS compatible hardware" >}}{{< /netduma/card >}}
@@ -53,55 +62,19 @@ layout: index
       {{< netduma/card span="3" link="../firmwares" title="Firmwares" icon="firmware" subtitle="Get the latest updates for DumaOS" >}}{{< /netduma/card >}}
     {{< /netduma/cards >}}
   </div>
-  <div class="basis-1/3">
-      {{< netduma/tabs items="POPULAR,RECENT" >}}
-        {{< netduma/tab >}}  
-          <div class="flex flex-col gap-2 mb-6">
-            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-            <div class="flex gap-4 text-sm text-white/65">
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS</a>
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Game Guide</a>
-            </div>
-          </div>
-          <div class="flex flex-col gap-2 mb-6">
-            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-            <div class="flex gap-4 text-sm text-white/65">
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS</a>
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Game Guide</a>
-            </div>
-          </div>
-          <div class="flex flex-col gap-2 mb-6">
-            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
-            <div class="flex gap-4 text-sm text-white/65">
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS</a>
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Features</a>
-            </div>
-          </div>
-          <div class="flex flex-col gap-2 mb-6">
-            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
-            <div class="flex gap-4 text-sm text-white/65">
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS</a>
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Game Guide</a>
-            </div>
-          </div>
-        {{< /netduma/tab >}}
-        {{< netduma/tab >}}
-          <div class="flex flex-col gap-2">
-            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Geo-Filter</a>
-            <div class="flex gap-4 text-sm text-white/65">
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS 4</a>
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Features</a>
-            </div>
-          </div>
-          <div class="flex flex-col gap-2">
-            <a class="text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-            <div class="flex gap-4 text-sm text-white/65">
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">DumaOS 4</a>
-              <a class="text-text-secondary hover:text-text-primary transition-colors no-underline cursor-pointer">Game Guide</a>
-            </div>
-          </div>
-        {{< /netduma/tab >}}
-      {{</ netduma/tabs >}}
+  <div class="basis-2/5">
+    {{< netduma/tabs items="Popular Guides,Recent Guides" >}}
+      {{< netduma/tab >}}  
+        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+      {{< /netduma/tab >}}
+      {{< netduma/tab >}}
+        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+      {{< /netduma/tab >}}
+    {{</ netduma/tabs >}}
   </div>
 </div>
 
