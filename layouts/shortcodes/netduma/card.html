@@ -18,7 +18,7 @@
 {{- if $link -}}
 <a
   {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
-  class="{{ $class }} card lg:col-span-{{ $span }} flex flex-col rounded-lg bg-background-paper border border-white/0 hover:border-white/20 no-underline group transition-colors"
+  class="{{ $class }} card lg:col-span-{{ $span }} flex flex-col rounded-lg bg-background-paper border border-white/0 hover:border-white/20 hover:bg-background-content no-underline group transition-colors"
 >
 {{- else -}}
 <div

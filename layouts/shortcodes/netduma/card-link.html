@@ -8,7 +8,7 @@
 {{- if $link -}}
   <a 
     {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
-    class="font-semibold no-underline flex gap-3">
+    class="no-underline text-primary-main hover:text-primary-light flex gap-3">
     {{ with $icon -}}
       {{- partial "utils/icon.html" (dict "name" . "attributes" "class='size-5'") -}}
     {{ end -}}
