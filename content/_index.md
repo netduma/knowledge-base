@@ -39,14 +39,10 @@ layout: index
 {{< /netduma/cards >}}
 
 {{< netduma/grid title="DumaOS" class="mt-16" >}}  
-  {{< netduma/grid-icon link="../hardware/r3" title="Netduma R3" icon="dumaos4" >}}
-  {{< netduma/grid-icon link="../hardware/r2" title="Netduma R2" icon="dumaos3" >}}
-  {{< netduma/grid-icon link="../#" title="Telstra" icon="telstra" >}}
+  {{< netduma/grid-icon link="../docs/dumaos-4" title="DumaOS 4" icon="dumaos4" >}}
+  {{< netduma/grid-icon link="../docs/dumaos-3" title="DumaOS 3" icon="dumaos3" >}}
+  {{< netduma/grid-icon link="../docs/telstra-game-optimiser" title="Telstra" icon="telstra" >}}
 {{< /netduma/grid >}}
-
-{{< callout icon="r3" >}}
-  If you're unsure which version of DumaOS you have, check this handy dandy info to determine your version. 
-{{< /callout >}}
 
 <div class="text-center flex flex-col items-center gap-4 py-16">
   <label for="search" class="text-2xl font-semibold tracking-wide">Search for Topics</label>
@@ -65,14 +61,14 @@ layout: index
   <div class="basis-2/5">
     {{< netduma/tabs items="Popular Guides,Recent Guides" >}}
       {{< netduma/tab >}}  
-        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
-        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
       {{< /netduma/tab >}}
       {{< netduma/tab >}}
-        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
-        <a class="my-3 text-xl font-semibold tracking-wide text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
       {{< /netduma/tab >}}
     {{</ netduma/tabs >}}
   </div>

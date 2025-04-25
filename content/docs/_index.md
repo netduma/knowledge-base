@@ -7,7 +7,18 @@ breadcrumbs: false
 
 <div class="flex gap-8 mt-4">
   <div class="flex-1 basis-1/5">
-    <img src="/images/dumaos4-devicemanager.jpg" class="m-0 " alt="DumaOS 4">
+    {{< netduma/tabs items="Popular Guides,Recent Guides" >}}
+      {{< netduma/tab >}}  
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+      {{< /netduma/tab >}}
+      {{< netduma/tab >}}
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+      {{< /netduma/tab >}}
+    {{</ netduma/tabs >}}
   </div>
   <div class="flex-1 flex flex-col gap-2">
     <h2 class="m-0">Section title here</h2>
@@ -15,7 +26,6 @@ breadcrumbs: false
     {{< netduma/button class="mt-2" buttonColor="primary" text="Button here" link="#" >}}
   </div>
 </div>
-
 
 {{< callout icon="r3" >}}
   Netduma R3 users should select DumaOS 4.
@@ -27,16 +37,16 @@ breadcrumbs: false
     title="DumaOS 4" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
     image="/images/dumaos4-devicemanager.jpg"
+    link="../docs/dumaos-4/"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 4 Guides" link="../docs/dumaos-4/" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
     title="DumaOS 3" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
     image="/images/dumaos3-devicemanager.jpg"
+    link="../docs/dumaos-3/"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 3 Guides" link="../docs/dumaos-3/" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
@@ -44,8 +54,8 @@ breadcrumbs: false
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
     class="bg-[white]"
     image="/images/dumaos-telstra.jpg"
+    link="../docs/telstra-game-optimiser/"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="Telstra Guides" link="../docs/telstra-game-optimiser/" >}}
   {{< /netduma/card >}}
   {{< netduma/cards class="lg:col-span-2">}}
     {{< netduma/card
@@ -53,15 +63,15 @@ breadcrumbs: false
       title="User Manuals" 
       subtitle="User manuals for DumaOS compatible hardware" 
       class="bg-[white]"
+      link="../docs/user-manuals/"
     >}}
-      {{< netduma/button icon="network-activity" buttonColor="primary" text="See all User manuals" link="../docs/user-manuals/" >}}
     {{< /netduma/card >}}
     {{< netduma/card
       span="4"
       title="Supported Applications" 
       class="bg-[white]"
+      link="../docs/supported-applications/"
     >}}
-      {{< netduma/button icon="network-activity" buttonColor="primary" text="Supported Application List" link="../docs/user-manuals/" >}}
     {{< /netduma/card >}}
   {{< /netduma/cards >}}
 
