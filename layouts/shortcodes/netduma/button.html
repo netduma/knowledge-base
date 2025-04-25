@@ -1,5 +1,6 @@
 {{- $class := .Get "class" -}}
 {{- $link := .Get "link" -}}
+{{- $download := .Get "download" -}}
 {{- $text := .Get "text" -}}
 {{- $buttonColor := .Get "buttonColor" -}}
 
@@ -8,6 +9,7 @@
 
 <a
   href="{{ $href }}"
+  {{ if $download }}target="_blank" download="{{ $download }}"{{ end -}}
   class="not-prose inline-block py-2 px-4 rounded-[4px] font-semibold uppercase text-nowrap text-{{ $buttonColor }}-main border border-{{ $buttonColor }}-main hover:text-{{ $buttonColor }}-light hover:border-{{ $buttonColor }}-light transition-colors no-underline self-start {{ $class }} {{ with .Parent }}mt-2{{ end }}"
   {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
 >
