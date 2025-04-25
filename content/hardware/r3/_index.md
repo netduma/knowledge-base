@@ -2,6 +2,7 @@
 title: Netduma R3
 weight: 1
 toc: false
+breadcrumbs: false
 ---
 
 <div class="flex gap-8 mt-4 mb-16">
@@ -29,7 +30,7 @@ toc: false
     subtitle="User manuals for DumaOS compatible hardware" 
     class="bg-[white]"
   >}}
-    {{< netduma/button buttonColor="primary" text="View" link="../docs/user-manuals/" >}}
+    {{< netduma/button buttonColor="primary" text="View" link="user-manual" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2"

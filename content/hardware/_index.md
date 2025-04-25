@@ -2,65 +2,77 @@
 title: Hardware
 weight: 1
 toc: false
+breadcrumbs: false
+cascade:
+  type: docs
 ---
 
-<div class="flex gap-8 mt-4">
-  <div class="flex-1 basis-1/5">
-    <img src="/images/dumaos4-devicemanager.jpg" class="m-0 " alt="DumaOS 4">
-  </div>
-  <div class="flex-1 flex flex-col gap-2">
-    <h2 class="m-0">Section title here</h2>
+<div class="mt-4">
     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-    {{< netduma/button class="mt-2" buttonColor="primary" text="Button here" link="#" >}}
-  </div>
 </div>
 
-{{< callout icon="r3" >}}
-  Netduma R3 users should select DumaOS 4.
-{{< /callout >}}
-
-{{< netduma/cards class="my-6" cols="4">}}
+{{< netduma/cards cols="6" class="mt-6">}}
   {{< netduma/card
-    span="2" 
-    title="DumaOS 4" 
+    span="3" 
+    title="Netduma R3" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
-    image="/images/dumaos4-devicemanager.jpg"
+    image="/images/R3-Render.png"
+    imageClass="pt-4 px-4"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 4 Guides" link="../docs/dumaos-4/" >}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link title="Firmwares" link="r3/firmware" >}}
+      {{< netduma/card-link title="User Manual" link="r3/user-manual" >}}
+      {{< netduma/card-link title="DumaOS 4 FAQs" link="../frequently-asked-questions/dumaos4/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/button link="../hardware/r3" buttonColor="primary" text="View More" >}}
+  {{< /netduma/card >}}
+  {{< netduma/card
+    span="3" 
+    title="Netduma R2" 
+    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general"
+    image="/images/R2-Render.png"
+    imageClass="pt-4 px-4"
+  >}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link title="Firmwares" link="r2/firmware" >}}
+      {{< netduma/card-link title="User Manual" link="r2/user-manual" >}}
+      {{< netduma/card-link title="DumaOS 3 FAQs" link="../frequently-asked-questions/dumaos3/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/button link="../hardware/r2" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
-    title="DumaOS 3" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
-    image="/images/dumaos3-devicemanager.jpg"
+    title="Telstra Modem" 
+    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 3 Guides" link="../docs/dumaos-3/" >}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link title="DumaOS 3 FAQs" link="../frequently-asked-questions/dumaos3/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/button link="../hardware/telstra" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
-    title="Telstra Game Optimiser" 
+    title="Netgear Nighthawk" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
-    class="bg-[white]"
-    image="/images/dumaos-telstra.jpg"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="Telstra Guides" link="../docs/telstra-game-optimiser/" >}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link title="Firmwares" link="#" >}}
+      {{< netduma/card-link title="User Manual" link="#" >}}
+      {{< netduma/card-link title="DumaOS 3 FAQs" link="../frequently-asked-questions/dumaos3/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/button link="../hardware/netgear-nighthawk" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
-  {{< netduma/cards class="lg:col-span-2">}}
-    {{< netduma/card
-      span="4"
-      title="User Manuals" 
-      subtitle="User manuals for DumaOS compatible hardware" 
-      class="bg-[white]"
-    >}}
-      {{< netduma/button icon="network-activity" buttonColor="primary" text="See all User manuals" link="../docs/user-manuals/" >}}
-    {{< /netduma/card >}}
-    {{< netduma/card
-      span="4"
-      title="Supported Applications" 
-      class="bg-[white]"
-    >}}
-      {{< netduma/button icon="network-activity" buttonColor="primary" text="Supported Application List" link="../docs/user-manuals/" >}}
-    {{< /netduma/card >}}
-  {{< /netduma/cards >}}
-
+  {{< netduma/card
+    span="2" 
+    title="Netduma R1" 
+    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
+    link=""
+  >}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link title="Firmwares" link="r1/firmware" >}}
+      {{< netduma/card-link title="User Manual" link="r1/user-manual" >}}
+      {{< netduma/card-link title="DumaOS 3 FAQs" link="../frequently-asked-questions/dumaos3/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/button link="../hardware/r1" buttonColor="primary" text="View More" >}}
+  {{< /netduma/card >}}
 {{< /netduma/cards >}}

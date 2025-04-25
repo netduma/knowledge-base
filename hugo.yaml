@@ -39,8 +39,8 @@ menu:
     - name: Guides
       pageRef: /docs
       weight: 1
-    - name: Firmwares
-      pageRef: /firmwares
+    - name: Hardware
+      pageRef: /hardware
       weight: 2
     - name: FAQ
       pageRef: /frequently-asked-questions

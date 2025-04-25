@@ -2,6 +2,7 @@
 title: Netduma R2
 weight: 1
 toc: false
+breadcrumbs: false
 ---
 
 <div class="flex gap-8 mt-4 mb-16">
