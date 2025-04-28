@@ -217,6 +217,10 @@ main > div:first-child:not(.content) {
     padding-right: 1.5rem;
 }
 
+.card .button {
+    margin-top: auto;
+}
+
 /* content */
 
 .content :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)) {
