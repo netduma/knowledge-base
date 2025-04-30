@@ -1,11 +1,27 @@
 {{- $class := .Get "class" -}}
 {{- $title := .Get "title" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $align := .Get "align" -}}
+{{- $alignClass := .Get "align" -}}
+
+{{- if eq $align "left" }}
+  {{ $alignClass = "start" }}
+{{ else if eq $align "right" }}
+  {{ $alignClass = "end" }}
+{{ else if eq $align "center" }}
+  {{ $alignClass = "center" }}
+{{ end -}}
 
 <div class="{{ $class }}">
 
 {{ with $title -}}
-  <div class="flex flex-col gap-8 items-center">
-    <div class="text-2xl font-semibold">{{ $title }}</div>
+  <div class="flex flex-col gap-8 items-{{ $alignClass }}">
+    <div class="text-2xl font-semibold tracking-wide">{{ $title }}</div>
+{{ end -}}
+
+
+{{ with $subtitle -}}
+    <p class="text-secondary m-0 max-w-screen-sm text-{{ $align }}">{{ $subtitle }}</p>
 {{ end -}}
 
 <div class="flex flex-row gap-16">
