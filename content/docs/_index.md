@@ -51,11 +51,11 @@ type: netduma-wide
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
-    title="Telstra Game Optimiser" 
+    title="Telstra Internet Optimiser" 
     subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
     class="bg-[white]"
     image="/images/dumaos-telstra.jpg"
-    link="../docs/telstra-game-optimiser/"
+    link="../docs/telstra-internet-optimiser/"
   >}}
   {{< /netduma/card >}}
   {{< netduma/cards class="lg:col-span-2">}}
