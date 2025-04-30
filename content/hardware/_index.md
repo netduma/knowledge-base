@@ -20,7 +20,6 @@ type: netduma-wide
   >}}
     {{< netduma/card-links >}}
       {{< netduma/card-link title="Firmwares" link="r3/firmware" >}}
-      {{< netduma/card-link title="User Manual" link="r3/user-manual" >}}
       {{< netduma/card-link title="DumaOS 4 FAQs" link="../frequently-asked-questions/dumaos4/" >}}
     {{< /netduma/card-links >}}
     {{< netduma/button link="../hardware/r3" buttonColor="primary" text="View More" >}}
