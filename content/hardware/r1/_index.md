@@ -3,6 +3,8 @@ title: Netduma R1
 weight: 1
 toc: false
 breadcrumbs: false
+cascade:
+  type: docs
 ---
 
 <div class="flex gap-8 mt-4 mb-16">

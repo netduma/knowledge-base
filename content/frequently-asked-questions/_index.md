@@ -1,8 +1,7 @@
 ---
 title: FAQ
 weight: 3
-cascade:
-  type: docs
+type: netduma-wide
 breadcrumbs: false
 ---
 

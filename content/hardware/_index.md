@@ -3,8 +3,7 @@ title: Hardware
 weight: 1
 toc: false
 breadcrumbs: false
-cascade:
-  type: docs
+type: netduma-wide
 ---
 
 <div class="mt-4">

@@ -3,6 +3,7 @@ title: Guides
 weight: 1
 toc: false
 breadcrumbs: false
+type: netduma-wide
 ---
 
 <div class="flex gap-8 mt-4">
