@@ -23,11 +23,11 @@ layout: index
     imageClass="pt-4 px-4"
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Firmwares" link="r3/firmware" >}}
-      {{< netduma/card-link title="DumaOS 4 Guides" link="r3/firmware" >}}
-      {{< netduma/card-link title="DumaOS 4 FAQs" link="../frequently-asked-questions/dumaos4/" >}}
+      {{< netduma/card-link title="Firmwares" link="platforms/r3/firmware" >}}
+      {{< netduma/card-link title="DumaOS 4 Guides" link="docs/dumaos-4" >}}
+      {{< netduma/card-link title="DumaOS 4 FAQs" link="frequently-asked-questions/dumaos4" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="../hardware/r3" buttonColor="primary" text="View More" >}}
+    {{< netduma/button link="platforms/r3" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
@@ -37,11 +37,11 @@ layout: index
     imageClass="pt-4 px-4"
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Firmwares" link="r2/firmware" >}}
-      {{< netduma/card-link title="DumaOS 3 Guides" link="#" >}}
-      {{< netduma/card-link title="DumaOS 3 FAQs" link="../frequently-asked-questions/dumaos3/" >}}
+      {{< netduma/card-link title="Firmwares" link="platforms/r2/firmware" >}}
+      {{< netduma/card-link title="DumaOS 3 Guides" link="docs/dumaos-3" >}}
+      {{< netduma/card-link title="DumaOS 3 FAQs" link="frequently-asked-questions/dumaos3" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="../hardware/r2" buttonColor="primary" text="View More" >}}
+    {{< netduma/button link="platforms/r2" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
@@ -50,21 +50,21 @@ layout: index
     link=""
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Netduma R1" link="r1/firmware" >}}
-      {{< netduma/card-link title="Netgear Nighthawk" link="r1/user-manual" >}}
-      {{< netduma/card-link title="Telstra" link="../frequently-asked-questions/dumaos3/" >}}
+      {{< netduma/card-link title="Netduma R1" link="platforms/r1" >}}
+      {{< netduma/card-link title="Netgear Nighthawk" link="platforms/netgear-nighthawk" >}}
+      {{< netduma/card-link title="Telstra" link="platforms/telstra" >}}
     {{< /netduma/card-links >}}
   {{< /netduma/card >}}
 {{< /netduma/cards >}}
 
 {{< netduma/grid title="DumaOS" align="center" class="mt-16" >}}  
-  {{< netduma/grid-icon link="../docs/dumaos-4" title="DumaOS 4" icon="dumaos4" >}}
-  {{< netduma/grid-icon link="../docs/dumaos-3" title="DumaOS 3" icon="dumaos3" >}}
-  {{< netduma/grid-icon link="../docs/telstra-game-optimiser" title="Telstra" icon="telstra" >}}
+  {{< netduma/grid-icon link="docs/dumaos-4" title="DumaOS 4" icon="dumaos4" >}}
+  {{< netduma/grid-icon link="docs/dumaos-3" title="DumaOS 3" icon="dumaos3" >}}
+  {{< netduma/grid-icon link="docs/telstra-game-optimiser" title="Telstra" icon="telstra" >}}
 {{< /netduma/grid >}}
 
 {{< netduma/grid title="Still need Help?" subtitle="We are always available via email and via our support forums. Our friendly support team will answer any questions you have about Netduma, DumaOS or networking in general." align="center" class="mt-32" >}}  
-  {{< netduma/grid-icon link="../#" title="Email" icon="email" >}}
-  {{< netduma/grid-icon link="../#" title="Forum" icon="forum" >}}
-  {{< netduma/grid-icon link="../#" title="Youtube" icon="youtube" >}}
+  {{< netduma/grid-icon link="mailto:netduma@netduma.com" title="Email" icon="email" >}}
+  {{< netduma/grid-icon link="https://forum.netduma.com/" title="Forum" icon="forum" >}}
+  {{< netduma/grid-icon link="https://www.youtube.com/netduma" title="Youtube" icon="youtube" >}}
 {{< /netduma/grid >}}
