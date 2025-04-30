@@ -1,5 +1,5 @@
 ---
-title: Hardware
+title: Platforms
 weight: 1
 toc: false
 breadcrumbs: false

@@ -40,7 +40,7 @@ menu:
       pageRef: /docs
       weight: 1
     - name: Platforms
-      pageRef: /hardware
+      pageRef: /platforms
       weight: 2
     - name: FAQs
       pageRef: /frequently-asked-questions
