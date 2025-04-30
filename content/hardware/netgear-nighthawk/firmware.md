@@ -20,6 +20,10 @@ Download the correct firmware files for your unit. These will contain the model 
 
 Official firmware files can be downloaded directly from Netgear below
 
+{{< callout icon="r3" >}}
+  Please ensure you determine and download the correct version for your XR1000
+{{< /callout >}}
+
 <div class="flex flex-col gap-4 mt-4">
   <div class="flex gap-4">
     {{< netduma/button buttonColor="primary" text="XR1000 Firmware" link="https://www.netgear.com/support/product/xr1000/#download" >}}
