@@ -60,7 +60,7 @@ layout: index
 {{< netduma/grid title="DumaOS" align="center" class="mt-16" >}}  
   {{< netduma/grid-icon link="docs/dumaos-4" title="DumaOS 4" icon="dumaos4" >}}
   {{< netduma/grid-icon link="docs/dumaos-3" title="DumaOS 3" icon="dumaos3" >}}
-  {{< netduma/grid-icon link="docs/telstra-game-optimiser" title="Telstra" icon="telstra" >}}
+  {{< netduma/grid-icon link="docs/telstra-internet-optimiser" title="Telstra" icon="telstra" >}}
 {{< /netduma/grid >}}
 
 {{< netduma/grid title="Still need Help?" subtitle="We are always available via email and via our support forums. Our friendly support team will answer any questions you have about Netduma, DumaOS or networking in general." align="center" class="mt-32" >}}  
