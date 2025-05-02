@@ -219,6 +219,7 @@ main > div:first-child:not(.content) {
 
 .card .button {
     margin-top: auto;
+    align-self: start;
 }
 
 /* content */
