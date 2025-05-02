@@ -6,7 +6,7 @@ breadcrumbs: false
 type: netduma-wide
 ---
 
-<div class="mt-4">
+<div class="pb-8 container mx-auto max-w-screen-sm text-center flex flex-col gap-4">
     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 </div>
 

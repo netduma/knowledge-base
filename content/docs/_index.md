@@ -6,74 +6,73 @@ breadcrumbs: false
 type: netduma-wide
 ---
 
-<div class="flex gap-8 mt-4">
-  <div class="flex-1 basis-1/5">
-    {{< netduma/tabs items="Popular Guides,Recent Guides" >}}
-      {{< netduma/tab >}}  
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
-      {{< /netduma/tab >}}
-      {{< netduma/tab >}}
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
-      {{< /netduma/tab >}}
-    {{</ netduma/tabs >}}
-  </div>
-  <div class="flex-1 flex flex-col gap-2">
-    <h2 class="m-0">Section title here</h2>
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-    {{< netduma/button class="mt-2" buttonColor="primary" text="Button here" link="#" >}}
-  </div>
+<div class="pb-8 container mx-auto max-w-screen-sm text-center flex flex-col gap-4">
+  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 </div>
+
+
+{{< netduma/cards class="my-6" cols="6">}}
+  {{< netduma/card span="2" title="DumaOS 4" subtitle="Get the latest updates for DumaOS" image="/images/dumaos4-devicemanager.jpg">}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link title="Accessing DumaOS" link="/docs/dumaos-4/accessing-dumaos/" >}}
+      {{< netduma/card-link title="Setup Wizard" link="/docs/dumaos-4/setup-wizard/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link icon="device-manager" title="Device Manager" link="/docs/dumaos-4/device-manager" >}}
+      {{< netduma/card-link icon="smartboost" title="SmartBOOST" link="/docs/dumaos-4/smartboost/" >}}
+      {{< netduma/card-link icon="geo-filter" title="Geo-Filter" link="/docs/dumaos-4/geo-filter/" >}}
+      {{< netduma/card-link icon="ping-heatmap" title="Ping Heatmap" link="/docs/dumaos-4/ping-heatmap/" >}}
+      {{< netduma/card-link icon="adblocker" title="Adblocker" link="/docs/dumaos-4/adblocker/" >}}
+      {{< netduma/card-link icon="network-activity" title="Network Activity" link="/docs/dumaos-4/network-activity/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/button link="/docs/dumaos-4" buttonColor="primary" text="View More" >}}
+  {{< /netduma/card >}}
+  {{< netduma/card span="2" title="DumaOS 3" subtitle="Get the latest updates for DumaOS 3" image="/images/dumaos3-devicemanager.jpg" >}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link title="Accessing DumaOS" link="/docs/dumaos-3/accessing-dumaos/" >}}
+      {{< netduma/card-link title="Maximum Bandwidth Speeds" link="/docs/dumaos-3/maximum-bandwidth-speeds/" >}}
+      {{< netduma/card-link title="Prioritising Traffic" link="/docs/dumaos-3/prioritising-traffic/" >}}
+      {{< netduma/card-link title="Using Ping Assist as a Ping Filter" link="/docs/dumaos-3/using-ping-assist-as-a-ping-filter/" >}}
+      {{< netduma/card-link title="Open NAT" link="/docs/dumaos-3/open-nat/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link icon="device-manager" title="Device Manager" link="/docs/dumaos-3/device-manager" >}}
+      {{< netduma/card-link icon="smartboost" title="QoS" link="/docs/dumaos-3/qos/" >}}
+      {{< netduma/card-link icon="geo-filter" title="Geo-Filter" link="/docs/dumaos-3/geo-filter/" >}}
+      {{< netduma/card-link icon="ping-heatmap" title="Ping Assist" link="/docs/dumaos-3/ping-assist/" >}}
+      {{< netduma/card-link icon="network-activity" title="Dashboard and Network Monitor" link="/docs/dumaos-3/dashboard/" >}}
+      {{< netduma/card-link icon="network-activity" title="Hybrid VPN" link="/docs/dumaos-3/hybrid-vpn/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/button link="/docs/dumaos-4" buttonColor="primary" text="View More" >}}
+  {{< /netduma/card >}}
+  {{< netduma/card span="2" title="Telstra Internet Optimiser" subtitle="Get the latest updates for DumaOS 3" image="/images/dumaos-telstra.jpg" >}}
+    {{< netduma/card-links >}}
+      {{< netduma/card-link icon="device-manager" title="Device Manager" link="/docs/telstra-internet-optimiser/device-manager" >}}
+      {{< netduma/card-link icon="smartboost" title="Connection Benchmark" link="/docs/telstra-internet-optimiser/connection-benchmark/" >}}
+      {{< netduma/card-link icon="geo-filter" title="Adblocker" link="/docs/telstra-internet-optimiser/adblocker/" >}}
+      {{< netduma/card-link icon="geo-filter" title="Geo-Filter" link="/docs/telstra-internet-optimiser/geo-filter/" >}}
+      {{< netduma/card-link icon="geo-filter" title="Network Monitor" link="/docs/telstra-internet-optimiser/network-monitor/" >}}
+      {{< netduma/card-link icon="ping-heatmap" title="Ping Heatmap" link="/docs/telstra-internet-optimiser/ping-heatmap/" >}}
+      {{< netduma/card-link icon="network-activity" title="QoS" link="/docs/telstra-internet-optimiser/QoS/" >}}
+      {{< netduma/card-link icon="network-activity" title="Traffic Controller" link="/docs/telstra-internet-optimiser/traffic-controller/" >}}
+    {{< /netduma/card-links >}}
+    {{< netduma/button link="/docs/telstra-internet-optimiser" buttonColor="primary" text="View More" >}}
+  {{< /netduma/card >}}
+{{< /netduma/cards >}}
 
 {{< callout icon="r3" >}}
   Netduma R3 users should select DumaOS 4.
 {{< /callout >}}
 
-{{< netduma/cards class="my-6" cols="4">}}
-  {{< netduma/card
-    span="2" 
-    title="DumaOS 4" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
-    image="/images/dumaos4-devicemanager.jpg"
-    link="../docs/dumaos-4/"
-  >}}
-  {{< /netduma/card >}}
-  {{< netduma/card
-    span="2" 
-    title="DumaOS 3" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
-    image="/images/dumaos3-devicemanager.jpg"
-    link="../docs/dumaos-3/"
-  >}}
-  {{< /netduma/card >}}
-  {{< netduma/card
-    span="2" 
-    title="Telstra Internet Optimiser" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
-    class="bg-[white]"
-    image="/images/dumaos-telstra.jpg"
-    link="../docs/telstra-internet-optimiser/"
-  >}}
-  {{< /netduma/card >}}
-  {{< netduma/cards class="lg:col-span-2">}}
-    {{< netduma/card
-      span="4"
-      title="User Manuals" 
-      subtitle="User manuals for DumaOS compatible hardware" 
-      class="bg-[white]"
-      link="../docs/user-manuals/"
-    >}}
-    {{< /netduma/card >}}
-    {{< netduma/card
-      span="4"
-      title="Supported Applications" 
-      class="bg-[white]"
-      link="../docs/supported-applications/"
-    >}}
-    {{< /netduma/card >}}
-  {{< /netduma/cards >}}
-
-{{< /netduma/cards >}}
+{{< netduma/tabs items="Popular Guides,Recent Guides" class="mt-4" >}}
+  {{< netduma/tab >}}  
+    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+  {{< /netduma/tab >}}
+  {{< netduma/tab >}}
+    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+  {{< /netduma/tab >}}
+{{</ netduma/tabs >}}

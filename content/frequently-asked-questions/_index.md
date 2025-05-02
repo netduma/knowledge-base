@@ -5,26 +5,8 @@ type: netduma-wide
 breadcrumbs: false
 ---
 
-<div class="flex gap-8 mt-4">
-  <div class="flex-1 basis-1/5">
-    {{< netduma/tabs items="Popular FAQs,Recent FAQs" >}}
-      {{< netduma/tab >}}  
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
-      {{< /netduma/tab >}}
-      {{< netduma/tab >}}
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
-        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
-      {{< /netduma/tab >}}
-    {{</ netduma/tabs >}}
-  </div>
-  <div class="flex-1 flex flex-col gap-2">
-    <h2 class="m-0">Section title here</h2>
-    <div>This section contains Frequently Asked Questions about Netduma, DumaOS and networking in general.</div>
-    {{< netduma/button class="mt-2" buttonColor="primary" text="Button here" link="#" >}}
-  </div>
+<div class="pb-8 container mx-auto max-w-screen-sm text-center flex flex-col gap-4">
+  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 </div>
 
 {{< netduma/cards class="my-6" cols="6">}}
@@ -62,3 +44,25 @@ breadcrumbs: false
     {{< netduma/button link="#" buttonColor="primary" text="Legacy Questions" >}}
   {{< /netduma/card >}}
 {{< /netduma/cards >}}
+
+<div class="flex gap-8 mt-4">
+  <div class="flex-1 basis-1/5">
+    {{< netduma/tabs items="Popular FAQs,Recent FAQs" >}}
+      {{< netduma/tab >}}  
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+      {{< /netduma/tab >}}
+      {{< netduma/tab >}}
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
+        <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
+      {{< /netduma/tab >}}
+    {{</ netduma/tabs >}}
+  </div>
+  <div class="flex-1 flex flex-col gap-2">
+    <h2 class="m-0">Section title here</h2>
+    <div>This section contains Frequently Asked Questions about Netduma, DumaOS and networking in general.</div>
+    {{< netduma/button class="mt-2" buttonColor="primary" text="Button here" link="#" >}}
+  </div>
+</div>

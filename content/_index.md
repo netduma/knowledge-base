@@ -3,13 +3,13 @@ layout: index
 ---
 
 <!-- markdownlint-disable-next-line MD041 -->
-<div class="py-16 container mx-auto max-w-screen-sm text-center flex flex-col gap-4">
+<div class="my-16 container mx-auto max-w-screen-sm text-center flex flex-col gap-4">
   <h1 class="text-5xl tracking-wide">Netduma Knowledge Base</h1>
   <div class="text-text-secondary tracking-wide">Welcome to the Netduma support site. Here you'll find guides for all of our features, along with frequently asked questions and useful links.</div>
 </div>
 
 
-<div class="text-center flex flex-col items-center gap-4 py-16">
+<div class="text-center flex flex-col items-center gap-4 my-16">
   <label for="search" class="text-2xl font-semibold tracking-wide">Search for Topics</label>
  <input class="max-w-xl w-full rounded-md grow py-2 px-3 shadow-sm focus:outline-none" placeholder="Search Knowledge Base" type="text" name="search"/>
 </div>
