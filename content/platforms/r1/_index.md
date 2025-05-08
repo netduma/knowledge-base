@@ -24,7 +24,7 @@ cascade:
     subtitle="Frequently Asked Questions about DumaOS 3 on the Netduma R2" 
     image="/images/dumaos3-devicemanager.jpg"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 3 Guides" link="../docs/dumaos-3/" >}}
+    {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 3 Guides" link="/docs/dumaos-3/" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2"
@@ -32,7 +32,7 @@ cascade:
     subtitle="User manuals for DumaOS compatible hardware" 
     class="bg-[white]"
   >}}
-    {{< netduma/button buttonColor="primary" text="View" link="../docs/user-manuals/" >}}
+    {{< netduma/button buttonColor="primary" text="View" link="/docs/user-manuals/" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2"

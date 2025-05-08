@@ -24,7 +24,7 @@ cascade:
     subtitle="Frequently Asked Questions about DumaOS 4 on the Netduma R3" 
     image="/images/dumaos4-devicemanager.jpg"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 4 Guides" link="../docs/dumaos-4/" >}}
+    {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 4 Guides" link="/docs/dumaos-4/" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2"

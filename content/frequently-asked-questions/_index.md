@@ -13,14 +13,14 @@ breadcrumbs: false
       {{< netduma/card-link title="What is Fast Search?" link="#" >}}
       {{< netduma/card-link title="What is Strict Mode?" link="#" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="#" buttonColor="primary" text="DumaOS 4 FAQs" >}}
+    {{< netduma/button link="dumaos-4" buttonColor="primary" text="DumaOS 4 FAQs" >}}
   {{< /netduma/card >}}
   {{< netduma/card span="3" title="DumaOS 3" icon="dumaos3" subtitle="A longer description for DumaOS Software FAQs to go here" >}}
     {{< netduma/card-links >}}
       {{< netduma/card-link title="Can you use DumaOS in Access Point mode?" link="#" >}}
       {{< netduma/card-link title="What is Strict Mode?" link="#" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="#" buttonColor="primary" text="DumaOS 3 FAQs" >}}
+    {{< netduma/button link="dumaos-3" buttonColor="primary" text="DumaOS 3 FAQs" >}}
   {{< /netduma/card >}}
   {{< netduma/card span="2" title="General" >}}
     {{< netduma/card-links >}}
@@ -31,7 +31,7 @@ breadcrumbs: false
       {{< netduma/card-link title="Dashboard and Network Monitor" link="/docs/dumaos-3/dashboard/" >}}
       {{< netduma/card-link title="Hybrid VPN" link="/docs/dumaos-3/hybrid-vpn/" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="#" buttonColor="primary" text="General FAQs" >}}
+    {{< netduma/button link="general" buttonColor="primary" text="General FAQs" >}}
   {{< /netduma/card >}}
   {{< netduma/card span="2" title="Glossary" subtitle="A collection of terms used within DumaOS 3 or 4." >}}
     {{< netduma/button link="#" buttonColor="primary" text="View Glossary" >}}
