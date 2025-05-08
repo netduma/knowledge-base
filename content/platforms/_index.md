@@ -15,11 +15,11 @@ type: netduma-wide
     imageClass="pt-4 px-4"
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Firmwares" link="r3/firmware" >}}
+      {{< netduma/card-link title="Firmwares" link="netduma-r3/firmware" >}}
       {{< netduma/card-link title="DumaOS 4 FAQs" link="/frequently-asked-questions/dumaos-4/" >}}
       {{< netduma/card-link title="DumaOS 4 Guides" link="/docs/dumaos-4/" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="/platforms/r3" buttonColor="primary" text="View More" >}}
+    {{< netduma/button link="/platforms/netduma-r3" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="3" 
@@ -29,11 +29,11 @@ type: netduma-wide
     imageClass="pt-4 px-4"
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Firmwares" link="r2/firmware" >}}
-      {{< netduma/card-link title="User Manual" link="r2/user-manual" >}}
+      {{< netduma/card-link title="Firmwares" link="netduma-r2/firmware" >}}
+      {{< netduma/card-link title="User Manual" link="netduma-r2/user-manual" >}}
       {{< netduma/card-link title="DumaOS 3 FAQs" link="/frequently-asked-questions/dumaos-3/" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="/platforms/r2" buttonColor="primary" text="View More" >}}
+    {{< netduma/button link="/platforms/netduma-r2" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
@@ -65,10 +65,10 @@ type: netduma-wide
     link=""
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Firmwares" link="r1/firmware" >}}
-      {{< netduma/card-link title="User Manual" link="r1/user-manual" >}}
+      {{< netduma/card-link title="Firmwares" link="netduma-r1/firmware" >}}
+      {{< netduma/card-link title="User Manual" link="netduma-r1/user-manual" >}}
       {{< netduma/card-link title="DumaOS 3 FAQs" link="/frequently-asked-questions/dumaos3/" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="/platforms/r1" buttonColor="primary" text="View More" >}}
+    {{< netduma/button link="/platforms/netduma-r1" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
 {{< /netduma/cards >}}

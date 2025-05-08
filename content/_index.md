@@ -23,11 +23,11 @@ layout: index
     imageClass="pt-4 px-4"
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Firmwares" link="platforms/r3/firmware" >}}
+      {{< netduma/card-link title="Firmwares" link="platforms/netduma-r3/firmware" >}}
       {{< netduma/card-link title="DumaOS 4 Guides" link="docs/dumaos-4" >}}
       {{< netduma/card-link title="DumaOS 4 FAQs" link="frequently-asked-questions/dumaos4" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="platforms/r3" buttonColor="primary" text="View More" >}}
+    {{< netduma/button link="platforms/netduma-r3" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
@@ -37,11 +37,11 @@ layout: index
     imageClass="pt-4 px-4"
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Firmwares" link="platforms/r2/firmware" >}}
+      {{< netduma/card-link title="Firmwares" link="platforms/netduma-r2/firmware" >}}
       {{< netduma/card-link title="DumaOS 3 Guides" link="docs/dumaos-3" >}}
       {{< netduma/card-link title="DumaOS 3 FAQs" link="frequently-asked-questions/dumaos3" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="platforms/r2" buttonColor="primary" text="View More" >}}
+    {{< netduma/button link="platforms/netduma-r2" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
@@ -50,7 +50,7 @@ layout: index
     link=""
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Netduma R1" link="platforms/r1" >}}
+      {{< netduma/card-link title="Netduma R1" link="platforms/netduma-r1" >}}
       {{< netduma/card-link title="Netgear Nighthawk" link="platforms/netgear-nighthawk" >}}
       {{< netduma/card-link title="Telstra" link="platforms/telstra" >}}
     {{< /netduma/card-links >}}
