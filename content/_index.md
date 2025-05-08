@@ -18,7 +18,7 @@ layout: index
   {{< netduma/card
     span="2" 
     title="Netduma R3" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
+    subtitle="The latest router from Netduma, featuring DumaOS 4" 
     image="/images/R3-Render.png"
     imageClass="pt-4 px-4"
   >}}
@@ -46,7 +46,7 @@ layout: index
   {{< netduma/card
     span="2" 
     title="Other Platforms" 
-    subtitle="Get support for platforms not listed elsewhere" 
+    subtitle="Get support for older, or 3rd party platforms" 
     link=""
   >}}
     {{< netduma/card-links >}}

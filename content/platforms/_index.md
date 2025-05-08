@@ -6,15 +6,11 @@ breadcrumbs: false
 type: netduma-wide
 ---
 
-<div class="pb-8 container mx-auto max-w-screen-sm text-center flex flex-col gap-4">
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-</div>
-
 {{< netduma/cards cols="6" class="mt-6">}}
   {{< netduma/card
     span="3" 
     title="Netduma R3" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
+    subtitle="Firmwares, FAQs and Guides for the Netduma R3" 
     image="/images/R3-Render.png"
     imageClass="pt-4 px-4"
   >}}
@@ -27,7 +23,7 @@ type: netduma-wide
   {{< netduma/card
     span="3" 
     title="Netduma R2" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general"
+    subtitle="Firmwares, FAQs and Guides for the Netduma R2. A user manual is also available"
     image="/images/R2-Render.png"
     imageClass="pt-4 px-4"
   >}}
@@ -41,20 +37,21 @@ type: netduma-wide
   {{< netduma/card
     span="2" 
     title="Telstra Modem" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general"
+    subtitle="We recommend using Telstra's dedicated customer support"
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="DumaOS 3 FAQs" link="../frequently-asked-questions/dumaos3/" >}}
+      {{< netduma/card-link title="Telstra Support" link="https://www.telstra.com.au/support" >}}
+      {{< netduma/card-link title="Telstra Internet Optimiser Guide" link="https://www.telstra.com.au/internet-optimiser-user-guide" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="../hardware/telstra" buttonColor="primary" text="View More" >}}
+    {{< netduma/button link="https://www.telstra.com.au/internet/internet-optimiser" buttonColor="primary" text="Internet Optimser" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
     title="Netgear Nighthawk" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
+    subtitle="Links to Netgear firmwares and User Manuals can be found below" 
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Firmwares" link="#" >}}
+      {{< netduma/card-link title="Firmwares" link="netgear-nighthawk/firmware/" >}}
       {{< netduma/card-link title="User Manual" link="#" >}}
       {{< netduma/card-link title="DumaOS 3 FAQs" link="../frequently-asked-questions/dumaos3/" >}}
     {{< /netduma/card-links >}}
@@ -63,7 +60,7 @@ type: netduma-wide
   {{< netduma/card
     span="2" 
     title="Netduma R1" 
-    subtitle="Frequently Asked Questions about Netduma, DumaOS and networking in general" 
+    subtitle="Support for the legacy Netduma R1 is limited. Firmwares, User Manuals and FAQs can be found below." 
     link=""
   >}}
     {{< netduma/card-links >}}

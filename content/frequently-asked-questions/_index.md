@@ -1,13 +1,9 @@
 ---
-title: FAQ
+title: FAQs
 weight: 3
 type: netduma-wide
 breadcrumbs: false
 ---
-
-<div class="pb-8 container mx-auto max-w-screen-sm text-center flex flex-col gap-4">
-  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-</div>
 
 {{< netduma/cards class="my-6" cols="6">}}
   {{< netduma/card span="3" title="DumaOS 4" icon="dumaos4" subtitle="A longer description for DumaOS Software FAQs to go here" >}}

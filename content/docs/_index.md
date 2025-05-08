@@ -6,13 +6,8 @@ breadcrumbs: false
 type: netduma-wide
 ---
 
-<div class="pb-8 container mx-auto max-w-screen-sm text-center flex flex-col gap-4">
-  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-</div>
-
-
 {{< netduma/cards class="my-6" cols="6">}}
-  {{< netduma/card span="2" title="DumaOS 4" subtitle="Get the latest updates for DumaOS" image="/images/dumaos4-devicemanager.jpg">}}
+  {{< netduma/card span="2" title="DumaOS 4" subtitle="The latest version of DumaOS, featuring groundbreaking new features like SmartBOOST and Geo-Filter 2.0" image="/images/dumaos4-devicemanager.jpg">}}
     {{< netduma/card-links >}}
       {{< netduma/card-link title="Accessing DumaOS" link="/docs/dumaos-4/accessing-dumaos/" >}}
       {{< netduma/card-link title="Setup Wizard" link="/docs/dumaos-4/setup-wizard/" >}}
@@ -27,7 +22,7 @@ type: netduma-wide
     {{< /netduma/card-links >}}
     {{< netduma/button link="/docs/dumaos-4" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
-  {{< netduma/card span="2" title="DumaOS 3" subtitle="Get the latest updates for DumaOS 3" image="/images/dumaos3-devicemanager.jpg" >}}
+  {{< netduma/card span="2" title="DumaOS 3" subtitle="The version of DumaOS which shipped with the Netduma R2 and NETGEAR Nighthawk Pro Gaming routers." image="/images/dumaos3-devicemanager.jpg" >}}
     {{< netduma/card-links >}}
       {{< netduma/card-link title="Accessing DumaOS" link="/docs/dumaos-3/accessing-dumaos/" >}}
       {{< netduma/card-link title="Maximum Bandwidth Speeds" link="/docs/dumaos-3/maximum-bandwidth-speeds/" >}}
@@ -45,7 +40,7 @@ type: netduma-wide
     {{< /netduma/card-links >}}
     {{< netduma/button link="/docs/dumaos-4" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
-  {{< netduma/card span="2" title="Telstra Internet Optimiser" subtitle="Get the latest updates for DumaOS 3" image="/images/dumaos-telstra.jpg" >}}
+  {{< netduma/card span="2" title="Telstra Internet Optimiser" subtitle="Using the guides below, you can take full advantage of DumaOS and give yourself the best connection possible for gaming." image="/images/dumaos-telstra.jpg" >}}
     {{< netduma/card-links >}}
       {{< netduma/card-link icon="device-manager" title="Device Manager" link="/docs/telstra-internet-optimiser/device-manager" >}}
       {{< netduma/card-link icon="smartboost" title="Connection Benchmark" link="/docs/telstra-internet-optimiser/connection-benchmark/" >}}
