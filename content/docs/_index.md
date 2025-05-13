@@ -59,15 +59,8 @@ type: netduma-wide
   Netduma R3 users should select DumaOS 4.
 {{< /callout >}}
 
-{{< netduma/tabs items="Popular Guides,Recent Guides" class="mt-4" >}}
-  {{< netduma/tab >}}  
-    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Call of Duty Optimisation Guide</a>
-    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
-    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
-  {{< /netduma/tab >}}
-  {{< netduma/tab >}}
-    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Ping Heatmap</a>
-    <a class="my-2 text-text-primary hover:text-primary-main transition-colors no-underline cursor-pointer">Halo Optimisation Guide</a>
-  {{< /netduma/tab >}}
-{{</ netduma/tabs >}}
+{{< netduma/grid title="Still need Help?" subtitle="We are always available via email and via our support forums. Our friendly support team will answer any questions you have about Netduma, DumaOS or networking in general." align="center" class="mt-16" >}}  
+  {{< netduma/grid-icon link="mailto:netduma@netduma.com" title="Email" icon="email" >}}
+  {{< netduma/grid-icon link="https://forum.netduma.com/" title="Forum" icon="forum" >}}
+  {{< netduma/grid-icon link="https://www.youtube.com/netduma" title="Youtube" icon="youtube" >}}
+{{< /netduma/grid >}}
