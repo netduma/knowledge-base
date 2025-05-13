@@ -10,10 +10,8 @@ aliases:
 ### Games supported by Geo-Filter and SmartBOOST
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-Apex Legends<br/>
+<div style="flex: 1;">Apex Legends<br/>
 BattleBit Remastered<br/>
 Call of Duty (Series)<br/>
 Dead By Daylight<br/>
@@ -26,18 +24,16 @@ Forza<br/>
 Halo Infinite<br/>
 Hi-Rez Games (Smite, Rogue Company, etc.)<br/>
 IRacing<br/>
-Killer Instinct<br/>
 League of Legends<br/>
-Marvel Rivals
-  </div>
-  <div style="flex: 1;">
-Mortal Kombat (Series)<br/>
-Overwatch 2<br/>
-PUBG: Battlegrounds<br/>
+Marvel Rivals<br/>
+Mortal Kombat (Series)</div>
+<div style="flex: 1;">Overwatch 2<br/>
 Payday 3<br/>
-Rainbow Six: Siege<br/>
+PUBG: Battlegrounds<br/>
+Rainbow Six: Siege X<br/>
 Soulcalibur (Series)<br/>
 Space Marine 2<br/>
+Splitgate 2<br/>
 Starcraft II<br/>
 Tekken 8<br/>
 The Finals<br/>
@@ -45,20 +41,16 @@ TrackMania<br/>
 Valorant<br/>
 Valve Games (CS2, DOTA2, Deadlock)<br/>
 War Thunder<br/>
-World of Tanks
-  </div>
+World of Tanks</div>
 </div>
-
 <br/>
 
 ### Games supported only by SmartBOOST
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
+<div style="flex: 1;">Among Us<br/>
 ARK: Survival Evolved<br/>
-Among Us<br/>
 Armagetron<br/>
 CoD Mobile<br/>
 Crossfire<br/>
@@ -70,19 +62,19 @@ Dragon Ball Xenoverse 2<br/>
 Fallout 76<br/>
 Fiesta Online<br/>
 Florensia<br/>
+FragPunk<br/>
 Gears of War 5<br/>
 Genshin Impact<br/>
 Gran Turismo 7<br/>
 Guild Wars<br/>
-Half-Life 2
-  </div>
-  <div style="flex: 1;">
-Hearthstone<br/>
+Half-Life 2</div>
+<div style="flex: 1;">Hearthstone<br/>
 Helldivers 2<br/>
 Krunker.io<br/>
 Last Epoch<br/>
 MapleStory<br/>
 Minecraft<br/>
+Monster Hunter Wilds<br/>
 NBA 2K<br/>
 Once Human<br/>
 Palworld<br/>
@@ -94,63 +86,44 @@ The Division 2/XDefiant<br/>
 The First Descendant<br/>
 Warcraft 3<br/>
 World of Kung Fu<br/>
-World of Warcraft 
-  </div>
+World of Warcraft</div>
 </div>
-
 <br/>
 
 ### Supported Cloud Gaming Protocols
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-GeForce Now<br/>
-PlayStation Cloud Gaming
-  </div>
-  <div style="flex: 1;">
-PlayStation Remote Play<br/>
-Xbox Cloud Gaming 
-  </div>
+<div style="flex: 1;">GeForce Now<br/>
+PlayStation Cloud Gaming</div>
+<div style="flex: 1;">PlayStation Remote Play<br/>
+Xbox Cloud Gaming</div>
 </div>
-
 <br/>
 
 ### Supported Gaming Download Protocols
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-Battle.net Download<br/>
+<div style="flex: 1;">Battle.net Download<br/>
 Call of Duty Content<br/>
-Microsoft Flight Simulator Data Streaming
-  </div>
-  <div style="flex: 1;">
-PlayStation Download<br/>
+Epic Store Download<br/>
+Microsoft Flight Simulator Data Streaming</div>
+<div style="flex: 1;">PlayStation Download<br/>
 Steam Download<br/>
-Xbox Download
-  </div>
+Xbox Download</div>
 </div>
-
 <br/>
 
 ### Supported Gaming Communication Protocols
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-Discord<br/>
-Kick
-  </div>
-  <div style="flex: 1;">
-Steam Voice Chat<br/>
-Twitch
-  </div>
+<div style="flex: 1;">Discord<br/>
+Kick</div>
+<div style="flex: 1;">Steam Voice Chat<br/>
+Twitch</div>
 </div>
-
 <br/>
 
 ## Work From Home
@@ -158,78 +131,53 @@ Twitch
 ### Supported Meeting and Call Protocols
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-BigBlueButton<br/>
+<div style="flex: 1;">BigBlueButton<br/>
 BlueJeans<br/>
 Google Meet<br/>
 Jitsi Meet<br/>
-Lifesize
-  </div>
-  <div style="flex: 1;">
+Lifesize</div>
+<div style="flex: 1;">Microsoft Teams Call<br/>
 Slack Huddle<br/>
-Teams/Skype Call<br/>
 Webex Meeting<br/>
 Zoho Meeting<br/>
-Zoom
-  </div>
+Zoom</div>
 </div>
-
 <br/>
 
 ### Supported VPN Protocols
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-CiscoVPN<br/>
+<div style="flex: 1;">CiscoVPN<br/>
 GlobalProtect VPN<br/>
 Hotspot Shield<br/>
-IKEv2
-  </div>
-  <div style="flex: 1;">
-Mimic VPN<br/>
+IKEv2</div>
+<div style="flex: 1;">Mimic VPN<br/>
 OpenVPN<br/>
 Tor<br/>
-WireGuard
-  </div>
+WireGuard</div>
 </div>
-
 <br/>
 
 ### Supported File Storage Protocols
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-Apple iCloud<br/>
-Dropbox
-  </div>
-  <div style="flex: 1;">
-Google Workspace<br/>
-OneDrive
-  </div>
+<div style="flex: 1;">Apple iCloud<br/>
+Dropbox</div>
+<div style="flex: 1;">Google Workspace<br/>
+OneDrive</div>
 </div>
-
 <br/>
 
 ### Supported Remote Desktop Protocols
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-Chrome Remote Desktop<br/>
-TeamViewer
-  </div>
-  <div style="flex: 1;">
-RDP
-  </div>
+<div style="flex: 1;">RDP</div>
+<div style="flex: 1;">TeamViewer</div>
 </div>
-
 <br/>
 
 ## Media
@@ -237,10 +185,8 @@ RDP
 ### Supported Video Streaming Services
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-7Plus<br/>
+<div style="flex: 1;">7Plus<br/>
 9Now<br/>
 ABC iView<br/>
 Acorn TV<br/>
@@ -258,15 +204,13 @@ EE TV<br/>
 ESPN+<br/>
 Fox<br/>
 Fubo<br/>
-HBO Max<br/>
 HayU<br/>
+HBO Max<br/>
 Hulu<br/>
-ITVX
-  </div>
-  <div style="flex: 1;">
-Magenta TV<br/>
-NOS<br/>
+ITVX</div>
+<div style="flex: 1;">Magenta TV<br/>
 Netflix<br/>
+NOS<br/>
 Now TV<br/>
 Optus<br/>
 Paramount+<br/>
@@ -285,29 +229,21 @@ TVU Player<br/>
 VEVO<br/>
 Vimeo<br/>
 Vix<br/>
-YouTube
-  </div>
+YouTube</div>
 </div>
-
 <br/>
 
 ### Supported Music Streaming Services
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-Apple Music<br/>
+<div style="flex: 1;">Apple Music<br/>
 Deezer<br/>
-Last.fm
-  </div>
-  <div style="flex: 1;">
-Pandora<br/>
+Last.fm</div>
+<div style="flex: 1;">Pandora<br/>
 Spotify<br/>
-TIDAL
-  </div>
+TIDAL</div>
 </div>
-
 <br/>
 
 ## Web (General)
@@ -315,66 +251,49 @@ TIDAL
 ### Supported Websites
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-Amazon<br/>
+<div style="flex: 1;">Amazon<br/>
 Apple<br/>
-Facebook<br/>
 eBay<br/>
+Facebook<br/>
 GitHub<br/>
 Google<br/>
-Instagram
-  </div>
-  <div style="flex: 1;">
-LinkedIn<br/>
+Instagram</div>
+<div style="flex: 1;">LinkedIn<br/>
 Microsoft<br/>
 Snapchat<br/>
 TikTok<br/>
 Wikipedia<br/>
 X (Twitter)<br/>
-Yahoo
-  </div>
+Yahoo</div>
 </div>
-
 <br/>
 
 ### Supported Speedtests
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-Cloudflare Speedtest<br/>
-nPerf Speedtest
-  </div>
-  <div style="flex: 1;">
-Ookla Speedtest<br/>
-Waveform Speedtest
-  </div>
+<div style="flex: 1;">Cloudflare Speedtest<br/>
+nPerf Speedtest</div>
+<div style="flex: 1;">Ookla Speedtest<br/>
+Waveform Speedtest</div>
 </div>
-
 <br/>
 
 ### Supported Download Protocols
 
 <br/>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-Battle.net Download<br/>
+<div style="flex: 1;">Battle.net Download<br/>
 BitTorrent<br/>
 Call of Duty Data Streaming<br/>
-Microsoft Flight Simulator Data Streaming
-  </div>
-  <div style="flex: 1;">
+Epic Store Download</div>
+<div style="flex: 1;">Microsoft Flight Simulator Data Streaming<br/>
 PlayStation Download<br/>
 Steam Download<br/>
-Xbox Download
-  </div>
+Xbox Download</div>
 </div>
-
 <br/>
 <br/>
 
-***Information accurate as of February 2025***
+***Information accurate as of April 2025***
