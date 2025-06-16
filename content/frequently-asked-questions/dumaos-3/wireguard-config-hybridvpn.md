@@ -1,6 +1,10 @@
 ---
-title: DumaOS 3 - How do I use WireGuard config files with Hybrid VPN?
+title: How do I use WireGuard config files with Hybrid VPN?
 ---
+
+{{< callout >}}
+  This guide was written for DumaOS 3 devices, and may not be applicable to DumaOS 4.
+{{< /callout >}}
 
 This article will explain how to use a WireGuard config file with Hybrid VPN. Please be aware that not all VPN providers offer WireGuard config files, so check with your provider first.
 

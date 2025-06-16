@@ -1,6 +1,10 @@
 ---
-title: DumaOS 3 - Why should I set DNS entries for Hybrid VPN?
+title: Why should I set DNS entries for Hybrid VPN?
 ---
+
+{{< callout >}}
+  This guide was written for DumaOS 3 devices, and may not be applicable to DumaOS 4.
+{{< /callout >}}
 
 Whenever we use a VPN server to hide our network traffic, we are hiding our IP and encrypting our data. However, there's still the chance for an external "observer" ( eg. Netflix ) to notice that we are behind a VPN server and it could not allow the access to its services (eg. watching a film from the list of a specific nation). 
 

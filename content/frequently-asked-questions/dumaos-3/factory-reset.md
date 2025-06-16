@@ -1,6 +1,10 @@
 ---
-title: DumaOS 3 - How to factory reset your DumaOS powered router
+title: How to factory reset your DumaOS powered router
 ---
+
+{{< callout >}}
+  This guide was written for DumaOS 3 devices, and may not be applicable to DumaOS 4.
+{{< /callout >}}
 
 This guide will talk you through the two different ways that you can factory reset your DumaOS powered router
 

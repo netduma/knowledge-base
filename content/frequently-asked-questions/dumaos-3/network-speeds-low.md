@@ -1,9 +1,11 @@
 ---
-title: Legacy Guide - Why can't I get full speeds from my DumaOS router?
+title: Why can't I get full speeds from my DumaOS router?
 weight: 15
 ---
 
-> This guide was written for DumaOS 3 devices, and may not be applicable to DumaOS 4.
+{{< callout >}}
+  This guide was written for DumaOS 3 devices, and may not be applicable to DumaOS 4.
+{{< /callout >}}
 
 This article details a few reasons why you might not be seeing your full ISP network speeds through your DumaOS powered router.
 

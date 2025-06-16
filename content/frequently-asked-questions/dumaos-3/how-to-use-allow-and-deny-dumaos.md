@@ -1,6 +1,10 @@
 ---
-title: How to use Allow and Deny on DumaOS 3
+title: How to use Allow and Deny
 ---
+
+{{< callout >}}
+  This guide was written for DumaOS 3 devices, and may not be applicable to DumaOS 4.
+{{< /callout >}}
 
 **Allow** lets you white-list your friends who live outside of your range so they can connect to you even if they are outside of your filter range. 
 

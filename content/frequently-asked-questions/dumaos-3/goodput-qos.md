@@ -1,6 +1,10 @@
 ---
-title: DumaOS 3 - What does Goodput in QoS do?
+title: What does Goodput in QoS do?
 ---
+
+{{< callout >}}
+  This guide was written for DumaOS 3 devices, and may not be applicable to DumaOS 4.
+{{< /callout >}}
 
 When the Goodput option is checked, the bandwidth values for both upload and download will more closely align to a Speedtest. We recommend you keep this option checked, you will only ever need to disable it if advised to do so by Tech Support.
 

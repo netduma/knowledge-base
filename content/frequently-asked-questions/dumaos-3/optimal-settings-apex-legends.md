@@ -1,8 +1,10 @@
 ---
-title: Legacy Guide - Optimal DumaOS settings for Apex Legends
+title: Optimal DumaOS settings for Apex Legends
 ---
 
-> This guide is for DumaOS 3. If you are on DumaOS 4, the instructions may not be applicable.
+{{< callout >}}
+  This guide was written for DumaOS 3 devices, and may not be applicable to DumaOS 4.
+{{< /callout >}}
 
 You can use the Geo-Filter to guarantee you only play on your favourite server location in Apex Legends. This guide will help you to setup your Geo-Filter optimally for Apex Legends:
 

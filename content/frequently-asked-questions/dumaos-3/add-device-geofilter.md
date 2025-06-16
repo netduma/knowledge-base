@@ -1,6 +1,10 @@
 ---
-title: DumaOS 3 - How to add your Gaming PC to the DumaOS Geo-filter
+title: How to add your Gaming PC to the DumaOS Geo-filter
 ---
+
+{{< callout >}}
+  This guide was written for DumaOS 3 devices, and may not be applicable to DumaOS 4.
+{{< /callout >}}
 
 This is a specific guide on how to add your Gaming PC to your Geo-Filter. A full optimal settings guide for the Geo-Filter can be found [here](/docs/dumaos-3/geo-filter/). 
 
