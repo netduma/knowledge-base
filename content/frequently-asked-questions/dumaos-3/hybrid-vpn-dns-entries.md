@@ -1,6 +1,5 @@
 ---
 title: DumaOS 3 - Why should I set DNS entries for Hybrid VPN?
-weight: 14
 ---
 
 Whenever we use a VPN server to hide our network traffic, we are hiding our IP and encrypting our data. However, there's still the chance for an external "observer" ( eg. Netflix ) to notice that we are behind a VPN server and it could not allow the access to its services (eg. watching a film from the list of a specific nation). 
@@ -20,7 +19,7 @@ To see if you're experiencing a DNS Leak, check out [https://www.dnsleaktest.com
 
 Using this website, you'll need to run two tests:
 
-- Connect to a VPN server of your choice in your VPN providers desktop client and   use the default configuration for the DNS servers (tunnelled and   not-tunnelled that use the same DNS), then run the DNS leak test. This   test is helpful to verify whether we suffer of a DNS leak.
+- Connect to a VPN server of your choice in your VPN providers desktop client and use the default configuration for the DNS servers (tunnelled and not-tunnelled that use the same DNS), then run the DNS leak test. This test is helpful to verify whether we suffer of a DNS leak.
 - Connect to a VPN server and set a specific DNS server for the tunnelled traffic from the Hybrid VPN page, then run the DNS leak test. If in the previous step we have detected a DNS leak, this test will prove that we've now resolved the issue.
 
 ## How do I do this?
