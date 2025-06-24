@@ -24,11 +24,16 @@ Official firmware files can be downloaded directly from Netgear below
   Please ensure you determine and download the correct version for your XR1000
 {{< /callout >}}
 
+### Determining your Netgear Nighthawk XR1000 Version
+There are two versions of the XR1000 on the market. They are identical in terms of functionality, but some of the internal components were changed. Because of this, they require separate firmware files.
+
+Log onto DumaOS in your browser by visiting routerlogin.net while connected to your home network. The version number at the top right of the screen will either say "xr1000" or "xr1000v2". Make a note of this.
+
+![versionnumber.png](../netgear-nighthawk/versionnumber.png)
 <div class="flex flex-col gap-4 mt-4">
   <div class="flex gap-4">
     {{< netduma/button buttonColor="primary" text="XR1000 Firmware" link="https://www.netgear.com/support/product/xr1000/#download" >}}
     {{< netduma/button buttonColor="primary" text="XR1000 V2 Firmware" link="https://www.netgear.com/support/product/xr1000v2/#download" >}}
-    {{< netduma/button buttonColor="text" text="Determine your version" link="../xr1000-version" >}}
   </div>
   {{< netduma/button buttonColor="primary" text="XR700 Firmware" link="https://www.netgear.com/support/product/xr700/#download" >}}
   {{< netduma/button buttonColor="primary" text="XR500 Firmware" link="https://www.netgear.com/support/product/xr500/#download" >}}
