@@ -10,7 +10,7 @@
 <a
   href="{{ $href }}"
   {{ if $download }}target="_blank" download="{{ $download }}"{{ end -}}
-  class="button not-prose inline-block py-2 px-4 rounded-[4px] font-semibold uppercase text-nowrap text-{{ $buttonColor }}-main border border-{{ $buttonColor }}-main hover:text-{{ $buttonColor }}-light hover:border-{{ $buttonColor }}-light transition-colors no-underline {{ $class }}"
+  class="button w-fit not-prose inline-block py-2 px-4 rounded-[4px] font-semibold uppercase text-nowrap text-{{ $buttonColor }}-main border border-{{ $buttonColor }}-main hover:text-{{ $buttonColor }}-light hover:border-{{ $buttonColor }}-light transition-colors no-underline {{ $class }}"
   {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
 >
   {{- $text -}}
