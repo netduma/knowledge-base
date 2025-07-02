@@ -1,7 +1,7 @@
 {{- $defaultIndex := int ((.Parent.Get "defaultIndex") | default "0") -}}
 
 <div
-  class="hextra-tabs-panel hx-flex-col absolute top-0 left-0 flex transition-opacity opacity-0 data-[state=selected]:opacity-100"
+  class="hextra-tabs-panel hx-flex-col absolute top-0 left-0 pointer-events-none flex transition-opacity opacity-0 data-[state=selected]:opacity-100 data-[state=selected]:pointer-events-auto"
   id="tabs-panel-{{ .Ordinal }}"
   role="tabpanel"
   {{- if eq .Ordinal $defaultIndex }} tabindex="0" {{ end -}}
