@@ -21,3 +21,7 @@
 .hextra-footer:is(html[class~="dark"] *) {
     background-color: transparent;
 }
+
+.hextra-tabs-panel {
+    padding-top: 0;
+}
