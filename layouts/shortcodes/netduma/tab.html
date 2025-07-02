@@ -1,11 +1,12 @@
 {{- $defaultIndex := int ((.Parent.Get "defaultIndex") | default "0") -}}
 
 <div
-  class="hextra-tabs-panel hx-flex-col hx-hidden data-[state=selected]:flex"
+  class="hextra-tabs-panel hx-flex-col absolute top-0 left-0 flex transition-opacity opacity-0 data-[state=selected]:opacity-100"
   id="tabs-panel-{{ .Ordinal }}"
   role="tabpanel"
   {{- if eq .Ordinal $defaultIndex }} tabindex="0" {{ end -}}
   {{- if eq .Ordinal $defaultIndex }} data-state="selected" {{ end -}}
+  {{- if not (eq .Ordinal $defaultIndex) }} aria-hidden {{ end -}}
 >
   {{- .Inner -}}
 </div>
