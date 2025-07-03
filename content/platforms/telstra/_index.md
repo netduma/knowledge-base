@@ -33,7 +33,7 @@ cascade:
   {{< netduma/card
     span="2" 
     title="DumaOS 3 FAQs" 
-    subtitle="Frequently Asked Questions about DumaOS 3 on the Netduma R2" 
+    subtitle="Frequently Asked Questions about DumaOS 3 on the Telstra Modems" 
     image="/images/dumaos3-devicemanager.jpg"
   >}}
     {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 3 Guides" link="/docs/dumaos-3/" >}}
