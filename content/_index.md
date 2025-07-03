@@ -9,10 +9,12 @@ layout: index
 </div>
 
 
+<!--
 <div class="text-center flex flex-col items-center gap-4 my-16">
   <label for="search" class="text-2xl font-semibold tracking-wide">Search for Topics</label>
  <input class="max-w-xl w-full rounded-md grow py-2 px-3 shadow-sm focus:outline-none" placeholder="Search Knowledge Base" type="text" name="search"/>
 </div>
+-->
 
 {{< netduma/cards cols="6" class="mt-6">}}
   {{< netduma/card
