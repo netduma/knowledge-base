@@ -44,7 +44,7 @@ type: netduma-wide
       {{< netduma/card-link title="Telstra Support" link="https://www.telstra.com.au/support" >}}
       {{< netduma/card-link title="Telstra Internet Optimiser Guide" link="https://www.telstra.com.au/internet-optimiser-user-guide" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="https://www.telstra.com.au/internet/internet-optimiser" buttonColor="primary" text="Internet Optimser" >}}
+    {{< netduma/button link="/platforms/telstra" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2" 
