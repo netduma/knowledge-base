@@ -1,6 +1,5 @@
 ---
 title: Legacy FAQ
-weight: 99
 cascade:
   type: docs
 ---
